@@ -1,0 +1,13 @@
+2015-06-10 21:21:44.046 تعاون الحفر[8032:318200] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Data/Application/2F31180E-EA9C-48E0-A5A3-74E92F8E8057/Library/Cookies/Cookies.binarycookies
+2015-06-10 21:21:44.456 تعاون الحفر[8032:318200] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-10 21:21:44.457 تعاون الحفر[8032:318200] Multi-tasking -> Device: YES, App: YES
+2015-06-10 21:21:44.485 تعاون الحفر[8032:318200] Unlimited access to network resources
+2015-06-10 21:21:45.005 تعاون الحفر[8032:318200] [CDVTimer][keyboard] 0.085056ms
+2015-06-10 21:21:45.284 تعاون الحفر[8032:318200] [CDVTimer][splashscreen] 278.213024ms
+2015-06-10 21:21:45.284 تعاون الحفر[8032:318200] [CDVTimer][TotalPluginStartup] 278.746009ms
+2015-06-10 21:21:45.765 تعاون الحفر[8032:318200] Resetting plugins due to page load.
+2015-06-10 21:21:53.954 تعاون الحفر[8032:318200] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/AC2180E4-F182-4280-A86C-EB7EAD678089/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-10 21:25:55.340 تعاون الحفر[8032:318200] Resetting plugins due to page load.
+2015-06-10 21:25:55.514 تعاون الحفر[8032:318200] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/AC2180E4-F182-4280-A86C-EB7EAD678089/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-10 21:26:43.502 تعاون الحفر[8032:318200] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-06-10 21:26:44.016 تعاون الحفر[8032:318200] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default

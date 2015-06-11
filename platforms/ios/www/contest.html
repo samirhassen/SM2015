@@ -1,0 +1,49 @@
+<ion-view view-title="المسابقات">            
+	<ion-content class="ionic-body" has-header="true" padding="true">    
+
+<script src="js/promise-tracker.js"></script>
+<script src="js/contestForm.js"></script> 
+
+      
+      <img id="cloudPic" src="http://www.hafrjalyat.org/httpreq/contest.png"/><br><br>
+<!--      <img id="cloudBackupPic" src="img/pic3.png"/><br><br> -->
+      
+      <div style="clear:both"></div>
+   <div class="col-md-6 col-md-offset-3"> 
+    <!-- PAGE TITLE -->
+<!--    <div class="page-header">
+
+	  <ul id="app-status-ul">Waiting for input</ul>
+    </div>
+-->       
+    <div data-ng-controller="contestCtrl">
+    	<div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages">
+	    	<div data-ng-show="progress.active()" style="color: red; font-size: 20px; margin: 0 auto;">جاري ارسال</div>
+		</div>
+		
+    	<form name="helpForm" ng-model="helpForm" novalidate role="form">
+			<div class="form-group">
+                <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
+                <input dir="rtl" placeholder="اسم" type="text" name="name" data-ng-model="name" class="form-control" required />
+    		</div>
+
+			<div class="form-group">
+                <span class="label label-danger" data-ng-show="submitted && helpForm.tel.$error.required">Required!</span>
+                <input dir="rtl" placeholder="رقم الجوال" type="tel" name="tel" data-ng-model="tel" class="form-control" required />
+    		</div>
+            
+			<div class="form-group">
+                <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
+                <input dir="rtl" placeholder="رقم واتساب" type="tel" name="whatstel" data-ng-model="whatstel" class="form-control" required />
+    		</div>                        
+            
+		    <button data-ng-disabled="progress.active()" data-ng-click="submit(helpForm)" class="btn btn-success btn-lg btn-block btn-default">
+			<span class="glyphicon glyphicon-flash"></span>
+			Submit</button>
+    	</form>
+        
+            </div>
+        </div>
+              
+	</ion-content>
+</ion-view>
