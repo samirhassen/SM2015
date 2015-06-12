@@ -1,83 +1,206 @@
-// Ionic Starter App
+angular.module('starter', [
+  'ionic',
+  'ajoslin.promise-tracker',
+  'ngCordova',
+  'ionic.service.core',
+  'ionic.service.push'
+//  'starter.controllers',
+//  'starter.services'
+])
 
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-// 'starter.services' is found in services.js
-// 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+.config(['$ionicAppProvider', function($ionicAppProvider) {
+  // Identify app
+  $ionicAppProvider.identify({
+    // The App ID (from apps.ionic.io) for the server
+    app_id: '473fd05a',
+    // The public API key all services will use for this app
+    api_key: '12f18ff9a727109f9062236a503b205f4eccdeb56aff77a9',
+    // The GCM project number
+    gcm_id: '667691090100'
+	});
+}])
 
-.run(function($ionicPlatform) {
+.run(function($ionicPlatform, $rootScope ) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
-    if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
+    if(window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
-    if (window.StatusBar) {
-      // org.apache.cordova.statusbar required
-      StatusBar.styleLightContent();
+    if(window.StatusBar) {
+      StatusBar.styleDefault();
     }
   });
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
-
-  // Ionic uses AngularUI Router which uses the concept of states
-  // Learn more here: https://github.com/angular-ui/ui-router
-  // Set up the various states which the app can be in.
-  // Each state's controller can be found in controllers.js
   $stateProvider
+.state('home', {
+  url: '/home',
+  templateUrl: 'menu.html'
+})	
+ .state("work", {
+  url: "/work",
+  templateUrl: "work.html"
+})
+ .state("translate", {
+  url: "/translate",
+  templateUrl: "translate.html"
+})
+ .state("aboutus", {
+  url: "/aboutus",
+  templateUrl: "aboutus.html"
+})
+ .state("contact", {
+  url: "/contact",
+  templateUrl: "contact.html"
+})
+ .state("care", {
+  url: "/care",
+  templateUrl: "care.html"
+})
+ .state("contest", {
+  url: "/contest",
+  templateUrl: "contest.html"
+})
+ .state("donate", {
+  url: "/donate",
+  templateUrl: "donate.html"
+})
+ .state("dawa", {
+  url: "/dawa",
+  templateUrl: "dawa.html"
+})
+ .state("dawanew", {
+  url: "/dawanew",
+  templateUrl: "dawanew.html",
+  controller: "dawaCtrl"
+})
+ .state("dawanon", {
+  url: "/dawanon",
+  templateUrl: "dawanon.html",
+  controller: "dawaCtrl"
+})
 
-  // setup an abstract state for the tabs directive
-    .state('tab', {
-    url: "/tab",
-    abstract: true,
-    templateUrl: "templates/tabs.html"
-  })
+$urlRouterProvider.otherwise("/home");
 
-  // Each tab has its own nav history stack:
+})
 
-  .state('tab.dash', {
-    url: '/dash',
-    views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
+  .controller('dawaCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {
+
+    // Inititate the promise tracker to track form submissions.
+    $scope.progress = promiseTracker();
+
+    // Form submit handler.
+    $scope.submit = function(form) {
+      // Trigger validation flag.
+      $scope.submitted = true;
+
+      // If form is invalid, return and let AngularJS show validation errors.
+      if (form.$invalid) {
+        return;
       }
-    }
-  })
+		
+      	// Default values for the request.
+     	var config = {
+          'name' : $scope.name,
+          'nat' : $scope.natList,
+          'lang' : $scope.langList,
+          'telDai' : $scope.telDai,
+		  'nameKafil' : $scope.nameKafil,
+		  'telKafil' : $scope.telKafil,
+		  'db'	: $scope.db
+      	};
 
-  .state('tab.chats', {
-      url: '/chats',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
-        }
+      var $promise = 
+	  	$http({
+			method: 'POST',
+			url: 'http://www.hafrjalyat.org/httpreq/ins.php',
+			data: config,
+			headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+		})
+        .success(function(data, status, headers, config) {	
+			window.plugins.toast.showLongCenter('تم الإرسال');
+        
+		    $scope.name = null;
+            $scope.natList = null;
+			$scope.langList = null;
+			$scope.telDai = null;
+			$scope.nameKafil = null;
+			$scope.telKafil = null;
+
+            $scope.submitted = false;
+			$scope.message = null;
+        })
+        .error(function(data, status, headers, config) {
+			window.plugins.toast.showLongCenter('Network error, try again later.')
+          	$scope.progress = data;
+          	//$scope.messages = 'There was a network error. Try again later.';
+          	$log.error(data);
+        })
+        .finally(function() {
+          $timeout(function() {
+            $scope.messages = null;
+          }, 3000);
+        });
+
+      // Track the request and show its progress to the user
+      $scope.progress.addPromise($promise);
+	};
+})
+
+.controller('contestCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {
+
+    // Inititate the promise tracker to track form submissions.
+    $scope.progress = promiseTracker();
+
+    // Form submit handler.
+    $scope.submit = function(form) {
+      // Trigger validation flag.
+      $scope.submitted = true;
+
+      // If form is invalid, return and let AngularJS show validation errors.
+      if (form.$invalid) {
+        return;
       }
-    })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
-        }
-      }
-    })
+		
+      	// Default values for the request.
+     	var config = {
+          'name' : $scope.name,
+		  'tel' : $scope.tel,
+		  'whatstel' : $scope.whatstel,
+		  'db'	: 'contest'
+      	};
 
-  .state('tab.account', {
-    url: '/account',
-    views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
-      }
-    }
-  });
+      var $promise = 
+	  	$http({
+			method: 'POST',
+			url: 'http://www.hafrjalyat.org/httpreq/ins.php',
+			data: config,
+			headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+		})
+        .success(function(data, status, headers, config) {	
+			window.plugins.toast.showLongCenter('تم الإرسال');
+        
+		    $scope.name = null;
+			$scope.tel = null;
+			$scope.whatstel = null;
+            $scope.messages = null;
+            $scope.submitted = false;
+        })
+        .error(function(data, status, headers, config) {
+			window.plugins.toast.showLongCenter('There was a network error. Try again later.')
+          	$scope.progress = data;
+          	//$scope.messages = 'There was a network error. Try again later.';
+          	$log.error(data);
+        })
+        .finally(function() {
+          $timeout(function() {
+            $scope.messages = null;
+          }, 3000);
+        });
 
-  // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
-
+      // Track the request and show its progress to the user
+      $scope.progress.addPromise($promise);
+	};
 });

@@ -1,16 +1,7 @@
-<ion-view view-title="دعوة غير المسلمبن">            
+<ion-view view-title="دعوة غير المسلمبن">
 	<ion-content class="ionic-body" has-header="true" padding="true">
-
-	<script src="js/promise-tracker.js"></script>
-	<script src="js/dawaForm.js"></script>
     
   <div class="col-md-6 col-md-offset-3" style="padding-top:20px"> 
-    <!-- PAGE TITLE -->
-<!--    <div class="page-header">
-
-	<ul id="app-status-ul">Waiting for input</ul> 
-    </div>
--->    
     
     <div data-ng-controller="dawaCtrl">
     	<div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages">
@@ -50,7 +41,6 @@
                 <input dir="rtl" type="tel" placeholder="رقم الجوال" name="telDai" data-ng-model="telDai" class="form-control" required />
             </div>
             
-
 			<div class="form-group">
                 <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
                 <input dir="rtl" placeholder="اسم الكفيل" type="text" name="nameKafil" data-ng-model="nameKafil" class="form-control" required />

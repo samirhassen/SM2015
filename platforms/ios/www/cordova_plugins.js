@@ -45,6 +45,13 @@ module.exports = [
     {
         "file": "plugins/nl.x-services.plugins.toast/test/tests.js",
         "id": "nl.x-services.plugins.toast.tests"
+    },
+    {
+        "file": "plugins/com.phonegap.plugins.PushPlugin/www/PushNotification.js",
+        "id": "com.phonegap.plugins.PushPlugin.PushNotification",
+        "clobbers": [
+            "PushNotification"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -55,7 +62,8 @@ module.exports.metadata =
     "cordova-plugin-device": "1.0.0",
     "cordova-plugin-splashscreen": "2.0.0",
     "cordova-plugin-whitelist": "1.0.0",
-    "nl.x-services.plugins.toast": "2.0.4"
+    "nl.x-services.plugins.toast": "2.0.4",
+    "com.phonegap.plugins.PushPlugin": "2.4.0"
 }
 // BOTTOM OF METADATA
 });

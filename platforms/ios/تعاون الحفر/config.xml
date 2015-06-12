@@ -30,6 +30,9 @@
     <feature name="Toast">
         <param name="ios-package" value="Toast" />
     </feature>
+    <feature name="PushPlugin">
+        <param name="ios-package" value="PushPlugin" />
+    </feature>
     <name>تعاون الحفر</name>
     <description>
         تعاون الحفر

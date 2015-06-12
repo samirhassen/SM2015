@@ -11,3 +11,44 @@
 2015-06-10 21:25:55.514 تعاون الحفر[8032:318200] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/AC2180E4-F182-4280-A86C-EB7EAD678089/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
 2015-06-10 21:26:43.502 تعاون الحفر[8032:318200] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
 2015-06-10 21:26:44.016 تعاون الحفر[8032:318200] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-06-11 13:33:23.889 تعاون الحفر[9084:371570] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Data/Application/A2032D4B-AE54-4E54-9722-4B36B7E4CAF1/Library/Cookies/Cookies.binarycookies
+2015-06-11 13:33:24.335 تعاون الحفر[9084:371570] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-11 13:33:24.336 تعاون الحفر[9084:371570] Multi-tasking -> Device: YES, App: YES
+2015-06-11 13:33:24.363 تعاون الحفر[9084:371570] Unlimited access to network resources
+2015-06-11 13:33:24.899 تعاون الحفر[9084:371570] [CDVTimer][keyboard] 0.108004ms
+2015-06-11 13:33:25.184 تعاون الحفر[9084:371570] [CDVTimer][splashscreen] 284.779966ms
+2015-06-11 13:33:25.184 تعاون الحفر[9084:371570] [CDVTimer][TotalPluginStartup] 285.514951ms
+2015-06-11 13:33:25.388 تعاون الحفر[9084:371570] Resetting plugins due to page load.
+2015-06-11 13:33:35.485 تعاون الحفر[9084:371570] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/7BE8ADE3-2D6E-429B-83B3-1F35FD2F8293/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-11 13:33:51.508 تعاون الحفر[9084:371570] Resetting plugins due to page load.
+2015-06-11 13:33:51.754 تعاون الحفر[9084:371570] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/7BE8ADE3-2D6E-429B-83B3-1F35FD2F8293/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-11 16:32:08.494 تعاون الحفر[9084:384385] Terminating since there is no system app.
+2015-06-12 13:31:21.902 تعاون الحفر[10058:427014] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Data/Application/308E2A7F-A047-4AF9-9054-B24650305EED/Library/Cookies/Cookies.binarycookies
+2015-06-12 13:31:22.360 تعاون الحفر[10058:427014] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-12 13:31:22.360 تعاون الحفر[10058:427014] Multi-tasking -> Device: YES, App: YES
+2015-06-12 13:31:22.381 تعاون الحفر[10058:427014] Unlimited access to network resources
+2015-06-12 13:31:22.927 تعاون الحفر[10058:427014] [CDVTimer][keyboard] 0.084996ms
+2015-06-12 13:31:23.197 تعاون الحفر[10058:427014] [CDVTimer][splashscreen] 269.241989ms
+2015-06-12 13:31:23.197 تعاون الحفر[10058:427014] [CDVTimer][TotalPluginStartup] 269.795001ms
+2015-06-12 13:31:23.252 تعاون الحفر[10058:427014] active
+2015-06-12 13:31:23.262 تعاون الحفر[10058:427014] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-06-12 13:31:23.421 تعاون الحفر[10058:427014] Resetting plugins due to page load.
+2015-06-12 13:32:15.746 تعاون الحفر[10058:427014] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/A351A705-6C50-41D8-809B-04995F8AE729/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-12 13:32:20.504 تعاون الحفر[10058:427014] Resetting plugins due to page load.
+2015-06-12 13:32:20.609 تعاون الحفر[10058:427014] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/A351A705-6C50-41D8-809B-04995F8AE729/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html
+2015-06-12 13:32:41.201 تعاون الحفر[10058:427832] Terminating since there is no system app.
+2015-06-12 13:32:50.725 تعاون الحفر[10297:428426] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Data/Application/B7860C12-D003-4222-A4ED-24AD69F9C3BC/Library/Cookies/Cookies.binarycookies
+2015-06-12 13:32:50.828 تعاون الحفر[10297:428426] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-12 13:32:50.828 تعاون الحفر[10297:428426] Multi-tasking -> Device: YES, App: YES
+2015-06-12 13:32:50.830 تعاون الحفر[10297:428426] Unlimited access to network resources
+2015-06-12 13:32:50.925 تعاون الحفر[10297:428426] [CDVTimer][keyboard] 0.075042ms
+2015-06-12 13:32:50.954 تعاون الحفر[10297:428426] [CDVTimer][splashscreen] 28.517008ms
+2015-06-12 13:32:50.954 تعاون الحفر[10297:428426] [CDVTimer][TotalPluginStartup] 28.954983ms
+2015-06-12 13:32:50.978 تعاون الحفر[10297:428426] active
+2015-06-12 13:32:50.979 تعاون الحفر[10297:428426] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-06-12 13:32:51.036 تعاون الحفر[10297:428426] Resetting plugins due to page load.
+2015-06-12 13:33:06.504 تعاون الحفر[10297:428426] Finished load of: http://192.168.1.5:8100/
+2015-06-12 13:33:12.740 تعاون الحفر[10297:428426] Resetting plugins due to page load.
+2015-06-12 13:33:12.869 تعاون الحفر[10297:428426] Finished load of: http://192.168.1.5:8100/home.html
+2015-06-12 13:33:49.330 تعاون الحفر[10297:428426] Resetting plugins due to page load.
+2015-06-12 13:33:49.394 تعاون الحفر[10297:428426] Finished load of: http://192.168.1.5:8100/home.html

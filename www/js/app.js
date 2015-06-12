@@ -1,4 +1,24 @@
-angular.module('starter', ['ionic','ajoslin.promise-tracker'])
+angular.module('starter', [
+  'ionic',
+  'ajoslin.promise-tracker',
+  'ngCordova',
+  'ionic.service.core',
+  'ionic.service.push'
+//  'starter.controllers',
+//  'starter.services'
+])
+
+.config(['$ionicAppProvider', function($ionicAppProvider) {
+  // Identify app
+  $ionicAppProvider.identify({
+    // The App ID (from apps.ionic.io) for the server
+    app_id: '473fd05a',
+    // The public API key all services will use for this app
+    api_key: '12f18ff9a727109f9062236a503b205f4eccdeb56aff77a9',
+    // The GCM project number
+    gcm_id: '667691090100'
+	});
+}])
 
 .run(function($ionicPlatform, $rootScope ) {
   $ionicPlatform.ready(function() {

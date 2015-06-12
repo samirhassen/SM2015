@@ -27,6 +27,10 @@
                         {
                             "xml": "<feature name=\"Toast\"><param name=\"ios-package\" value=\"Toast\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"PushPlugin\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -67,6 +71,9 @@
         },
         "nl.x-services.plugins.toast": {
             "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.ionicframework.hafrjalyat"
         }
     },
     "dependent_plugins": {}
