@@ -52,3 +52,106 @@
 2015-06-12 13:33:12.869 تعاون الحفر[10297:428426] Finished load of: http://192.168.1.5:8100/home.html
 2015-06-12 13:33:49.330 تعاون الحفر[10297:428426] Resetting plugins due to page load.
 2015-06-12 13:33:49.394 تعاون الحفر[10297:428426] Finished load of: http://192.168.1.5:8100/home.html
+2015-06-13 05:03:59.219 تعاون الحفر[11183:490387] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Data/Application/7843F23A-D3D6-4B03-8D9E-31EC018543A6/Library/Cookies/Cookies.binarycookies
+2015-06-13 05:03:59.654 تعاون الحفر[11183:490387] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-13 05:03:59.654 تعاون الحفر[11183:490387] Multi-tasking -> Device: YES, App: YES
+2015-06-13 05:03:59.682 تعاون الحفر[11183:490387] Unlimited access to network resources
+2015-06-13 05:04:00.217 تعاون الحفر[11183:490387] [CDVTimer][keyboard] 0.062048ms
+2015-06-13 05:04:00.597 تعاون الحفر[11183:490387] [CDVTimer][splashscreen] 379.516006ms
+2015-06-13 05:04:00.597 تعاون الحفر[11183:490387] [CDVTimer][TotalPluginStartup] 380.055010ms
+2015-06-13 05:04:00.659 تعاون الحفر[11183:490387] active
+2015-06-13 05:04:00.664 تعاون الحفر[11183:490387] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-06-13 05:04:00.836 تعاون الحفر[11183:490387] Resetting plugins due to page load.
+2015-06-13 05:04:09.557 تعاون الحفر[11183:490387] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/33B73B09-F43A-4794-91F5-BC7837B35DC1/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-13 05:04:16.190 تعاون الحفر[11183:490387] Resetting plugins due to page load.
+2015-06-13 05:04:16.363 تعاون الحفر[11183:490387] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/33B73B09-F43A-4794-91F5-BC7837B35DC1/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-13 05:06:07.193 تعاون الحفر[11447:491808] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Data/Application/E000E950-582C-45E2-A2A8-048100DB58C7/Library/Cookies/Cookies.binarycookies
+2015-06-13 05:06:07.318 تعاون الحفر[11447:491808] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-13 05:06:07.318 تعاون الحفر[11447:491808] Multi-tasking -> Device: YES, App: YES
+2015-06-13 05:06:07.320 تعاون الحفر[11447:491808] Unlimited access to network resources
+2015-06-13 05:06:07.416 تعاون الحفر[11447:491808] [CDVTimer][keyboard] 0.064015ms
+2015-06-13 05:06:07.471 تعاون الحفر[11447:491808] [CDVTimer][splashscreen] 55.177033ms
+2015-06-13 05:06:07.472 تعاون الحفر[11447:491808] [CDVTimer][TotalPluginStartup] 55.633008ms
+2015-06-13 05:06:07.501 تعاون الحفر[11447:491808] active
+2015-06-13 05:06:07.502 تعاون الحفر[11447:491808] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-06-13 05:06:07.540 تعاون الحفر[11447:491808] Resetting plugins due to page load.
+2015-06-13 05:06:21.008 تعاون الحفر[11447:491808] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/02C5391E-563D-4FFB-9A31-8626CB0B2EB1/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-13 05:06:23.182 تعاون الحفر[11447:491808] Resetting plugins due to page load.
+2015-06-13 05:06:23.303 تعاون الحفر[11447:491808] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/02C5391E-563D-4FFB-9A31-8626CB0B2EB1/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-13 05:14:51.392 تعاون الحفر[11710:495261] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Data/Application/D3BB9096-61D7-45D6-B553-F4432BC2B379/Library/Cookies/Cookies.binarycookies
+2015-06-13 05:14:51.741 تعاون الحفر[11710:495261] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-13 05:14:51.741 تعاون الحفر[11710:495261] Multi-tasking -> Device: YES, App: YES
+2015-06-13 05:14:51.759 تعاون الحفر[11710:495261] Unlimited access to network resources
+2015-06-13 05:14:52.149 تعاون الحفر[11710:495261] [CDVTimer][keyboard] 0.079036ms
+2015-06-13 05:14:52.317 تعاون الحفر[11710:495261] [CDVTimer][splashscreen] 167.536020ms
+2015-06-13 05:14:52.317 تعاون الحفر[11710:495261] [CDVTimer][TotalPluginStartup] 168.049037ms
+2015-06-13 05:14:52.369 تعاون الحفر[11710:495261] active
+2015-06-13 05:14:52.374 تعاون الحفر[11710:495261] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-06-13 05:14:52.480 تعاون الحفر[11710:495261] Resetting plugins due to page load.
+2015-06-13 05:14:59.398 تعاون الحفر[11710:495261] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/ED3C3A3B-9524-4F01-9EAC-26620EEDCB51/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-13 05:15:00.662 تعاون الحفر[11710:495261] Resetting plugins due to page load.
+2015-06-13 05:15:00.831 تعاون الحفر[11710:495261] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/ED3C3A3B-9524-4F01-9EAC-26620EEDCB51/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-13 05:15:04.873 تعاون الحفر[11710:495261] Ionic User: Identifying with Ionic User service
+2015-06-13 05:15:15.397 تعاون الحفر[11710:495261] Ionic Push: Registering user
+2015-06-13 05:15:15.477 تعاون الحفر[11710:495261] THREAD WARNING: ['PushPlugin'] took '80.363037' ms. Plugin should use a background thread.
+2015-06-13 05:15:15.489 تعاون الحفر[11710:495261] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 05:15:24.387 تعاون الحفر[11710:495261] active
+2015-06-13 05:21:37.925 تعاون الحفر[12000:498221] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-13 05:21:37.926 تعاون الحفر[12000:498221] Multi-tasking -> Device: YES, App: YES
+2015-06-13 05:21:37.929 تعاون الحفر[12000:498221] Unlimited access to network resources
+2015-06-13 05:21:38.046 تعاون الحفر[12000:498221] [CDVTimer][keyboard] 0.078022ms
+2015-06-13 05:21:38.110 تعاون الحفر[12000:498221] [CDVTimer][splashscreen] 64.043999ms
+2015-06-13 05:21:38.110 تعاون الحفر[12000:498221] [CDVTimer][TotalPluginStartup] 64.562976ms
+2015-06-13 05:21:38.143 تعاون الحفر[12000:498221] active
+2015-06-13 05:21:38.208 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:21:52.002 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/
+2015-06-13 05:22:19.513 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:22:20.169 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/
+2015-06-13 05:22:28.376 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:22:28.619 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:23:19.350 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:23:19.515 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:23:26.804 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:23:27.049 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:23:32.645 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:23:32.816 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:24:37.658 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:24:37.899 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:25:12.946 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:25:13.130 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:25:15.244 تعاون الحفر[12000:498221] Ionic User: Identifying with Ionic User service
+2015-06-13 05:25:30.823 تعاون الحفر[12000:498221] Ionic Push: Registering user
+2015-06-13 05:25:30.835 تعاون الحفر[12000:498221] THREAD WARNING: ['PushPlugin'] took '12.267090' ms. Plugin should use a background thread.
+2015-06-13 05:25:30.848 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 05:25:43.912 تعاون الحفر[12000:498221] Ionic Push: Registering user
+2015-06-13 05:25:43.918 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 05:27:10.942 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:27:11.198 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:27:22.927 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:27:23.213 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:27:56.215 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:27:56.362 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:27:57.876 تعاون الحفر[12000:498221] Ionic User: Identifying with Ionic User service
+2015-06-13 05:28:03.881 تعاون الحفر[12000:498221] Ionic Push: Registering user
+2015-06-13 05:28:03.887 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 05:28:25.224 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:28:25.384 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:31:58.891 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 05:32:51.492 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:32:51.675 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:33:05.731 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 05:35:06.102 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 05:35:42.137 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:35:42.303 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:35:59.076 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 05:36:27.404 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 05:36:56.165 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:36:56.331 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:37:15.305 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 05:37:28.027 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:37:28.159 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:38:06.524 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:38:06.713 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:38:29.614 تعاون الحفر[12000:498221] Resetting plugins due to page load.
+2015-06-13 05:38:29.774 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-13 05:38:40.796 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
