@@ -52,6 +52,13 @@ module.exports = [
         "clobbers": [
             "PushNotification"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-google-analytics/www/analytics.js",
+        "id": "cordova-plugin-google-analytics.UniversalAnalytics",
+        "clobbers": [
+            "analytics"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -63,7 +70,9 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "2.0.0",
     "cordova-plugin-whitelist": "1.0.0",
     "nl.x-services.plugins.toast": "2.0.4",
-    "com.phonegap.plugins.PushPlugin": "2.4.0"
+    "com.phonegap.plugins.PushPlugin": "2.4.0",
+    "cordova-plugin-google-analytics": "0.7.2",
+    "cordova-plugin-googleplayservices": "19.0.1"
 }
 // BOTTOM OF METADATA
 });

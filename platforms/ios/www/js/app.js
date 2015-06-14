@@ -30,6 +30,12 @@ angular.module('starter', [
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
+	
+	if(typeof analytics !== undefined) {
+		analytics.startTrackerWithId("UA-64084948-1");
+	} else {
+		console.log("Google Analytics Unavailable");
+	}	
   });
 })
 
@@ -38,7 +44,7 @@ angular.module('starter', [
 .state('home', {
   url: '/home',
   templateUrl: 'menu.html',
-  controller: 'pushCtrl'
+  controller: 'indexCtrl'
 })	
  .state("work", {
   url: "/work",
@@ -90,8 +96,19 @@ $urlRouterProvider.otherwise("/home");
 
 /************* CONTROLLERS **************/
 
+.controller('indexCtrl', function($scope, $rootScope, $ionicUser, $ionicPush) {
+	
+	
 
-.controller('pushCtrl', function($scope, $rootScope, $ionicUser, $ionicPush) {
+/*************** Analytics *****************/	
+if(typeof analytics !== undefined) { analytics.trackView("Hafr Jalyat"); }
+
+$scope.initEvent = function() {
+	if(typeof analytics !== undefined) { analytics.trackEvent("Category", "Action", "Label", 25); }
+}	
+
+
+/********* Push **********/
 
 /*	
   // Handles incoming device tokens

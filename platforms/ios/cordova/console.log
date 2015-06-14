@@ -155,3 +155,55 @@
 2015-06-13 05:38:29.614 تعاون الحفر[12000:498221] Resetting plugins due to page load.
 2015-06-13 05:38:29.774 تعاون الحفر[12000:498221] Finished load of: http://192.168.1.5:8100/home.html#/home
 2015-06-13 05:38:40.796 تعاون الحفر[12000:498221] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-13 16:32:00.386 تعاون الحفر[867:33859] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-13 16:32:00.389 تعاون الحفر[867:33859] Multi-tasking -> Device: YES, App: YES
+2015-06-13 16:32:00.421 تعاون الحفر[867:33859] Unlimited access to network resources
+2015-06-13 16:32:00.955 تعاون الحفر[867:33859] [CDVTimer][keyboard] 0.064015ms
+2015-06-13 16:32:01.244 تعاون الحفر[867:33859] [CDVTimer][splashscreen] 288.688958ms
+2015-06-13 16:32:01.244 تعاون الحفر[867:33859] [CDVTimer][TotalPluginStartup] 289.225996ms
+2015-06-13 16:32:01.301 تعاون الحفر[867:33859] active
+2015-06-13 16:32:01.468 تعاون الحفر[867:33859] Resetting plugins due to page load.
+2015-06-13 16:32:01.997 تعاون الحفر[867:33859] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/8659109C-F080-446C-9B9A-A88617B8C327/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-13 16:32:28.942 تعاون الحفر[867:33859] Resetting plugins due to page load.
+2015-06-13 16:32:29.085 تعاون الحفر[867:33859] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/8659109C-F080-446C-9B9A-A88617B8C327/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-13 16:36:44.628 تعاون الحفر[1140:35925] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-13 16:36:44.629 تعاون الحفر[1140:35925] Multi-tasking -> Device: YES, App: YES
+2015-06-13 16:36:44.631 تعاون الحفر[1140:35925] Unlimited access to network resources
+2015-06-13 16:36:44.737 تعاون الحفر[1140:35925] [CDVTimer][keyboard] 0.055969ms
+2015-06-13 16:36:44.791 تعاون الحفر[1140:35925] [CDVTimer][splashscreen] 53.709984ms
+2015-06-13 16:36:44.791 تعاون الحفر[1140:35925] [CDVTimer][TotalPluginStartup] 54.131985ms
+2015-06-13 16:36:44.819 تعاون الحفر[1140:35925] active
+2015-06-13 16:36:44.868 تعاون الحفر[1140:35925] Resetting plugins due to page load.
+2015-06-13 16:36:45.987 تعاون الحفر[1140:35925] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/0E47230A-BFB7-4FC1-B42E-91C81A85F294/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-13 16:59:34.033 تعاون الحفر[1555:71106] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-13 16:59:34.035 تعاون الحفر[1555:71106] Multi-tasking -> Device: YES, App: YES
+2015-06-13 16:59:34.049 تعاون الحفر[1555:71106] Unlimited access to network resources
+2015-06-13 16:59:34.391 تعاون الحفر[1555:71106] [CDVTimer][keyboard] 0.062048ms
+2015-06-13 16:59:34.565 تعاون الحفر[1555:71106] [CDVTimer][splashscreen] 173.373997ms
+2015-06-13 16:59:34.565 تعاون الحفر[1555:71106] [CDVTimer][TotalPluginStartup] 173.910975ms
+2015-06-13 16:59:34.618 تعاون الحفر[1555:71106] active
+2015-06-13 16:59:34.729 تعاون الحفر[1555:71106] Resetting plugins due to page load.
+2015-06-13 16:59:48.341 تعاون الحفر[1555:71106] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/ECD9843B-061F-49DD-83CE-B9DEAF81F3E4/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-13 16:59:52.889 تعاون الحفر[1555:71106] Resetting plugins due to page load.
+2015-06-13 16:59:53.046 تعاون الحفر[1555:71106] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/ECD9843B-061F-49DD-83CE-B9DEAF81F3E4/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-13 17:01:54.833 تعاون الحفر[1555:71106] THREAD WARNING: ['PushPlugin'] took '13.995850' ms. Plugin should use a background thread.
+2015-06-13 17:01:54.845 تعاون الحفر[1555:71106] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-14 11:18:56.899 تعاون الحفر[1555:88227] Terminating since there is no system app.
+2015-06-14 14:10:55.017 تعاون الحفر[2304:118804] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-14 14:10:55.019 تعاون الحفر[2304:118804] Multi-tasking -> Device: YES, App: YES
+2015-06-14 14:10:55.038 تعاون الحفر[2304:118804] Unlimited access to network resources
+2015-06-14 14:10:55.514 تعاون الحفر[2304:118804] [CDVTimer][keyboard] 0.095963ms
+2015-06-14 14:10:55.700 تعاون الحفر[2304:118804] [CDVTimer][splashscreen] 185.867012ms
+2015-06-14 14:10:55.701 تعاون الحفر[2304:118804] [CDVTimer][TotalPluginStartup] 187.429965ms
+2015-06-14 14:10:55.754 تعاون الحفر[2304:118804] active
+2015-06-14 14:10:55.887 تعاون الحفر[2304:118804] Resetting plugins due to page load.
+2015-06-14 14:11:00.247 تعاون الحفر[2304:118804] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/54B502D3-CD07-470D-A815-ECD363159BE1/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-14 14:11:07.087 تعاون الحفر[2304:118804] Resetting plugins due to page load.
+2015-06-14 14:11:07.254 تعاون الحفر[2304:118804] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/54B502D3-CD07-470D-A815-ECD363159BE1/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-14 14:11:07.502 تعاون الحفر[2304:118804] THREAD WARNING: ['UniversalAnalytics'] took '11.851807' ms. Plugin should use a background thread.
+2015-06-14 14:12:08.469 تعاون الحفر[2304:118804] THREAD WARNING: ['PushPlugin'] took '17.244141' ms. Plugin should use a background thread.
+2015-06-14 14:12:08.479 تعاون الحفر[2304:118804] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-14 14:13:50.240 تعاون الحفر[2304:119682] Terminating since there is no system app.
+2015-06-14 14:13:50.247 تعاون الحفر[2304:119688] Communications error: <OS_xpc_error: <error: 0x365d5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x365d83c> { length = 22, contents = "Connection interrupted" }
+}>
