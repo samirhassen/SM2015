@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D07C838-D765-4FFA-A5D1-48CF615B4A4C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>تعاون الحفر</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>71A34594F3D6D4D4E3DB8BC74852E147BFBC6285</key>
+		<string>https://github.com/samirhassen/HafrJalyat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/تعاون الحفر.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>71A34594F3D6D4D4E3DB8BC74852E147BFBC6285</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/samirhassen/HafrJalyat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>71A34594F3D6D4D4E3DB8BC74852E147BFBC6285</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71A34594F3D6D4D4E3DB8BC74852E147BFBC6285</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HafrJalyat</string>
+		</dict>
+	</array>
+</dict>
+</plist>

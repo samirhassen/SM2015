@@ -36,14 +36,14 @@
     <feature name="UniversalAnalytics">
         <param name="ios-package" value="UniversalAnalyticsPlugin" />
     </feature>
-    <name>تعاون الحفر</name>
+    <name>تعاوني الحفر</name>
     <description>
         تعاون الحفر
     </description>
     <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
       Wasmiah IT
     </author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://192.168.1.5:8100" />
     <access origin="*" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />

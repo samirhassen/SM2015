@@ -1,4 +1,5 @@
-*{/* Prevent any object from being highlighted upon touch event*/-webkit-tap-highlight-color: rgba(255,255,255,0); }
+*{/* Prevent any object from being highlighted upon touch event*/-webkit-tap-highlight-color: rgba(255,255,255,0); 
+}
 html{ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{  display: block;}
 audio, canvas, progress, video{  display: inline-block;  vertical-align: baseline;}
@@ -35,8 +36,6 @@ img{  display: block;  max-width: 100%;  height: auto;  vertical-align: middle;}
 .row{  margin: 0 auto;}
 .row-white{  display: block;  padding: 0 15px 0 15px;  min-height: 1px;  background-color: #ffffff !important;}
 .row-grey{    position: fixed;    z-index: 100;    width: 100%;    top: 0px;    left: 0px;    background-color:rgb(247, 247, 247);}
-@media (max-width: 568px) and (orientation: landscape){ .row-grey{ display: none; }
-}
 .header{ background: #c1c1c1; padding: 5px;margin-bottom: 15px;}
 .header h1{ color: #fff;}
 .header h3{ color: #fff;}
@@ -62,18 +61,7 @@ border: 1px solid #e3c414;  color: #596069;  width: 100%;  -webkit-border-radius
 .rslides li{  -webkit-backface-visibility: hidden;  position: relative;  display: none;  width: 100%;  left: 0;  top: 0;}
 .rslides li:first-child{  position: relative;  display: block;  float: left;}
 .rslides img{  display: block;  height: auto;  float: left;  width: 100%;  border: 0;}
-@media (min-width: 320px) and (orientation: portrait){ .rslides li{max-height: 550px;overflow: hidden;}
-   }
-@media (min-width: 320px) and (orientation: landscape){ .rslides li{max-height: 320px;overflow: hidden;}
-   }
-@media (min-width: 570px) and (orientation: portrait){ .rslides li{max-height: 800px;overflow: hidden;}
-}
-@media (min-width: 570px) and (orientation: landscape){ .rslides li{max-height: 600px;overflow: hidden;}
-}
-@media (min-width: 767px) and (orientation: portrait){ .rslides li{max-height: 1024px;overflow: hidden;}
-}
-@media (min-width: 801px) and (orientation: landscape){ .rslides li{max-height: 768px;overflow: hidden;}
-}
+
 /* INDEX HTML STYLES */
 .slide{ position: relative; top: 0px; left: 0px;}
 .row-slide{ display: block; position: relative; width: 100%; margin-top: 15px;  margin-bottom: 15px;}
@@ -85,6 +73,7 @@ border: 1px solid #e3c414;  color: #596069;  width: 100%;  -webkit-border-radius
 min-height: 1px; border-bottom: solid 1px #aaa;}
 .centerdiv img{display: block; margin: 0 auto; align-content: center; vertical-align: middle; padding: 0; width: 150px; padding: 5px;}
 .centerdiv p{    color: #fff; margin: 0 auto; font-size: 13px; line-height: 1.4em; padding: 10px 0 10px 0;}
+
 /* CONTACT HTML STYLES */
 .black{ color: #231f20; text-transform: uppercase;}
 .contact{ margin: 0 20px;background: #fff;}
@@ -124,179 +113,6 @@ content:"";
 .grayBg {background-color: #E6E6E6;}
 
 
-/***** BACK ARROW *******/
-#ios-arrow-left {
-    display : block;
-    position:absolute;
-    z-index : 0;
-    left:11px;
-    top:7px;    
-    height:30px;
-    width:auto;
-    padding: 0 10px 0 6px;
-    background-size : 30px 30px;
-
-    background-repeat:repeat-x;
-    background-position :0;
-    background-image : -moz-linear-gradient(
-        90deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 50%,
-        rgba(255,255,255,0.1) 50%,
-        rgba(255,255,255,0.3) 100%
-        );
-    background-image : -o-linear-gradient(
-        90deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 50%,
-        rgba(255,255,255,0.1) 50%,
-        rgba(255,255,255,0.3) 100%
-        );
-    background-image : -webkit-linear-gradient(
-        90deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 50%,
-        rgba(255,255,255,0.1) 50%,
-        rgba(255,255,255,0.3) 100%
-        );
-
-    border-radius: 5px;
-
-    border-bottom: 1px solid rgba(255,255,255,0.4);
-
-    box-shadow :0 -1px 1px rgba(0,0,0,0.2)inset,
-        0 1px 2px rgba(0,0,0,0.8)inset;
-
-    color:#fff;
-    text-shadow : 0px -1px 0px rgba(0,0,0,0.8);
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
-
-#ios-arrow-left:before{
-    position:absolute;
-    content : ' ';
-    left:-8px;
-    top:4px;
-    height : 23px;
-    width: 24px;
-    z-index : 1;
-
-    background-repeat:repeat-x;
-    background-size : 30px 30px;
-    background-position :-1px -1.5px;
-    background-image : -moz-linear-gradient(
-        45deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 52%,
-        rgba(255,255,255,0.1) 52%,
-        rgba(255,255,255,0.4) 100%
-        );
-    background-image : -o-linear-gradient(
-        45deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 52%,
-        rgba(255,255,255,0.1) 52%,
-        rgba(255,255,255,0.4) 100%
-        );
-    background-image : -webkit-linear-gradient(
-        45deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 52%,
-        rgba(255,255,255,0.1) 52%,
-        rgba(255,255,255,0.4) 100%
-        );
-    background-image : linear-gradient(
-        45deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 52%,
-        rgba(255,255,255,0.1) 52%,
-        rgba(255,255,255,0.4) 100%
-        );
-
-
-    -moz-transform : rotateZ(-45deg) skewY(-10deg) skewX(-10deg);
-    -o-transform : rotateZ(-45deg) skewY(-10deg) skewX(-10deg);
-    -webkit-transform : rotateZ(-45deg) skewY(-10deg) skewX(-10deg);
-    transform : rotateZ(-45deg) skewY(-10deg) skewX(-10deg);
-    border-top-right-radius : 11px;
-    border-top-left-radius :0px;
-    border-bottom-right-radius : 0;
-    border-bottom-left-radius : 10px;
-
-    border-left : 1px solid rgba(255,255,255,0.4);
-
-    box-shadow :  0px 1px 1px rgba(0,0,0,0.7) inset,
-        2px -2px 2px -3px rgba(0,0,0,0.5) inset;
-
-    /*-webkit-mask-image :
-        -webkit-gradient(linear, left top, right bottom,
-            from(#000000),
-            color-stop(0.4,#000000),
-            color-stop(0.5, transparent),
-            to(transparent));
-    */
-}
-#ios-arrow-left:after {
-
-    font-family : "mohanad",Helvetica, Arial;
-    font-weight: 400;
-    font-size : 12px;
-    line-height : 30px;
-    text-align:center;    
-    content: attr(title)"";
-    z-index: 999;
-    left:-2px;
-    padding-left:3px;
-    position:relative;
-    height: 30px;
-    line-height:30px;
-    display:block;
-    background-repeat:repeat-x;
-    background-size : 30px 30px;
-    background-position :-1px -0.5px;
-    box-shadow :0 -3px 1px -2px rgba(0,0,0,0.3)inset,
-                0 4px 2px -3px rgba(0,0,0,0.8)inset;
-    background-image : -webkit-linear-gradient(
-        90deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 50%,
-        rgba(255,255,255,0.1) 50%,
-        rgba(255,255,255,0.3) 100%
-        );
-    background-image : -moz-linear-gradient(
-        90deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 50%,
-        rgba(255,255,255,0.1) 50%,
-        rgba(255,255,255,0.3) 100%
-        );
-    background-image : -o-linear-gradient(
-        90deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0) 50%,
-        rgba(255,255,255,0.1) 50%,
-        rgba(255,255,255,0.3) 100%
-        );
-}
-#ios-arrow-left,
-#ios-arrow-left:after,
-#ios-arrow-left:before {
-    background-color: rgba(74,108,155,1);/*originalcolor*/
-
-}
-
-#ios-arrow-left:hover,
-#ios-arrow-left:hover:after,
-#ios-arrow-left:hover:before {
-    background-color: rgba(54,88,135,1);/*hovercolor*/
-}
-
-/********** BACK ARROW END *******/
-
 label{color: #999999 !important; float:right;}
 
 .serv-position
@@ -305,8 +121,8 @@ label{color: #999999 !important; float:right;}
  margin:auto;
  position: relative;
  margin-bottom: 15px;
-
 }
+
 .serv
 {
  width: 100%;
@@ -373,16 +189,42 @@ label{color: #999999 !important; float:right;}
  margin-right: 4%;
  margin-bottom: 15px;
 }
-@media all and (min-width: 601px)
-{
-	.serv
-	{
-	 width:48%;
-	 height: auto;
+
+.team {
+ padding: 0 10px 0 0;	
 	}
-}
 
 .frameBtn {
 	width: 100%;
 	border-radius: 0 !important;
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+row-grey{ display: none; }
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.rslides li{max-height: 550px;overflow: hidden;}
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+.rslides li{max-height: 320px;overflow: hidden;}
+}
+
+@media (min-width: 570px) and (orientation: portrait){ 
+.rslides li{max-height: 800px;overflow: hidden;}
+}
+@media (min-width: 570px) and (orientation: landscape){ 
+.rslides li{max-height: 600px;overflow: hidden;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.rslides li{max-height: 1024px;overflow: hidden;}
+
+}
+
+@media (min-width: 801px) and (orientation: landscape){ 
+.rslides li{max-height: 768px;overflow: hidden;}
 }

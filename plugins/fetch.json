@@ -56,7 +56,7 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-google-analytics": {
+    "com.google.playservices": {
         "source": {
             "type": "git",
             "url": "https://github.com/danwilson/google-analytics-plugin.git",
@@ -65,10 +65,10 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-googleplayservices": {
+    "com.google.playservices": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-googleplayservices"
+            "id": "com.google.playservices"
         },
         "is_top_level": true,
         "variables": {}

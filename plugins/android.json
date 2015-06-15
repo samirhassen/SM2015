@@ -119,9 +119,9 @@
             "PACKAGE_NAME": "com.ionicframework.hafrjalyat670339"
         },
         "com.phonegap.plugins.PushPlugin": {
-            "PACKAGE_NAME": "com.ionicframework.hafrjalyat"
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
-        "cordova-plugin-google-analytics": {
+        "com.google.playservices": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         }
     },
