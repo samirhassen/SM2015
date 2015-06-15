@@ -97,7 +97,7 @@ $urlRouterProvider.otherwise("/home");
 
 /************* CONTROLLERS **************/
 
-.controller('indexCtrl', function($scope, $rootScope, $timeout, $ionicUser, $ionicPush) {
+.controller('indexCtrl', function($ionicPlatform, $scope, $rootScope, $timeout, $ionicUser, $ionicPush) {
 
 
 /*************** Analytics *****************/	
@@ -139,10 +139,15 @@ $scope.initEvent = function() {
 	$ionicUser.identify(user)
 
 	// Register with the Ionic Push service.
-    $timeout(function() {
-		$ionicPush.register();
-    });
-		
+	$ionicPlatform.ready(function() {
+		$timeout(function() {
+			$ionicPush.register(config).then(function(result) {
+			  alert(result);
+			}, function(err) {
+			  alert(err);
+			})
+		});
+	});	
 })
 
 .controller('dawaCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {
