@@ -44,6 +44,7 @@ C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\pla
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\_where-is-www.txt \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\aboutus.html \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\care.html \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\care___.html \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\contact.html \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\contest.html \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\cordova.js \
@@ -94,6 +95,7 @@ C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\pla
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\img\translate.png \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\img\twitter.png \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\img\whatsapp.png \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\img\wit.jpg \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\img\work.png \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\img\youtube.png \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\js\app.js \
