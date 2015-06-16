@@ -15,7 +15,9 @@
 }
 .aboutus-right
 {
- margin:20px 0px 10px 10px;
+ margin:12px 12px 0 12px;
+ position: realtive;
+ top: 15px;
 }
 .aboutus-right p
 {
@@ -86,7 +88,7 @@
 .aboutus-left img
 {
  background: #F0F0F0;
- width: 140px;
+ width: 146px;
 }
  .aboutus-bottom-fb a
 {
