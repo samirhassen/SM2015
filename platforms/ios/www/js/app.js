@@ -131,8 +131,8 @@ $scope.initEvent = function() {
 	// Register with the Ionic Push service.
 	$ionicPlatform.ready(function() {
 		$ionicUser.identify(user).then(function() {
-				alert('Identified user: (' + user.name + ')\n ID ' + user.user_id);
 				$ionicPush.register();
+				alert('Identified user: (' + user.name + ')\n ID ' + user.user_id);
 			});
 	});	
 })
