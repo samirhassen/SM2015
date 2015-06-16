@@ -4,12 +4,9 @@ angular.module('starter', [
   'ngCordova',
   'ionic.service.core',
   'ionic.service.push'
-//  'starter.controllers',
-//  'starter.services'
 ])
 
 .config(['$ionicAppProvider', function($ionicAppProvider) {
-  // Identify app
   $ionicAppProvider.identify({
     // The App ID (from apps.ionic.io) for the server
     app_id: '473fd05a',
@@ -31,7 +28,7 @@ angular.module('starter', [
       StatusBar.styleDefault();
     }
 	
-	if(typeof analytics !== "undefined") {
+	if(typeof analytics !== undefined) {
 		analytics.startTrackerWithId("UA-64084948-1");
 	} else {
 		console.log("Google Analytics Unavailable");
@@ -100,13 +97,12 @@ $urlRouterProvider.otherwise("/home");
 
 
 /*************** Analytics *****************/	
-/*
-if(typeof analytics !== undefined) { analytics.trackView("Hafr Jalyat"); }
 
-$scope.initEvent = function() {
-	if(typeof analytics !== undefined) { analytics.trackEvent("Category", "Action", "Label", 25); }
-}
-*/
+	if(typeof analytics !== 'undefined') { analytics.trackView("Hafr Jalyat"); alert("Analytics is defined"); }
+	
+	$scope.initEvent = function() {
+		if(typeof analytics !== 'undefined') { analytics.trackEvent("Category", "Action", "Label", 25); }
+	}
 
 /********* Push **********/
 
@@ -123,18 +119,17 @@ $scope.initEvent = function() {
       user.user_id = $ionicUser.generateGUID();
     };
 
-    // Add some metadata to your user object.
+/*    // Add some metadata to your user object.
     angular.extend(user, {
       name: 'User name'
     });
-
+*/
 	// Register with the Ionic Push service.
 	$ionicPlatform.ready(function() {
 		$ionicUser.identify(user).then(function() {
-				alert('Identified user: (' + user.name + ')\n ID ' + user.user_id);
 				$ionicPush.register();
 			});
-	});	
+	});
 })
 
 .controller('dawaCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {
