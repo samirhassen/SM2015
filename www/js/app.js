@@ -16,8 +16,7 @@ angular.module('starter', [
     // The public API key all services will use for this app
     api_key: '12f18ff9a727109f9062236a503b205f4eccdeb56aff77a9',
     // The GCM project number
-    gcm_id: '667691090100',
-	dev_push: 'true'
+    gcm_id: '667691090100'
 	});
 }])
 
@@ -129,24 +128,12 @@ $scope.initEvent = function() {
       name: 'User name'
     });
 
-    // Identify your user with the Ionic User Service
-/*    $ionicUser.identify(user).then(function(){
-      $scope.identified = true;
-      alert('Identified user: (' + user.name + ')\n ID ' + user.user_id);
-	});
-	*/
-	
-	$ionicUser.identify(user)
-
 	// Register with the Ionic Push service.
 	$ionicPlatform.ready(function() {
-		$timeout(function() {
-			$ionicPush.register(config).then(function(result) {
-			  alert(result);
-			}, function(err) {
-			  alert(err);
-			})
-		});
+		$ionicUser.identify(user).then(function() {
+				$ionicPush.register();
+				alert('Identified user: (' + user.name + ')\n ID ' + user.user_id);
+			});
 	});	
 })
 

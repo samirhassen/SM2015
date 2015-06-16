@@ -9,14 +9,13 @@
 .aboutus-left
 {
  float:left;
- margin:20px;
+ margin:10px;
  position:relative;
  
 }
 .aboutus-right
 {
  margin:20px 0px 10px 10px;
- 
 }
 .aboutus-right p
 {
@@ -87,10 +86,7 @@
 .aboutus-left img
 {
  background: #F0F0F0;
- width: 90px;
- height: 90px;
- border-radius: 50%;
- 
+ width: 140px;
 }
  .aboutus-bottom-fb a
 {

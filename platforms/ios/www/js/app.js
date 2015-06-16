@@ -16,8 +16,7 @@ angular.module('starter', [
     // The public API key all services will use for this app
     api_key: '12f18ff9a727109f9062236a503b205f4eccdeb56aff77a9',
     // The GCM project number
-    gcm_id: '667691090100',
-	dev_push: 'true'
+    gcm_id: '667691090100'
 	});
 }])
 
@@ -97,7 +96,7 @@ $urlRouterProvider.otherwise("/home");
 
 /************* CONTROLLERS **************/
 
-.controller('indexCtrl', function($scope, $rootScope, $timeout, $ionicUser, $ionicPush) {
+.controller('indexCtrl', function($ionicPlatform, $scope, $rootScope, $timeout, $ionicUser, $ionicPush) {
 
 
 /*************** Analytics *****************/	
@@ -129,20 +128,13 @@ $scope.initEvent = function() {
       name: 'User name'
     });
 
-    // Identify your user with the Ionic User Service
-/*    $ionicUser.identify(user).then(function(){
-      $scope.identified = true;
-      alert('Identified user: (' + user.name + ')\n ID ' + user.user_id);
-	});
-	*/
-	
-	$ionicUser.identify(user)
-
 	// Register with the Ionic Push service.
-    $timeout(function() {
-		$ionicPush.register();
-    });
-		
+	$ionicPlatform.ready(function() {
+		$ionicUser.identify(user).then(function() {
+				alert('Identified user: (' + user.name + ')\n ID ' + user.user_id);
+				$ionicPush.register();
+			});
+	});	
 })
 
 .controller('dawaCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {

@@ -1,11 +1,14 @@
-*{/* Prevent any object from being highlighted upon touch event*/-webkit-tap-highlight-color: rgba(255,255,255,0); 
+*{/* Prevent any object from being highlighted upon touch event*/
+-webkit-tap-highlight-color: rgba(255,255,255,0);
 }
 html{ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{  display: block;}
 audio, canvas, progress, video{  display: inline-block;  vertical-align: baseline;}
-hr{    border:none;    height: 1px;    color: #15B880;    background-color: #15B880;}
-
-@font-face{ font-family: 'mohanad'; src: url('mohandbo.ttf') format('truetype');  font-weight: normal;  font-style: normal;}
+hr{border:none;height: 1px;color: #15B880;background-color: #15B880;}
+@font-face{
+	font-family: 'mohanad'; 
+	src: url('mohandbo.ttf') format('truetype');  
+	}
 body{line-height: 15pt;color: #fff;letter-spacing: 0.7px;background-color:rgb(247, 247, 247);margin: 0 auto;
 font-family: "mohanad", sans-serif;font-size: 17px;-webkit-tap-highlight-color: rgba(0,0,0,0);}
 .container{padding: 15px;margin-right: auto;margin-left:auto;}

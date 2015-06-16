@@ -5,8 +5,8 @@
   found in the LICENSE file.
 -->
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
-    id="cordova-plugin-googleplayservices"
-    version="19.0.1">
+    id="com.google.playservices"
+    version="19.0.0">
   <engines>
     <engine name="cordova" version=">=3.0.0" />
   </engines>
