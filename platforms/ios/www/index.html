@@ -14,7 +14,7 @@
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
-        
+<!--        
 	<script src="js/jquery.min.js"></script>
     <script src="js/responsiveslides.js"></script>
 	<script src="js/SliderScripts.js"></script>
@@ -24,7 +24,7 @@
 			$(".rslides").responsiveSlides();
 		});
 	</script>
-    
+-->    
     <!-- Put pic in cache -->
     <script type="text/javascript">
 		var my_image = new Image();
@@ -34,24 +34,13 @@
   </head>
   <body class="platform-ios platform-cordova platform-webview">
 
-     <ion-content class="ionic-body">
+     <ion-content>
         
         <div class="row">
-            <ul class="rslides rslides1">
-            	<li id="rslides1_s0" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out; -webkit-transition: opacity 500ms ease-in-out;" class="rslides1_on">
-            <a href="home.html" ng-click="identifyUser()">                
-		            <img src="img/pic3.png" alt="pic3">
+            <a href="home.html" style="width:100%">                
+				<img src="img/pic3.png" alt="pic3">
             </a>        
-	            </li>
-        	    <li id="rslides1_s1" style="float: left; position: relative; opacity: 1; z-index: 2; display: list-item; transition: opacity 500ms ease-in-out; -webkit-transition: opacity 500ms ease-in-out;" class="">
-            <a href="home.html" ng-click="identifyUser()">                
-            		<img src="img/pic7.png" alt="pic7">
-            </a>        
-            	</li>
-            </ul>
         </div>
-
-        <!-- END Slider -->
         
         <br>       
         <div class="serv-position clearfix">
