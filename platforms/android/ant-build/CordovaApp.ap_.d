@@ -44,7 +44,6 @@ C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\pla
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\_where-is-www.txt \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\aboutus.html \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\care.html \
-C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\care___.html \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\contact.html \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\contest.html \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\cordova.js \
@@ -99,12 +98,8 @@ C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\pla
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\img\work.png \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\img\youtube.png \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\js\app.js \
-C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\js\index.js \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\js\ionic.bundle.min.js \
-C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\js\jquery.min.js \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\js\promise-tracker.js \
-C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\js\responsiveslides.js \
-C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\js\SliderScripts.js \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\lib\ionic \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\lib\ionic-service-core \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\HafrJalyat\platforms\android\assets\www\lib\ionic-service-push \
