@@ -20,6 +20,20 @@
                ReferencedContainer = "container:&#x62a;&#x639;&#x627;&#x648;&#x646; &#x627;&#x644;&#x62d;&#x641;&#x631;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
+               BuildableName = "&#x62a;&#x639;&#x627;&#x648;&#x646;&#x64a; &#x627;&#x644;&#x62d;&#x641;&#x631;.app"
+               BlueprintName = "&#x62a;&#x639;&#x627;&#x648;&#x646;&#x64a; &#x627;&#x644;&#x62d;&#x641;&#x631;"
+               ReferencedContainer = "container:&#x62a;&#x639;&#x627;&#x648;&#x646;&#x64a; &#x627;&#x644;&#x62d;&#x641;&#x631;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -33,9 +47,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "&#x62a;&#x639;&#x627;&#x648;&#x646; &#x627;&#x644;&#x62d;&#x641;&#x631;.app"
-            BlueprintName = "&#x62a;&#x639;&#x627;&#x648;&#x646; &#x627;&#x644;&#x62d;&#x641;&#x631;"
-            ReferencedContainer = "container:&#x62a;&#x639;&#x627;&#x648;&#x646; &#x627;&#x644;&#x62d;&#x641;&#x631;.xcodeproj">
+            BuildableName = "&#x62a;&#x639;&#x627;&#x648;&#x646;&#x64a; &#x627;&#x644;&#x62d;&#x641;&#x631;.app"
+            BlueprintName = "&#x62a;&#x639;&#x627;&#x648;&#x646;&#x64a; &#x627;&#x644;&#x62d;&#x641;&#x631;"
+            ReferencedContainer = "container:&#x62a;&#x639;&#x627;&#x648;&#x646;&#x64a; &#x627;&#x644;&#x62d;&#x641;&#x631;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "&#x62a;&#x639;&#x627;&#x648;&#x646; &#x627;&#x644;&#x62d;&#x641;&#x631;.app"
-            BlueprintName = "&#x62a;&#x639;&#x627;&#x648;&#x646; &#x627;&#x644;&#x62d;&#x641;&#x631;"
-            ReferencedContainer = "container:&#x62a;&#x639;&#x627;&#x648;&#x646; &#x627;&#x644;&#x62d;&#x641;&#x631;.xcodeproj">
+            BuildableName = "&#x62a;&#x639;&#x627;&#x648;&#x646;&#x64a; &#x627;&#x644;&#x62d;&#x641;&#x631;.app"
+            BlueprintName = "&#x62a;&#x639;&#x627;&#x648;&#x646;&#x64a; &#x627;&#x644;&#x62d;&#x641;&#x631;"
+            ReferencedContainer = "container:&#x62a;&#x639;&#x627;&#x648;&#x646;&#x64a; &#x627;&#x644;&#x62d;&#x641;&#x631;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

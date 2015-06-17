@@ -98,7 +98,7 @@ $urlRouterProvider.otherwise("/home");
 
 /*************** Analytics *****************/	
 
-	if(typeof analytics !== 'undefined') { analytics.trackView("Hafr Jalyat"); alert("Analytics is defined"); }
+	if(typeof analytics !== 'undefined') { analytics.trackView("Hafr Jalyat"); }
 	
 	$scope.initEvent = function() {
 		if(typeof analytics !== 'undefined') { analytics.trackEvent("Category", "Action", "Label", 25); }
