@@ -3,9 +3,8 @@
  min-height: 1px;
  margin-left:0;
  float: left;
- width: 100%;
+ width: 98%;
 }
-
 .aboutus-left
 {
  float:left;
@@ -23,7 +22,6 @@
 {
  margin-top:5px;
  padding-bottom: 35px;
- 
 }
 .aboutus-right .name .left
 {
@@ -45,12 +43,10 @@
  text-transform:uppercase;
  font-family: "mohanad", sans-serif;
  line-height: 1.2em;
- 
 }
 .left
 {
  text-align: left !important;
- 
 }
 .aboutus-bottom
 {
@@ -59,7 +55,6 @@
  bottom:0;
  width: 100%;
  height:auto;
- 
 }
 .aboutus-bottom-fb
 {
@@ -71,7 +66,6 @@
  text-transform: uppercase;
  border-left: 1px solid #F0F0F0;
  padding:8px;
- 
 }
 .aboutus-bottom-tw
 {
@@ -83,7 +77,6 @@
  text-transform: uppercase;
  border-left: 1px solid #F0F0F0;
  padding:8px;
- 
 }
 .aboutus-left img
 {
@@ -94,65 +87,57 @@
 {
  color: #999;
  text-decoration: none;
- 
 }
 .aboutus-bottom-fb a:link
 {
  color: #999;
  text-decoration: none;
- 
 }
 .aboutus-bottom-fb a:visited
 {
  color: #999;
- 
 }
 .aboutus-bottom-fb a:hover
 {
  color: #3b5998;
  text-decoration: none;
  cursor: pointer;
- 
 }
 .aboutus-bottom-tw a
 {
  color: #999;
  text-decoration: none;
- 
 }
 .aboutus-bottom-tw a:link
 {
  color: #999;
  text-decoration: none;
- 
 }
 .aboutus-bottom-tw a:visited
 {
  color: #999;
  cursor: pointer;
- 
 }
 .aboutus-bottom-tw a:hover
 {
  color: #42c6ef;
  text-decoration: none;
  cursor: pointer;
- 
 }
 .team-position
 {
  margin: 10px 15px;
  position: relative;
  display: table;
-
+ width: 100%;
 }
 .team
 {
- width: 100%;
+ width: 100%;	
  height: auto;
  position:relative;
  box-shadow:0px 1px 2px #cdcdcd;
  background-color: #FFF;
  float: left;
  margin-bottom: 15px;
-}	
+}

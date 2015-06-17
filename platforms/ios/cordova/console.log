@@ -314,3 +314,45 @@ Jun 14 15:32:28 Samirs-MacBook-Air.local تعاون الحفر[2692] <Error>: im
 2015-06-15 23:26:33.574 تعاوني الحفر[6220:276241] Resetting plugins due to page load.
 2015-06-15 23:26:34.058 تعاوني الحفر[6220:276241] Finished load of: http://192.168.1.5:8100/home.html#/home
 2015-06-15 23:26:34.145 تعاوني الحفر[6220:276241] THREAD WARNING: ['UniversalAnalytics'] took '12.920166' ms. Plugin should use a background thread.
+2015-06-17 16:00:51.478 تعاوني الحفر[2237:81025] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/9DF3967C-12BF-460E-8B05-C1C3EB8EE936/data/Containers/Data/Application/BA2196FD-3C49-474F-9398-CCDAA49CD55C/Library/Cookies/Cookies.binarycookies
+2015-06-17 16:00:51.970 تعاوني الحفر[2237:81025] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-17 16:00:51.971 تعاوني الحفر[2237:81025] Multi-tasking -> Device: YES, App: YES
+2015-06-17 16:00:51.997 تعاوني الحفر[2237:81025] Unlimited access to network resources
+2015-06-17 16:00:52.573 تعاوني الحفر[2237:81025] [CDVTimer][keyboard] 0.099003ms
+2015-06-17 16:00:52.879 تعاوني الحفر[2237:81025] [CDVTimer][splashscreen] 306.286991ms
+2015-06-17 16:00:52.880 تعاوني الحفر[2237:81025] [CDVTimer][TotalPluginStartup] 307.524025ms
+2015-06-17 16:00:53.179 تعاوني الحفر[2237:81025] active
+2015-06-17 16:00:53.186 تعاوني الحفر[2237:81025] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-06-17 16:00:53.935 تعاوني الحفر[2237:81025] Resetting plugins due to page load.
+2015-06-17 16:01:36.334 تعاوني الحفر[2237:81025] Finished load of: http://192.168.1.5:8100/
+2015-06-17 16:01:45.953 تعاوني الحفر[2237:81025] Resetting plugins due to page load.
+2015-06-17 16:01:46.406 تعاوني الحفر[2237:81025] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-17 16:01:46.473 تعاوني الحفر[2237:81025] THREAD WARNING: ['UniversalAnalytics'] took '11.274902' ms. Plugin should use a background thread.
+2015-06-17 16:02:06.203 تعاوني الحفر[2237:81196] CFNetwork SSLHandshake failed (-9806)
+2015-06-17 16:02:15.933 تعاوني الحفر[2237:81196] CFNetwork SSLHandshake failed (-9802)
+2015-06-17 16:02:18.423 تعاوني الحفر[2237:81196] CFNetwork SSLHandshake failed (-9802)
+2015-06-17 16:02:18.424 تعاوني الحفر[2237:81259] NSURLConnection/CFURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9802)
+2015-06-17 16:16:25.805 تعاوني الحفر[2237:81025] Resetting plugins due to page load.
+2015-06-17 16:16:30.447 تعاوني الحفر[2237:81025] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-06-17 16:16:30.448 تعاوني الحفر[2237:81025] Resetting plugins due to page load.
+2015-06-17 16:16:34.530 تعاوني الحفر[2237:81025] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-06-17 16:26:54.548 تعاوني الحفر[2237:81025] Resetting plugins due to page load.
+2015-06-17 16:26:54.839 تعاوني الحفر[2237:81025] Finished load of: http://192.168.1.5:8100/home.html#/care
+2015-06-17 16:26:57.673 تعاوني الحفر[2237:81025] Resetting plugins due to page load.
+2015-06-17 16:26:57.952 تعاوني الحفر[2237:81025] Finished load of: http://192.168.1.5:8100/home.html#/care
+2015-06-17 16:31:01.413 تعاوني الحفر[2237:91902] Terminating since there is no system app.
+2015-06-17 16:58:11.112 تعاوني الحفر[2718:102816] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-17 16:58:11.117 تعاوني الحفر[2718:102816] Multi-tasking -> Device: YES, App: YES
+2015-06-17 16:58:11.146 تعاوني الحفر[2718:102816] Unlimited access to network resources
+2015-06-17 16:58:11.644 تعاوني الحفر[2718:102816] [CDVTimer][keyboard] 0.132978ms
+2015-06-17 16:58:11.906 تعاوني الحفر[2718:102816] [CDVTimer][splashscreen] 261.377037ms
+2015-06-17 16:58:11.906 تعاوني الحفر[2718:102816] [CDVTimer][TotalPluginStartup] 262.942970ms
+2015-06-17 16:58:12.267 تعاوني الحفر[2718:102816] active
+2015-06-17 16:58:12.276 تعاوني الحفر[2718:102816] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-06-17 16:58:12.432 تعاوني الحفر[2718:102816] Resetting plugins due to page load.
+2015-06-17 16:58:30.241 تعاوني الحفر[2718:102816] Finished load of: http://192.168.1.5:8100/
+2015-06-17 16:58:55.986 تعاوني الحفر[2718:102816] Resetting plugins due to page load.
+2015-06-17 16:58:56.472 تعاوني الحفر[2718:102816] Finished load of: http://192.168.1.5:8100/home.html#/home
+2015-06-17 16:59:01.364 تعاوني الحفر[2718:102816] THREAD WARNING: ['PushPlugin'] took '172.244873' ms. Plugin should use a background thread.
+2015-06-17 16:59:01.375 تعاوني الحفر[2718:102816] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-17 16:59:08.344 تعاوني الحفر[2718:102816] active
