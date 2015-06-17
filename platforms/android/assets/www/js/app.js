@@ -4,20 +4,16 @@ angular.module('starter', [
   'ngCordova',
   'ionic.service.core',
   'ionic.service.push'
-//  'starter.controllers',
-//  'starter.services'
 ])
 
 .config(['$ionicAppProvider', function($ionicAppProvider) {
-  // Identify app
   $ionicAppProvider.identify({
     // The App ID (from apps.ionic.io) for the server
     app_id: '473fd05a',
     // The public API key all services will use for this app
     api_key: '12f18ff9a727109f9062236a503b205f4eccdeb56aff77a9',
     // The GCM project number
-    gcm_id: '667691090100',
-	dev_push: 'true'
+    gcm_id: '667691090100'
 	});
 }])
 
@@ -44,7 +40,8 @@ angular.module('starter', [
   $stateProvider
 .state('home', {
   url: '/home',
-  templateUrl: 'menu.html'
+  templateUrl: 'menu.html',
+  controller: "indexCtrl"
   })	
  .state("work", {
   url: "/work",
@@ -96,17 +93,16 @@ $urlRouterProvider.otherwise("/home");
 
 /************* CONTROLLERS **************/
 
-.controller('indexCtrl', function($scope, $rootScope, $ionicUser, $ionicPush) {
-	
-	
+.controller('indexCtrl', function($ionicPlatform, $scope, $rootScope, $timeout, $ionicUser, $ionicPush) {
+
 
 /*************** Analytics *****************/	
-if(typeof analytics !== undefined) { analytics.trackView("Hafr Jalyat"); }
 
-$scope.initEvent = function() {
-	if(typeof analytics !== undefined) { analytics.trackEvent("Category", "Action", "Label", 25); }
-}	
-
+	if(typeof analytics !== 'undefined') { analytics.trackView("Hafr Jalyat"); alert("Analytics is defined"); }
+	
+	$scope.initEvent = function() {
+		if(typeof analytics !== 'undefined') { analytics.trackEvent("Category", "Action", "Label", 25); }
+	}
 
 /********* Push **********/
 
@@ -117,49 +113,23 @@ $scope.initEvent = function() {
     $scope.token = data.token;
   });	
 */  
-  // Identifies a user with the Ionic User service
-  var identifyUser = function() {
-//    console.log('Ionic User: Identifying with Ionic User service');
-
     var user = $ionicUser.get();
     if(!user.user_id) {
       // Set your user_id here, or generate a random one.
       user.user_id = $ionicUser.generateGUID();
     };
 
-    // Add some metadata to your user object.
+/*    // Add some metadata to your user object.
     angular.extend(user, {
       name: 'User name'
     });
-
-    // Identify your user with the Ionic User Service
-    $ionicUser.identify(user).then(function(){
-      $scope.identified = true;
-      alert('Identified user: (' + user.name + ')\n ID ' + user.user_id);
-    });
-  };
-	identifyUser();
-  
-  
-  // Registers a device for push notifications and stores its token
-  var pushRegister = function() {
-//    console.log('Ionic Push: Registering user');
-
-    // Register with the Ionic Push service.  All parameters are optional.
-    $ionicPush.register({
-      canShowAlert: true, //Can pushes show an alert on your screen?
-      canSetBadge: true, //Can pushes update app icon badges?
-      canPlaySound: true, //Can notifications play a sound?
-      canRunActionsOnWake: true, //Can run actions outside the app,
-      onNotification: function(notification) {
-        alert(notification);
-        return true;
-      }
-    });
-	alert('Ionic Push: Registering user');
-  };
-  pushRegister();
-  
+*/
+	// Register with the Ionic Push service.
+	$ionicPlatform.ready(function() {
+		$ionicUser.identify(user).then(function() {
+				$ionicPush.register();
+			});
+	});
 })
 
 .controller('dawaCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {

@@ -4,20 +4,16 @@ angular.module('starter', [
   'ngCordova',
   'ionic.service.core',
   'ionic.service.push'
-//  'starter.controllers',
-//  'starter.services'
 ])
 
 .config(['$ionicAppProvider', function($ionicAppProvider) {
-  // Identify app
   $ionicAppProvider.identify({
     // The App ID (from apps.ionic.io) for the server
     app_id: '473fd05a',
     // The public API key all services will use for this app
     api_key: '12f18ff9a727109f9062236a503b205f4eccdeb56aff77a9',
     // The GCM project number
-    gcm_id: '667691090100',
-	dev_push: 'true'
+    gcm_id: '667691090100'
 	});
 }])
 
@@ -32,7 +28,7 @@ angular.module('starter', [
       StatusBar.styleDefault();
     }
 	
-	if(typeof analytics !== "undefined") {
+	if(typeof analytics !== undefined) {
 		analytics.startTrackerWithId("UA-64084948-1");
 	} else {
 		console.log("Google Analytics Unavailable");
@@ -101,13 +97,12 @@ $urlRouterProvider.otherwise("/home");
 
 
 /*************** Analytics *****************/	
-/*
-if(typeof analytics !== undefined) { analytics.trackView("Hafr Jalyat"); }
 
-$scope.initEvent = function() {
-	if(typeof analytics !== undefined) { analytics.trackEvent("Category", "Action", "Label", 25); }
-}
-*/
+	if(typeof analytics !== 'undefined') { analytics.trackView("Hafr Jalyat"); alert("Analytics is defined"); }
+	
+	$scope.initEvent = function() {
+		if(typeof analytics !== 'undefined') { analytics.trackEvent("Category", "Action", "Label", 25); }
+	}
 
 /********* Push **********/
 
@@ -124,30 +119,17 @@ $scope.initEvent = function() {
       user.user_id = $ionicUser.generateGUID();
     };
 
-    // Add some metadata to your user object.
+/*    // Add some metadata to your user object.
     angular.extend(user, {
       name: 'User name'
     });
-
-    // Identify your user with the Ionic User Service
-/*    $ionicUser.identify(user).then(function(){
-      $scope.identified = true;
-      alert('Identified user: (' + user.name + ')\n ID ' + user.user_id);
-	});
-	*/
-	
-	$ionicUser.identify(user)
-
+*/
 	// Register with the Ionic Push service.
 	$ionicPlatform.ready(function() {
-		$timeout(function() {
-			$ionicPush.register(config).then(function(result) {
-			  alert(result);
-			}, function(err) {
-			  alert(err);
-			})
-		});
-	});	
+		$ionicUser.identify(user).then(function() {
+				$ionicPush.register();
+			});
+	});
 })
 
 .controller('dawaCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {

@@ -72,7 +72,7 @@ module.exports.metadata =
     "nl.x-services.plugins.toast": "2.0.4",
     "com.phonegap.plugins.PushPlugin": "2.4.0",
     "cordova-plugin-google-analytics": "0.7.2",
-    "cordova-plugin-googleplayservices": "19.0.1"
+    "com.google.playservices": "19.0.0"
 }
 // BOTTOM OF METADATA
 });
