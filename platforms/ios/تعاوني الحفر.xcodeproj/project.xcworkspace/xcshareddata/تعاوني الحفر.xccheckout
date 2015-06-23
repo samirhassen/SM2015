@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F104F305-CEA1-4156-9F7A-528605B7667A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>تعاوني الحفر</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>71A34594F3D6D4D4E3DB8BC74852E147BFBC6285</key>
 		<string>https://github.com/samirhassen/HafrJalyat.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>platforms/ios/تعاوني الحفر.xcodeproj</string>
+	<string>platforms/ios/تعاوني الحفر.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>71A34594F3D6D4D4E3DB8BC74852E147BFBC6285</key>

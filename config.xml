@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.wasmiah.hafrapp" version="1.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.wasmiah.hafrapp" version="1.6.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>تعاوني الحفر</name>
   <description>
-        تعاون الحفر
+        تعاوني الحفر
     </description>
   <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
       Wasmiah IT
