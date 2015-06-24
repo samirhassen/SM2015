@@ -374,3 +374,49 @@ Jun 14 15:32:28 Samirs-MacBook-Air.local تعاون الحفر[2692] <Error>: im
 2015-06-24 02:59:44.351 تعاوني الحفر[4465:76533] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
 2015-06-24 02:59:57.070 تعاوني الحفر[4465:76533] active
 2015-06-24 03:00:21.071 تعاوني الحفر[4465:76533] THREAD WARNING: ['InAppBrowser'] took '91.364990' ms. Plugin should use a background thread.
+2015-06-24 13:01:12.600 تعاوني الحفر[5143:93018] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-24 13:01:12.601 تعاوني الحفر[5143:93018] Multi-tasking -> Device: YES, App: YES
+2015-06-24 13:01:12.624 تعاوني الحفر[5143:93018] Unlimited access to network resources
+2015-06-24 13:01:13.065 تعاوني الحفر[5143:93018] [CDVTimer][keyboard] 0.091970ms
+2015-06-24 13:01:13.276 تعاوني الحفر[5143:93018] [CDVTimer][splashscreen] 210.708976ms
+2015-06-24 13:01:13.277 تعاوني الحفر[5143:93018] [CDVTimer][TotalPluginStartup] 211.920023ms
+2015-06-24 13:01:13.366 تعاوني الحفر[5143:93018] active
+2015-06-24 13:01:13.473 تعاوني الحفر[5143:93018] Resetting plugins due to page load.
+2015-06-24 13:01:21.926 تعاوني الحفر[5143:93018] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/F1971DC0-8902-48FA-A812-8DDF988CF651/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-24 13:01:28.829 تعاوني الحفر[5143:93018] Resetting plugins due to page load.
+2015-06-24 13:01:28.965 تعاوني الحفر[5143:93018] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/F1971DC0-8902-48FA-A812-8DDF988CF651/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-24 13:01:34.503 تعاوني الحفر[5143:93018] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-24 13:01:38.047 تعاوني الحفر[5143:93018] THREAD WARNING: ['InAppBrowser'] took '116.937744' ms. Plugin should use a background thread.
+2015-06-24 13:02:25.472 تعاوني الحفر[5427:94693] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-24 13:02:25.473 تعاوني الحفر[5427:94693] Multi-tasking -> Device: YES, App: YES
+2015-06-24 13:02:25.475 تعاوني الحفر[5427:94693] Unlimited access to network resources
+2015-06-24 13:02:25.562 تعاوني الحفر[5427:94693] [CDVTimer][keyboard] 0.073016ms
+2015-06-24 13:02:25.577 تعاوني الحفر[5427:94693] [CDVTimer][splashscreen] 15.343010ms
+2015-06-24 13:02:25.577 تعاوني الحفر[5427:94693] [CDVTimer][TotalPluginStartup] 16.228020ms
+2015-06-24 13:02:25.621 تعاوني الحفر[5427:94693] active
+2015-06-24 13:02:25.719 تعاوني الحفر[5427:94693] Resetting plugins due to page load.
+2015-06-24 13:02:29.359 تعاوني الحفر[5427:94693] Finished load of: http://192.168.1.7:8100/
+2015-06-24 13:02:36.040 تعاوني الحفر[5427:94693] Resetting plugins due to page load.
+2015-06-24 13:02:36.248 تعاوني الحفر[5427:94693] Finished load of: http://192.168.1.7:8100/home.html#/home
+2015-06-24 13:02:36.333 تعاوني الحفر[5427:94693] THREAD WARNING: ['UniversalAnalytics'] took '15.201172' ms. Plugin should use a background thread.
+2015-06-24 13:02:39.153 تعاوني الحفر[5427:94693] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-24 13:02:49.696 تعاوني الحفر[5427:94693] THREAD WARNING: ['InAppBrowser'] took '49.345947' ms. Plugin should use a background thread.
+2015-06-24 13:03:22.561 تعاوني الحفر[5427:94693] Resetting plugins due to page load.
+2015-06-24 13:03:22.561 تعاوني الحفر[5427:94693] IAB.close() called but it was already closed.
+2015-06-24 13:03:22.829 تعاوني الحفر[5427:94693] Finished load of: http://192.168.1.7:8100/home.html#/contact
+2015-06-24 13:04:06.584 تعاوني الحفر[5713:96556] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-24 13:04:06.587 تعاوني الحفر[5713:96556] Multi-tasking -> Device: YES, App: YES
+2015-06-24 13:04:06.589 تعاوني الحفر[5713:96556] Unlimited access to network resources
+2015-06-24 13:04:06.686 تعاوني الحفر[5713:96556] [CDVTimer][keyboard] 0.065029ms
+2015-06-24 13:04:06.703 تعاوني الحفر[5713:96556] [CDVTimer][splashscreen] 17.165959ms
+2015-06-24 13:04:06.704 تعاوني الحفر[5713:96556] [CDVTimer][TotalPluginStartup] 18.027008ms
+2015-06-24 13:04:06.748 تعاوني الحفر[5713:96556] active
+2015-06-24 13:04:06.842 تعاوني الحفر[5713:96556] Resetting plugins due to page load.
+2015-06-24 13:04:10.214 تعاوني الحفر[5713:96556] Finished load of: http://192.168.1.7:8100/
+2015-06-24 13:04:12.789 تعاوني الحفر[5713:96556] Resetting plugins due to page load.
+2015-06-24 13:04:13.033 تعاوني الحفر[5713:96556] Finished load of: http://192.168.1.7:8100/home.html#/home
+2015-06-24 13:04:13.120 تعاوني الحفر[5713:96556] THREAD WARNING: ['UniversalAnalytics'] took '14.137939' ms. Plugin should use a background thread.
+2015-06-24 13:04:17.284 تعاوني الحفر[5713:96556] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-24 13:04:20.664 تعاوني الحفر[5713:96556] THREAD WARNING: ['InAppBrowser'] took '82.501953' ms. Plugin should use a background thread.
+2015-06-24 13:04:45.578 تعاوني الحفر[5713:96556] THREAD WARNING: ['InAppBrowser'] took '57.068115' ms. Plugin should use a background thread.
+2015-06-24 13:05:12.179 تعاوني الحفر[5713:96891] Terminating since there is no system app.
