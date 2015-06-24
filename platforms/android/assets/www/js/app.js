@@ -8,11 +8,14 @@ angular.module('starter', [
 ])
 
 .config(['$ionicAppProvider', function($ionicAppProvider) {
+  
+  $ionicConfigProvider.views.maxCache(0);
+  
   $ionicAppProvider.identify({
     // The App ID (from apps.ionic.io) for the server
-    app_id: '473fd05a',
+    app_id: '1eac3796',
     // The public API key all services will use for this app
-    api_key: '12f18ff9a727109f9062236a503b205f4eccdeb56aff77a9',
+    api_key: 'f49984504ed0b945a250537c4a8bcadfa76aa068d34f32f6',
     // The GCM project number
     gcm_id: '667691090100'
 	});
@@ -26,7 +29,7 @@ angular.module('starter', [
 	// Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
 	if(window.cordova && window.cordova.plugins.Keyboard) {
-		cordova.plugins.Keyboard.hideKeyboardAccessoryBar(false);
+		cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
     if(window.StatusBar) {
       StatusBar.styleDefault();

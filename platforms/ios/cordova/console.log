@@ -437,3 +437,67 @@ Jun 14 15:32:28 Samirs-MacBook-Air.local تعاون الحفر[2692] <Error>: im
 2015-06-24 14:42:42.352 تعاوني الحفر[6383:130217] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
 2015-06-24 14:42:53.927 تعاوني الحفر[6383:130217] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
 2015-06-24 14:42:53.944 تعاوني الحفر[6383:130217] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-06-24 15:08:56.212 تعاوني الحفر[6808:137834] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-24 15:08:56.213 تعاوني الحفر[6808:137834] Multi-tasking -> Device: YES, App: YES
+2015-06-24 15:08:56.216 تعاوني الحفر[6808:137834] Unlimited access to network resources
+2015-06-24 15:08:56.386 تعاوني الحفر[6808:137834] [CDVTimer][keyboard] 0.068963ms
+2015-06-24 15:08:56.472 تعاوني الحفر[6808:137834] [CDVTimer][splashscreen] 85.237026ms
+2015-06-24 15:08:56.472 تعاوني الحفر[6808:137834] [CDVTimer][TotalPluginStartup] 86.454988ms
+2015-06-24 15:08:56.530 تعاوني الحفر[6808:137834] active
+2015-06-24 15:08:56.677 تعاوني الحفر[6808:137834] Resetting plugins due to page load.
+2015-06-24 15:09:03.959 تعاوني الحفر[6808:137834] Finished load of: http://192.168.1.7:8100/
+2015-06-24 15:09:28.150 تعاوني الحفر[6808:137834] Resetting plugins due to page load.
+2015-06-24 15:09:28.427 تعاوني الحفر[6808:137834] Finished load of: http://192.168.1.7:8100/home.html#/home
+2015-06-24 15:09:31.302 تعاوني الحفر[6808:137834] Ionic Analytics: successfully registered analytics key
+2015-06-24 15:09:31.303 تعاوني الحفر[6808:137834] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 15:09:31.337 تعاوني الحفر[6808:137834] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-24 15:09:31.345 تعاوني الحفر[6808:137834] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 15:09:45.141 تعاوني الحفر[6808:137834] THREAD WARNING: ['InAppBrowser'] took '138.718018' ms. Plugin should use a background thread.
+2015-06-24 15:09:56.286 تعاوني الحفر[6808:137834] THREAD WARNING: ['InAppBrowser'] took '68.412842' ms. Plugin should use a background thread.
+2015-06-24 15:10:08.679 تعاوني الحفر[6808:137834] Failed to load webpage with error: The URL can’t be shown
+2015-06-24 15:10:14.663 تعاوني الحفر[6808:137834] THREAD WARNING: ['InAppBrowser'] took '65.889648' ms. Plugin should use a background thread.
+2015-06-24 15:10:24.088 تعاوني الحفر[6808:137834] THREAD WARNING: ['InAppBrowser'] took '58.551025' ms. Plugin should use a background thread.
+2015-06-24 15:10:33.952 تعاوني الحفر[6808:137834] THREAD WARNING: ['InAppBrowser'] took '65.366699' ms. Plugin should use a background thread.
+2015-06-24 15:13:31.888 تعاوني الحفر[6808:137834] Resetting plugins due to page load.
+2015-06-24 15:13:31.889 تعاوني الحفر[6808:137834] IAB.close() called but it was already closed.
+2015-06-24 15:13:32.104 تعاوني الحفر[6808:137834] Finished load of: http://192.168.1.7:8100/home.html#/dawa
+2015-06-24 15:36:35.016 تعاوني الحفر[7241:147849] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/9DF3967C-12BF-460E-8B05-C1C3EB8EE936/data/Containers/Data/Application/B181CABA-4610-4E5F-B21E-A72248CD96F1/Library/Cookies/Cookies.binarycookies
+2015-06-24 15:36:35.153 تعاوني الحفر[7241:147849] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-24 15:36:35.154 تعاوني الحفر[7241:147849] Multi-tasking -> Device: YES, App: YES
+2015-06-24 15:36:35.157 تعاوني الحفر[7241:147849] Unlimited access to network resources
+2015-06-24 15:36:35.267 تعاوني الحفر[7241:147849] [CDVTimer][keyboard] 0.070989ms
+2015-06-24 15:36:35.308 تعاوني الحفر[7241:147849] [CDVTimer][splashscreen] 41.014969ms
+2015-06-24 15:36:35.309 تعاوني الحفر[7241:147849] [CDVTimer][TotalPluginStartup] 42.253971ms
+2015-06-24 15:36:35.505 تعاوني الحفر[7241:147849] active
+2015-06-24 15:36:35.506 تعاوني الحفر[7241:147849] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-06-24 15:36:35.974 تعاوني الحفر[7241:147849] Resetting plugins due to page load.
+2015-06-24 15:36:41.521 تعاوني الحفر[7241:147849] Finished load of: http://192.168.1.7:8100/
+2015-06-24 15:36:50.591 تعاوني الحفر[7241:147849] Resetting plugins due to page load.
+2015-06-24 15:36:50.716 تعاوني الحفر[7241:147849] Finished load of: http://192.168.1.7:8100/home.html
+2015-06-24 15:37:15.244 تعاوني الحفر[7241:148210] Terminating since there is no system app.
+2015-06-24 15:37:41.526 تعاوني الحفر[7573:149176] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/9DF3967C-12BF-460E-8B05-C1C3EB8EE936/data/Containers/Data/Application/71D9958A-3726-4EF7-8C8D-43B0CE1E9AD9/Library/Cookies/Cookies.binarycookies
+2015-06-24 15:37:41.670 تعاوني الحفر[7573:149176] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-24 15:37:41.670 تعاوني الحفر[7573:149176] Multi-tasking -> Device: YES, App: YES
+2015-06-24 15:37:41.674 تعاوني الحفر[7573:149176] Unlimited access to network resources
+2015-06-24 15:37:41.828 تعاوني الحفر[7573:149176] [CDVTimer][keyboard] 0.114024ms
+2015-06-24 15:37:41.851 تعاوني الحفر[7573:149176] [CDVTimer][splashscreen] 22.712946ms
+2015-06-24 15:37:41.851 تعاوني الحفر[7573:149176] [CDVTimer][TotalPluginStartup] 31.179011ms
+2015-06-24 15:37:41.975 تعاوني الحفر[7573:149176] active
+2015-06-24 15:37:41.980 تعاوني الحفر[7573:149176] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-06-24 15:37:42.165 تعاوني الحفر[7573:149176] Resetting plugins due to page load.
+2015-06-24 15:37:47.109 تعاوني الحفر[7573:149176] Finished load of: http://192.168.1.7:8100/
+2015-06-24 15:37:58.181 تعاوني الحفر[7573:149176] Resetting plugins due to page load.
+2015-06-24 15:37:58.301 تعاوني الحفر[7573:149176] Finished load of: http://192.168.1.7:8100/home.html
+2015-06-24 15:38:27.849 تعاوني الحفر[7939:150529] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-24 15:38:27.850 تعاوني الحفر[7939:150529] Multi-tasking -> Device: YES, App: YES
+2015-06-24 15:38:27.853 تعاوني الحفر[7939:150529] Unlimited access to network resources
+2015-06-24 15:38:27.978 تعاوني الحفر[7939:150529] [CDVTimer][keyboard] 0.070989ms
+2015-06-24 15:38:28.001 تعاوني الحفر[7939:150529] [CDVTimer][splashscreen] 22.872031ms
+2015-06-24 15:38:28.002 تعاوني الحفر[7939:150529] [CDVTimer][TotalPluginStartup] 31.888008ms
+2015-06-24 15:38:28.067 تعاوني الحفر[7939:150529] active
+2015-06-24 15:38:28.164 تعاوني الحفر[7939:150529] Resetting plugins due to page load.
+2015-06-24 15:38:40.194 تعاوني الحفر[7939:150529] Finished load of: http://192.168.1.7:8100/
+2015-06-24 15:38:45.281 تعاوني الحفر[7939:150529] Resetting plugins due to page load.
+2015-06-24 15:38:45.417 تعاوني الحفر[7939:150529] Finished load of: http://192.168.1.7:8100/home.html
+2015-06-24 15:39:38.507 تعاوني الحفر[7939:150529] Resetting plugins due to page load.
+2015-06-24 15:39:38.515 تعاوني الحفر[7939:150529] Failed to load webpage with error: Could not connect to the server.
