@@ -66,13 +66,13 @@
     <splash height="960" src="resources/ios/splash/Default@2x~iphone.png" width="640" />
     <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
     <name>تعاوني الحفر</name>
-    <description>
-        تعاوني الحفر
+    <description>
+        تعاوني الحفر
     </description>
-    <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
-      Wasmiah IT
+    <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
+      Wasmiah IT
     </author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://192.168.1.8:8100" />
     <access origin="*" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />

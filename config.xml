@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.wasmiah.hafrapp" version="1.6.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>تعاوني الحفر</name>
-  <description>
-        تعاوني الحفر
+  <description>&#xD;&#xD;
+        تعاوني الحفر&#xD;&#xD;
     </description>
-  <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
-      Wasmiah IT
+  <author email="support@wasmiah.com" href="http://www.wasmiah.com/">&#xD;&#xD;
+      Wasmiah IT&#xD;&#xD;
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -18,6 +18,9 @@
   <preference name="SplashScreenDelay" value="3000"/>
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+  <feature name="inAppBrowser">
+    <param name="android-package" value="org.apache.cordova.inappbrowser"/>
   </feature>
   <platform name="android">
     <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
