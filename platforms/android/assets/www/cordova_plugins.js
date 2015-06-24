@@ -22,22 +22,22 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
-        "id": "org.apache.cordova.inappbrowser.inappbrowser",
+        "file": "plugins/cordova-plugin-google-analytics/www/analytics.js",
+        "id": "cordova-plugin-google-analytics.UniversalAnalytics",
         "clobbers": [
-            "window.open"
+            "analytics"
         ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-googleplayservices": "19.0.1",
+    "com.google.playservices": "19.0.0",
     "com.ionic.keyboard": "1.0.4",
     "com.phonegap.plugins.PushPlugin": "2.4.0",
     "cordova-plugin-console": "1.0.0",
     "cordova-plugin-device": "1.0.0",
-    "org.apache.cordova.inappbrowser": "0.6.0"
+    "cordova-plugin-google-analytics": "0.7.2"
 }
 // BOTTOM OF METADATA
 });

@@ -17,7 +17,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<receiver android:name=\"com.plugin.gcm.CordovaGCMBroadcastReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /><action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" /><category android:name=\"com.ionicframework.hafrjalyat\" /></intent-filter></receiver>",
+                            "xml": "<receiver android:name=\"com.plugin.gcm.CordovaGCMBroadcastReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /><action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" /><category android:name=\"com.wasmiah.hafrapp\" /></intent-filter></receiver>",
                             "count": 1
                         },
                         {
@@ -47,15 +47,24 @@
                             "count": 1
                         },
                         {
-                            "xml": "<permission android:name=\"com.ionicframework.hafrjalyat.permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" />",
+                            "xml": "<permission android:name=\"com.wasmiah.hafrapp.permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" />",
                             "count": 1
                         },
                         {
-                            "xml": "<uses-permission android:name=\"com.ionicframework.hafrjalyat.permission.C2D_MESSAGE\" />",
+                            "xml": "<uses-permission android:name=\"com.wasmiah.hafrapp.permission.C2D_MESSAGE\" />",
                             "count": 1
                         }
                     ],
-                    "/*": []
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        }
+                    ]
                 }
             },
             "res/xml/config.xml": {
@@ -74,7 +83,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+                            "xml": "<feature name=\"UniversalAnalytics\"><param name=\"android-package\" value=\"com.danielcwilson.plugins.analytics.UniversalAnalyticsPlugin\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -83,23 +92,23 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-googleplayservices": {
-            "PACKAGE_NAME": "com.ionicframework.hafrjalyat"
+        "com.google.playservices": {
+            "PACKAGE_NAME": "com.wasmiah.hafrapp"
         },
         "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.hafrjalyat"
+            "PACKAGE_NAME": "com.wasmiah.hafrapp"
         },
         "com.phonegap.plugins.PushPlugin": {
-            "PACKAGE_NAME": "com.ionicframework.hafrjalyat"
+            "PACKAGE_NAME": "com.wasmiah.hafrapp"
         },
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.ionicframework.hafrjalyat"
+            "PACKAGE_NAME": "com.wasmiah.hafrapp"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.ionicframework.hafrjalyat"
+            "PACKAGE_NAME": "com.wasmiah.hafrapp"
         },
-        "org.apache.cordova.inappbrowser": {
-            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        "cordova-plugin-google-analytics": {
+            "PACKAGE_NAME": "com.wasmiah.hafrapp"
         }
     },
     "dependent_plugins": {}
