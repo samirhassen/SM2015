@@ -356,3 +356,21 @@ Jun 14 15:32:28 Samirs-MacBook-Air.local تعاون الحفر[2692] <Error>: im
 2015-06-17 16:59:01.364 تعاوني الحفر[2718:102816] THREAD WARNING: ['PushPlugin'] took '172.244873' ms. Plugin should use a background thread.
 2015-06-17 16:59:01.375 تعاوني الحفر[2718:102816] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
 2015-06-17 16:59:08.344 تعاوني الحفر[2718:102816] active
+2015-06-24 02:57:51.274 تعاوني الحفر[4465:76533] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Data/Application/5E022AD9-A6F2-4606-877E-209F059FE4B4/Library/Cookies/Cookies.binarycookies
+2015-06-24 02:57:51.789 تعاوني الحفر[4465:76533] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-24 02:57:51.790 تعاوني الحفر[4465:76533] Multi-tasking -> Device: YES, App: YES
+2015-06-24 02:57:51.816 تعاوني الحفر[4465:76533] Unlimited access to network resources
+2015-06-24 02:57:52.346 تعاوني الحفر[4465:76533] [CDVTimer][keyboard] 0.091016ms
+2015-06-24 02:57:52.615 تعاوني الحفر[4465:76533] [CDVTimer][splashscreen] 268.325984ms
+2015-06-24 02:57:52.615 تعاوني الحفر[4465:76533] [CDVTimer][TotalPluginStartup] 269.311965ms
+2015-06-24 02:57:52.726 تعاوني الحفر[4465:76533] active
+2015-06-24 02:57:52.732 تعاوني الحفر[4465:76533] Attempting to badge the application icon but haven't received permission from the user to badge the application
+2015-06-24 02:57:52.869 تعاوني الحفر[4465:76533] Resetting plugins due to page load.
+2015-06-24 02:59:16.882 تعاوني الحفر[4465:76533] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/B4B67A4F-CE75-47ED-9C02-4620A782EA8A/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-24 02:59:41.064 تعاوني الحفر[4465:76533] Resetting plugins due to page load.
+2015-06-24 02:59:41.253 تعاوني الحفر[4465:76533] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/B4B67A4F-CE75-47ED-9C02-4620A782EA8A/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-24 02:59:41.399 تعاوني الحفر[4465:76533] THREAD WARNING: ['UniversalAnalytics'] took '10.675049' ms. Plugin should use a background thread.
+2015-06-24 02:59:44.345 تعاوني الحفر[4465:76533] THREAD WARNING: ['PushPlugin'] took '83.187988' ms. Plugin should use a background thread.
+2015-06-24 02:59:44.351 تعاوني الحفر[4465:76533] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-24 02:59:57.070 تعاوني الحفر[4465:76533] active
+2015-06-24 03:00:21.071 تعاوني الحفر[4465:76533] THREAD WARNING: ['InAppBrowser'] took '91.364990' ms. Plugin should use a background thread.

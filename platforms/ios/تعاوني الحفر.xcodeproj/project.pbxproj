@@ -55,6 +55,7 @@
 		C0962C8952ED4956A97E2F47 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C71A16BD653945B09020F4C7 /* CDVLogger.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F2C63E31B837437A9AC939C6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 130379D2BDAD460D93A9703C /* libz.dylib */; };
+		A54644A629B54C708308B8DB /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B81F1FA2FB4746A4DEC6AC /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +156,8 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "تعاوني الحفر/config.xml"; sourceTree = "<group>"; };
+		06B81F1FA2FB4746A4DEC6AC /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		69F192C1252B469798BBB6EF /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +299,8 @@
 				B449041A53B04327B2B09AA5 /* GAIEcommerceProduct.h */,
 				5B5C83FE93874A7090FB7582 /* GAIEcommerceProductAction.h */,
 				3DD4B605E78F4E8483F5E91B /* GAIEcommercePromotion.h */,
+				06B81F1FA2FB4746A4DEC6AC /* CDVInAppBrowser.m */,
+				69F192C1252B469798BBB6EF /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = "تعاوني الحفر/Plugins";
@@ -500,6 +505,7 @@
 				AF1EA9A8FBA4497F8D77CF9F /* AppDelegate+notification.m in Sources */,
 				34F5D5492B4C4D279AF07437 /* PushPlugin.m in Sources */,
 				2ABC12AA5F6F49E1A85DF141 /* UniversalAnalyticsPlugin.m in Sources */,
+				A54644A629B54C708308B8DB /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -58,17 +58,16 @@
     },
     "com.google.playservices": {
         "source": {
-            "type": "git",
-            "url": "https://github.com/danwilson/google-analytics-plugin.git",
-            "subdir": "."
+            "type": "registry",
+            "id": "com.google.playservices"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "com.google.playservices": {
+    "org.apache.cordova.inappbrowser": {
         "source": {
             "type": "registry",
-            "id": "com.google.playservices"
+            "id": "org.apache.cordova.inappbrowser"
         },
         "is_top_level": true,
         "variables": {}

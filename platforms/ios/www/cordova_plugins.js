@@ -59,6 +59,13 @@ module.exports = [
         "clobbers": [
             "analytics"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
+        "id": "org.apache.cordova.inappbrowser.inappbrowser",
+        "clobbers": [
+            "window.open"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -72,7 +79,8 @@ module.exports.metadata =
     "nl.x-services.plugins.toast": "2.0.4",
     "com.phonegap.plugins.PushPlugin": "2.4.0",
     "cordova-plugin-google-analytics": "0.7.2",
-    "com.google.playservices": "19.0.0"
+    "com.google.playservices": "19.0.0",
+    "org.apache.cordova.inappbrowser": "0.6.0"
 }
 // BOTTOM OF METADATA
 });
