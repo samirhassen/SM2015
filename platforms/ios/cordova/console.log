@@ -501,3 +501,98 @@ Jun 14 15:32:28 Samirs-MacBook-Air.local تعاون الحفر[2692] <Error>: im
 2015-06-24 15:38:45.417 تعاوني الحفر[7939:150529] Finished load of: http://192.168.1.7:8100/home.html
 2015-06-24 15:39:38.507 تعاوني الحفر[7939:150529] Resetting plugins due to page load.
 2015-06-24 15:39:38.515 تعاوني الحفر[7939:150529] Failed to load webpage with error: Could not connect to the server.
+2015-06-24 18:22:34.089 تعاوني الحفر[8982:190509] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-24 18:22:34.092 تعاوني الحفر[8982:190509] Multi-tasking -> Device: YES, App: YES
+2015-06-24 18:22:34.109 تعاوني الحفر[8982:190509] Unlimited access to network resources
+2015-06-24 18:22:34.646 تعاوني الحفر[8982:190509] [CDVTimer][keyboard] 0.064969ms
+2015-06-24 18:22:34.887 تعاوني الحفر[8982:190509] [CDVTimer][splashscreen] 240.309000ms
+2015-06-24 18:22:34.902 تعاوني الحفر[8982:190509] [CDVTimer][file] 14.796972ms
+2015-06-24 18:22:34.902 تعاوني الحفر[8982:190509] [CDVTimer][TotalPluginStartup] 256.265998ms
+2015-06-24 18:22:35.016 تعاوني الحفر[8982:190509] active
+2015-06-24 18:22:35.174 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:22:45.726 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/
+2015-06-24 18:22:50.095 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:22:50.559 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/home
+2015-06-24 18:22:53.780 تعاوني الحفر[8982:190509] THREAD WARNING: ['PushPlugin'] took '11.880127' ms. Plugin should use a background thread.
+2015-06-24 18:22:53.784 تعاوني الحفر[8982:190509] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-24 18:22:53.902 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:22:53.902 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:22:53.913 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:23:16.949 تعاوني الحفر[8982:190509] THREAD WARNING: ['File'] took '10.056885' ms. Plugin should use a background thread.
+2015-06-24 18:23:21.029 تعاوني الحفر[8982:190509] THREAD WARNING: ['File'] took '4078.598145' ms. Plugin should use a background thread.
+2015-06-24 18:23:28.583 تعاوني الحفر[8982:190509] THREAD WARNING: ['File'] took '7549.245117' ms. Plugin should use a background thread.
+2015-06-24 18:23:36.524 تعاوني الحفر[8982:190509] THREAD WARNING: ['File'] took '7938.023926' ms. Plugin should use a background thread.
+2015-06-24 18:24:52.092 تعاوني الحفر[8982:191259] File Transfer Finished with response code 200
+2015-06-24 18:29:02.603 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:29:02.840 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:29:05.323 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:29:05.324 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:29:05.331 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:29:14.562 تعاوني الحفر[8982:190509] THREAD WARNING: ['File'] took '3578.253906' ms. Plugin should use a background thread.
+2015-06-24 18:29:33.897 تعاوني الحفر[8982:192620] File Transfer Finished with response code 200
+2015-06-24 18:30:16.329 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:30:16.579 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:30:17.733 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:30:17.733 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:30:17.740 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:30:35.585 تعاوني الحفر[8982:192984] File Transfer Finished with response code 200
+2015-06-24 18:31:48.750 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:31:49.017 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:31:50.323 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:31:50.323 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:31:50.330 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:32:09.560 تعاوني الحفر[8982:193595] File Transfer Finished with response code 200
+2015-06-24 18:33:35.054 تعاوني الحفر[8982:194086] File Transfer Finished with response code 200
+2015-06-24 18:34:07.175 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:34:07.512 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:34:09.606 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:34:09.606 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:34:09.611 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:35:26.937 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:35:27.140 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:35:28.158 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:35:28.159 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:35:28.166 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:41:02.426 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:41:02.737 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:41:04.868 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:41:04.868 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:41:04.875 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:41:59.900 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:42:00.103 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:42:01.240 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:42:01.240 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:42:01.248 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:43:16.428 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:43:16.734 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:43:17.748 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:43:17.749 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:43:17.758 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:48:08.965 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:48:09.285 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:48:12.401 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:48:12.401 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:48:12.410 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:48:29.225 تعاوني الحفر[8982:197884] File Transfer Finished with response code 200
+2015-06-24 18:48:29.385 تعاوني الحفر[8982:190509] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-24 18:48:29.412 تعاوني الحفر[8982:190509] THREAD WARNING: ['InAppBrowser'] took '172.252686' ms. Plugin should use a background thread.
+2015-06-24 18:51:01.571 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:51:01.571 تعاوني الحفر[8982:190509] IAB.close() called but it was already closed.
+2015-06-24 18:51:01.905 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:51:02.952 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:51:02.952 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:51:02.960 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:51:58.860 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:51:58.860 تعاوني الحفر[8982:190509] IAB.close() called but it was already closed.
+2015-06-24 18:51:59.182 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:52:00.192 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:52:00.192 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:52:00.200 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:52:05.416 تعاوني الحفر[8982:190509] Resetting plugins due to page load.
+2015-06-24 18:52:05.416 تعاوني الحفر[8982:190509] IAB.close() called but it was already closed.
+2015-06-24 18:52:05.707 تعاوني الحفر[8982:190509] Finished load of: http://192.168.1.7:8100/home.html#/aboutus
+2015-06-24 18:52:06.528 تعاوني الحفر[8982:190509] Ionic Analytics: successfully registered analytics key
+2015-06-24 18:52:06.529 تعاوني الحفر[8982:190509] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 18:52:06.536 تعاوني الحفر[8982:190509] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 18:52:10.169 تعاوني الحفر[8982:190509] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-24 18:52:10.172 تعاوني الحفر[8982:190509] THREAD WARNING: ['InAppBrowser'] took '68.645020' ms. Plugin should use a background thread.

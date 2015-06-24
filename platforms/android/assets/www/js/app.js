@@ -140,17 +140,19 @@ $urlRouterProvider.otherwise("/home");
 
 .controller("FileController", function($scope, $ionicLoading) {
 
-$scope.download = function() {
+$scope.download = function($url) {
     $ionicLoading.show({
       template: 'Loading...'
     });
     window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fs) {
+		alert("Inne i window.requestFileSystem");
         fs.root.getDirectory(
             "HafrJalyat",
             {
                 create: true
             },
             function(dirEntry) {
+				alert("inne i getDir");
                 dirEntry.getFile(
                     "office_report_1432.pdf", 
                     {
@@ -158,13 +160,15 @@ $scope.download = function() {
                         exclusive: false
                     }, 
                     function gotFileEntry(fe) {
+						alert("inne i getFileEntry");
                         var p = fe.toURL();
                         fe.remove();
                         ft = new FileTransfer();
                         ft.download(
-                            encodeURI("http://www.hafrjalyat.org/httpreq/office_report_1432.pdf"),
+                            encodeURI($url),
                             p,
                             function(entry) {
+								alert("inne i encoudeURI");
                                 $ionicLoading.hide();
                                 $scope.imgFile = entry.toURL();
                             },
