@@ -657,3 +657,4 @@ Jun 14 15:32:28 Samirs-MacBook-Air.local تعاون الحفر[2692] <Error>: im
 2015-06-24 20:35:17.370 تعاوني الحفر[10306:219744] THREAD WARNING: ['InAppBrowser'] took '126.496094' ms. Plugin should use a background thread.
 2015-06-24 20:36:01.066 تعاوني الحفر[10306:219744] THREAD WARNING: ['InAppBrowser'] took '70.400146' ms. Plugin should use a background thread.
 2015-06-24 20:36:05.955 تعاوني الحفر[10306:219744] THREAD WARNING: ['InAppBrowser'] took '66.657959' ms. Plugin should use a background thread.
+2015-06-24 20:37:36.964 تعاوني الحفر[10306:220336] Terminating since there is no system app.
