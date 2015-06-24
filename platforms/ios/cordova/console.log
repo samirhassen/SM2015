@@ -420,3 +420,20 @@ Jun 14 15:32:28 Samirs-MacBook-Air.local تعاون الحفر[2692] <Error>: im
 2015-06-24 13:04:20.664 تعاوني الحفر[5713:96556] THREAD WARNING: ['InAppBrowser'] took '82.501953' ms. Plugin should use a background thread.
 2015-06-24 13:04:45.578 تعاوني الحفر[5713:96556] THREAD WARNING: ['InAppBrowser'] took '57.068115' ms. Plugin should use a background thread.
 2015-06-24 13:05:12.179 تعاوني الحفر[5713:96891] Terminating since there is no system app.
+2015-06-24 14:42:08.024 تعاوني الحفر[6383:130217] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-24 14:42:08.031 تعاوني الحفر[6383:130217] Multi-tasking -> Device: YES, App: YES
+2015-06-24 14:42:08.050 تعاوني الحفر[6383:130217] Unlimited access to network resources
+2015-06-24 14:42:08.420 تعاوني الحفر[6383:130217] [CDVTimer][keyboard] 0.091016ms
+2015-06-24 14:42:08.614 تعاوني الحفر[6383:130217] [CDVTimer][splashscreen] 194.212019ms
+2015-06-24 14:42:08.615 تعاوني الحفر[6383:130217] [CDVTimer][TotalPluginStartup] 195.855021ms
+2015-06-24 14:42:08.724 تعاوني الحفر[6383:130217] active
+2015-06-24 14:42:08.855 تعاوني الحفر[6383:130217] Resetting plugins due to page load.
+2015-06-24 14:42:14.754 تعاوني الحفر[6383:130217] Finished load of: http://192.168.1.7:8100/
+2015-06-24 14:42:32.547 تعاوني الحفر[6383:130217] Resetting plugins due to page load.
+2015-06-24 14:42:32.965 تعاوني الحفر[6383:130217] Finished load of: http://192.168.1.7:8100/home.html#/home
+2015-06-24 14:42:42.312 تعاوني الحفر[6383:130217] Ionic Analytics: successfully registered analytics key
+2015-06-24 14:42:42.312 تعاوني الحفر[6383:130217] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-24 14:42:42.324 تعاوني الحفر[6383:130217] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-24 14:42:42.352 تعاوني الحفر[6383:130217] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-24 14:42:53.927 تعاوني الحفر[6383:130217] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default
+2015-06-24 14:42:53.944 تعاوني الحفر[6383:130217] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3760611571_PortraitChoco_iPhone-Complex-Pad_Default

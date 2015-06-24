@@ -9,12 +9,9 @@ angular.module('ionic.service.push', ['ngCordova', 'ionic.service.core'])
  * }])
  *
  */
-.factory('$ionicPush', [
-  '$http', '$cordovaPush',
-  '$ionicApp', '$ionicPushActions',
-  '$ionicUser', '$rootScope', '$log', '$q',
+.factory('$ionicPush', ['$http', '$cordovaPush','$cordovaLocalNotification', '$ionicApp', '$ionicPushActions', '$ionicUser', '$rootScope', '$log', '$q',
 
-function($http, $cordovaPush, $ionicApp, $ionicPushActions, $ionicUser, $rootScope, $log, $q) {
+function($http, $cordovaPush, $cordovaLocalNotification, $ionicApp, $ionicPushActions, $ionicUser, $rootScope, $log, $q) {
 
   // Grab the current app
   var app = $ionicApp.getApp();
@@ -22,6 +19,14 @@ function($http, $cordovaPush, $ionicApp, $ionicPushActions, $ionicUser, $rootSco
   //Check for required credentials
   if(!app || !app.app_id) {
     console.error('PUSH: Unable to initialize, you must call $ionicAppProvider.identify() first');
+  }
+
+  function generateDevGuid() {
+    // Some crazy bit-twiddling to generate a random guid
+    return 'DEV-xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+      var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
+      return v.toString(16);
+    });
   }
 
   function init(options) {
@@ -39,39 +44,112 @@ function($http, $cordovaPush, $ionicApp, $ionicPushActions, $ionicUser, $rootSco
       "alert": true
     };
 
-    $cordovaPush.register(config).then(function(token) {
-      console.log('$ionicPush:REGISTERED', token);
+    /**
+     * For testing push notifications, set the dev_push flag in your config to true.
+     **/
+    if (app.dev_push) {
+      var localNotifications = false;
+      // If they have the local notification plugin, let them receive notifications with it, otherwise just do alerts
+      if (window.cordova && window.cordova.plugins && window.cordova.plugins.notification && window.cordova.plugins.notification.local) {
+        localNotifications = true;
+      }
 
-      defer.resolve(token);
+      var devToken = generateDevGuid();
+      var devHost = api + '/dev/push';
 
-      if(token !== 'OK') {
+      var req = {
+        method: 'POST',
+        url: devHost,
+        data: {
+          "dev_token": devToken
+        }
+      };
 
-        $rootScope.$emit('$cordovaPush:tokenReceived', {
-          token: token,
-          platform: 'ios'
+      $http(req).success(function(resp){
+          console.log('$ionicPush:REGISTERED_DEV_MODE', devToken);
+          $rootScope.$emit('$cordovaPush:tokenReceived', {
+            token: devToken,
+            platform: 'none'
+          });
+          defer.resolve(devToken);
+        }).error(function(error){
+          console.log("$ionicPush: Error connecting dev_push service ", error);
         });
 
-        // Push the token into the user data
-        try {
-          $ionicUser.push('_push.ios_tokens', token, true);
-        } catch(e) {
-          console.warn('Received push token before user was identified and will not be synced with ionic.io. Make sure to call $ionicUser.identify() before calling $ionicPush.register.');
+      var checkReq = {
+        method: 'GET',
+        url: devHost + '/check',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Ionic-Dev-Token': devToken
         }
-      }
-    }, function(err) {
-      console.error('$ionicPush:REGISTER_ERROR', err);
-    });
+      };
+
+      // Check for new dev pushes every 5 seconds
+      var checkPushes = setInterval(function(){
+        $http(checkReq).success(function(resp){
+          if (resp.messages.length > 0) {
+            var notification = {};
+            notification.alert = resp.messages[0];
+            console.warn("Calling onNotification() for a development push.  Payload will NOT be available");
+            var callbackRet = options.onNotification && options.onNotification(notification);
+            // If the custom handler returns false, don't handle this at all in our code
+            if(callbackRet === false) {
+              return;
+            }
+
+            if (localNotifications) {
+              console.log('$ionicPush: Attempting to send local notification.');
+              window.cordova.plugins.notification.local.registerPermission(function (granted) {
+                if (granted) {
+                  window.cordova.plugins.notification.local.schedule({
+                    title: 'DEVELOPMENT PUSH',
+                    text: resp.messages[0]
+                  });
+                }
+              });
+            } else {
+              console.log('$ionicPush: No device, sending alert instead.');
+              alert(resp.messages[0]);
+            }
+          }
+        }).error(function(error){
+          console.log("$ionicPush: Error checking for dev pushes ", error);
+        });
+      }, 5000);
+
+    /**
+     * It's a notmal push, do normal push things
+     */
+    } else {
+      $cordovaPush.register(config).then(function(token) {
+        console.log('$ionicPush:REGISTERED', token);
+
+        defer.resolve(token);
+
+        if(token !== 'OK') {
+
+          $rootScope.$emit('$cordovaPush:tokenReceived', {
+            token: token,
+            platform: 'ios'
+          });
+
+          // Push the token into the user data
+          try {
+            $ionicUser.push('_push.ios_tokens', token, true);
+          } catch(e) {
+            console.warn('Received push token before user was identified and will not be synced with ionic.io. Make sure to call $ionicUser.identify() before calling $ionicPush.register.');
+          }
+        }
+      }, function(err) {
+        console.error('$ionicPush:REGISTER_ERROR', err);
+      });
+    }
 
     $rootScope.$on('$cordovaPush:notificationReceived', function(event, notification) {
       console.log('$ionicPush:RECEIVED', JSON.stringify(notification));
 
       var callbackRet = options.onNotification && options.onNotification(notification);
-
-      // If the custom handler returns false, don't handle this at all in
-      // our code
-      if(callbackRet === false) {
-        return;
-      }
 
       if (ionic.Platform.isAndroid() && notification.event == "registered") {
         /**
@@ -85,6 +163,12 @@ function($http, $cordovaPush, $ionicApp, $ionicPushActions, $ionicUser, $rootSco
           platform: 'android'
         });
         androidInit(notification.regid);
+      }
+
+      // If the custom handler returns false, don't handle this at all in
+      // our code
+      if(callbackRet === false) {
+        return;
       }
 
       // If we have the notification plugin, show this
@@ -178,9 +262,10 @@ function($http, $cordovaPush, $ionicApp, $ionicPushActions, $ionicUser, $rootSco
           onTokenRecieved: function (token) { }
         }, options);
 
+        var user = {};
+
         if (userdata) {
-          var user = $ionicUser.get();
-          if (!userdata.user_id || !user.user_id) {
+          if (!userdata.user_id) {
             // Set your user_id here, or generate a random one
             console.warn("No user ID specified in userdata or existing model, generating generic user ID.");
             user.user_id = $ionicUser.generateGUID();
@@ -188,13 +273,20 @@ function($http, $cordovaPush, $ionicApp, $ionicPushActions, $ionicUser, $rootSco
 
           angular.extend(user, userdata);
 
-          console.log('Identifying user.')
+          console.log('$ionicPush: Identifying user', user.user_id);
           $ionicUser.identify(user).then(function () {
             resolve(init(options));
           });
+        } else {
+          user = $ionicUser.get();
+          if (!user.user_id){
+            console.log('$ionicPush: Registering anonymous user.');
+            $ionicUser.identifyAnonymous().then(function() {
+              resolve(init(options));
+            });
+          } else {
+            resolve(init(options));
           }
-        else {
-          resolve(init(options));
         }
       });
     },
@@ -210,21 +302,34 @@ function($http, $cordovaPush, $ionicApp, $ionicPushActions, $ionicUser, $rootSco
 function($rootElement, $injector) {
   return {
     run: function(notification) {
-      if(notification.$state) {
-        // Auto navigate to state
-
-        var injector = $rootElement.injector();
-        if(injector.has('$state')) {
-          $state = injector.get('$state');
-          var p = {};
-          try {
-            p = JSON.parse(notification.$stateParams);
-          } catch(e) {
-          }
-          $state.go(notification.$state, p);
+      var state = false;
+      var stateParams = {};
+      if (ionic.Platform.isAndroid()) {
+        if (notification.payload.payload.$state) {
+          state = notification.payload.payload.$state;
         }
+        if (notification.payload.payload.$stateParams) {
+          try {
+            stateParams = JSON.parse(notification.payload.payload.$stateParams);
+          } catch(e) {}
+        }
+      } else if (ionic.Platform.isIOS()) {
+        if (notification.$state) {
+          state = notification.$state;
+        }
+        if (notification.$stateParams) {
+          try {
+            stateParams = JSON.parse(notification.$stateParams);
+          } catch(e) {}
+        }
+      }
+
+      if (!state) {
+        // Auto navigate to state
+        var injector = $rootElement.injector();
+        $state = injector.get('$state');
+        $state.go(state, stateParams);
       }
     }
   }
 }])
-
