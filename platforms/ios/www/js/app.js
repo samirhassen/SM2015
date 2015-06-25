@@ -16,6 +16,7 @@ angular.module('starter', [
     api_key: 'f49984504ed0b945a250537c4a8bcadfa76aa068d34f32f6',
     // The GCM project number
     gcm_id: '667691090100'
+	//dev_push: true
 	});
 }])
 
