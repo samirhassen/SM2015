@@ -147,8 +147,9 @@ $urlRouterProvider.otherwise("/home");
 		if (ionic.Platform.isIOS())
 			window.open($url, '_blank', 'location=no');
 		else
-			window.open($url, '_system', 'location=no');
+			navigator.app.loadUrl($url, { openExternal: true });
 		
+		return true;
 		};
 })
 
