@@ -35,11 +35,11 @@
     <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
     <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     <name>تعاوني الحفر</name>
-    <description>
-        تعاوني الحفر
+    <description>
+        تعاوني الحفر
     </description>
-    <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
-      Wasmiah IT
+    <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
+      Wasmiah IT
     </author>
     <content src="index.html" />
     <access origin="*" />

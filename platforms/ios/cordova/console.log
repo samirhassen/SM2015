@@ -658,3 +658,201 @@ Jun 14 15:32:28 Samirs-MacBook-Air.local تعاون الحفر[2692] <Error>: im
 2015-06-24 20:36:01.066 تعاوني الحفر[10306:219744] THREAD WARNING: ['InAppBrowser'] took '70.400146' ms. Plugin should use a background thread.
 2015-06-24 20:36:05.955 تعاوني الحفر[10306:219744] THREAD WARNING: ['InAppBrowser'] took '66.657959' ms. Plugin should use a background thread.
 2015-06-24 20:37:36.964 تعاوني الحفر[10306:220336] Terminating since there is no system app.
+2015-06-25 17:42:07.330 تعاوني الحفر[11523:256293] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-25 17:42:07.332 تعاوني الحفر[11523:256293] Multi-tasking -> Device: YES, App: YES
+2015-06-25 17:42:07.360 تعاوني الحفر[11523:256293] Unlimited access to network resources
+2015-06-25 17:42:07.917 تعاوني الحفر[11523:256293] [CDVTimer][keyboard] 0.070035ms
+2015-06-25 17:42:08.161 تعاوني الحفر[11523:256293] [CDVTimer][splashscreen] 243.559957ms
+2015-06-25 17:42:08.161 تعاوني الحفر[11523:256293] [CDVTimer][TotalPluginStartup] 245.697975ms
+2015-06-25 17:42:08.229 تعاوني الحفر[11523:256293] active
+2015-06-25 17:42:08.380 تعاوني الحفر[11523:256293] Resetting plugins due to page load.
+2015-06-25 17:42:30.213 تعاوني الحفر[11523:256293] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/DC05896B-E4AC-443F-B39E-738F4CB15947/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-25 17:42:36.905 تعاوني الحفر[11523:256293] Resetting plugins due to page load.
+2015-06-25 17:42:37.128 تعاوني الحفر[11523:256293] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/DC05896B-E4AC-443F-B39E-738F4CB15947/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-25 17:42:40.489 تعاوني الحفر[11523:256293] Ionic Analytics: successfully registered analytics key
+2015-06-25 17:42:40.489 تعاوني الحفر[11523:256293] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-25 17:42:40.500 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:42:40.556 تعاوني الحفر[11523:256293] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-25 17:42:43.978 تعاوني الحفر[11523:256293] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 17:42:51.505 تعاوني الحفر[11523:256293] THREAD WARNING: ['InAppBrowser'] took '49.084961' ms. Plugin should use a background thread.
+2015-06-25 17:42:51.505 تعاوني الحفر[11523:256293] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 17:43:10.518 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:43:41.028 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:44:11.032 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:44:41.037 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:45:11.043 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:45:41.048 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:46:11.053 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:46:41.058 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:47:11.064 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:47:41.070 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:48:11.074 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:48:41.080 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:49:11.085 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:49:41.092 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:50:11.096 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:50:41.101 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:51:11.106 تعاوني الحفر[11523:256293] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 17:51:45.858 تعاوني الحفر[11920:261076] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-25 17:51:45.860 تعاوني الحفر[11920:261076] Multi-tasking -> Device: YES, App: YES
+2015-06-25 17:51:45.864 تعاوني الحفر[11920:261076] Unlimited access to network resources
+2015-06-25 17:51:46.023 تعاوني الحفر[11920:261076] [CDVTimer][keyboard] 0.101984ms
+2015-06-25 17:51:46.046 تعاوني الحفر[11920:261076] [CDVTimer][splashscreen] 22.691011ms
+2015-06-25 17:51:46.047 تعاوني الحفر[11920:261076] [CDVTimer][TotalPluginStartup] 23.828983ms
+2015-06-25 17:51:46.110 تعاوني الحفر[11920:261076] active
+2015-06-25 17:51:46.204 تعاوني الحفر[11920:261076] Resetting plugins due to page load.
+2015-06-25 17:51:57.542 تعاوني الحفر[11920:261076] Finished load of: http://192.168.1.7:8100/
+2015-06-25 17:52:21.850 تعاوني الحفر[11920:261076] Resetting plugins due to page load.
+2015-06-25 17:52:25.226 تعاوني الحفر[11920:261076] Finished load of: http://192.168.1.7:8100/
+2015-06-25 17:52:29.260 تعاوني الحفر[11920:261076] Resetting plugins due to page load.
+2015-06-25 17:52:29.464 تعاوني الحفر[11920:261076] Finished load of: http://192.168.1.7:8100/home.html#/home
+2015-06-25 17:52:29.540 تعاوني الحفر[11920:261076] THREAD WARNING: ['UniversalAnalytics'] took '12.323975' ms. Plugin should use a background thread.
+2015-06-25 17:52:29.686 تعاوني الحفر[11920:261076] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 17:52:31.756 تعاوني الحفر[11920:261076] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 17:52:32.778 تعاوني الحفر[11920:261076] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 17:52:33.367 تعاوني الحفر[11920:261076] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-25 17:52:33.425 تعاوني الحفر[11920:261076] Ionic Analytics: successfully registered analytics key
+2015-06-25 17:52:33.426 تعاوني الحفر[11920:261076] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-25 17:52:33.433 تعاوني الحفر[11920:261076] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-25 17:52:39.761 تعاوني الحفر[11920:261076] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-25 17:52:39.795 تعاوني الحفر[11920:261076] THREAD WARNING: ['InAppBrowser'] took '164.917969' ms. Plugin should use a background thread.
+2015-06-25 17:52:39.847 تعاوني الحفر[11920:261076] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 17:53:03.659 تعاوني الحفر[11920:261076] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-25 18:15:30.125 تعاوني الحفر[11920:261076] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:15:31.583 تعاوني الحفر[11920:261076] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:15:35.567 تعاوني الحفر[11920:261076] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-25 18:16:06.982 تعاوني الحفر[11920:261076] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-25 18:16:06.984 تعاوني الحفر[11920:261076] THREAD WARNING: ['InAppBrowser'] took '58.955811' ms. Plugin should use a background thread.
+2015-06-25 18:16:06.999 تعاوني الحفر[11920:261076] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:16:24.821 تعاوني الحفر[11920:261076] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-25 18:16:24.823 تعاوني الحفر[11920:261076] THREAD WARNING: ['InAppBrowser'] took '59.315186' ms. Plugin should use a background thread.
+2015-06-25 18:16:24.839 تعاوني الحفر[11920:261076] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:16:30.265 تعاوني الحفر[11920:261076] THREAD WARNING: ['InAppBrowser'] took '66.033691' ms. Plugin should use a background thread.
+2015-06-25 18:16:30.265 تعاوني الحفر[11920:261076] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:16:35.579 تعاوني الحفر[11920:261076] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-25 18:17:36.992 تعاوني الحفر[12394:271784] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-25 18:17:36.993 تعاوني الحفر[12394:271784] Multi-tasking -> Device: YES, App: YES
+2015-06-25 18:17:36.995 تعاوني الحفر[12394:271784] Unlimited access to network resources
+2015-06-25 18:17:37.018 تعاوني الحفر[12394:271784] DiskImageCache: Could not resolve the absolute path of the old directory.
+2015-06-25 18:17:37.110 تعاوني الحفر[12394:271784] [CDVTimer][keyboard] 0.074029ms
+2015-06-25 18:17:37.142 تعاوني الحفر[12394:271784] [CDVTimer][splashscreen] 31.728983ms
+2015-06-25 18:17:37.143 تعاوني الحفر[12394:271784] [CDVTimer][TotalPluginStartup] 32.887995ms
+2015-06-25 18:17:37.198 تعاوني الحفر[12394:271784] active
+2015-06-25 18:17:37.296 تعاوني الحفر[12394:271784] Resetting plugins due to page load.
+2015-06-25 18:17:51.345 تعاوني الحفر[12394:271784] Finished load of: http://192.168.1.7:8100/
+2015-06-25 18:17:52.957 تعاوني الحفر[12394:271784] Resetting plugins due to page load.
+2015-06-25 18:17:53.277 تعاوني الحفر[12394:271784] Finished load of: http://192.168.1.7:8100/
+2015-06-25 18:17:55.404 تعاوني الحفر[12394:271784] Resetting plugins due to page load.
+2015-06-25 18:17:55.641 تعاوني الحفر[12394:271784] Finished load of: http://192.168.1.7:8100/home.html#/home
+2015-06-25 18:17:55.715 تعاوني الحفر[12394:271784] THREAD WARNING: ['UniversalAnalytics'] took '13.643555' ms. Plugin should use a background thread.
+2015-06-25 18:17:55.775 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:17:58.528 تعاوني الحفر[12394:271784] Ionic Analytics: successfully registered analytics key
+2015-06-25 18:17:58.528 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-25 18:17:58.538 تعاوني الحفر[12394:271784] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-25 18:17:58.577 تعاوني الحفر[12394:271784] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-25 18:17:58.732 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:17:59.610 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:18:04.277 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:18:08.237 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:18:10.661 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:18:28.543 تعاوني الحفر[12394:271784] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-25 18:19:07.976 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:19:09.844 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:19:28.550 تعاوني الحفر[12394:271784] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-25 18:20:27.395 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:20:28.560 تعاوني الحفر[12394:271784] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-25 18:20:28.607 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:20:29.250 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:20:30.111 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:20:30.906 تعاوني الحفر[12394:271784] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:20:58.565 تعاوني الحفر[12394:271784] ERROR: Error sending analytics data: Server responded with error [object Object] [object Object]
+2015-06-25 18:22:46.180 تعاوني الحفر[12758:274882] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-25 18:22:46.181 تعاوني الحفر[12758:274882] Multi-tasking -> Device: YES, App: YES
+2015-06-25 18:22:46.185 تعاوني الحفر[12758:274882] Unlimited access to network resources
+2015-06-25 18:22:46.342 تعاوني الحفر[12758:274882] [CDVTimer][keyboard] 0.104010ms
+2015-06-25 18:22:46.365 تعاوني الحفر[12758:274882] [CDVTimer][splashscreen] 23.039997ms
+2015-06-25 18:22:46.366 تعاوني الحفر[12758:274882] [CDVTimer][TotalPluginStartup] 32.051980ms
+2015-06-25 18:22:46.432 تعاوني الحفر[12758:274882] active
+2015-06-25 18:22:46.516 تعاوني الحفر[12758:274882] Resetting plugins due to page load.
+2015-06-25 18:23:45.935 تعاوني الحفر[12758:274882] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/7ACE5D5D-8CCC-45B1-9270-11251F26BC1E/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-25 18:23:47.881 تعاوني الحفر[12758:274882] Resetting plugins due to page load.
+2015-06-25 18:23:48.032 تعاوني الحفر[12758:274882] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/7ACE5D5D-8CCC-45B1-9270-11251F26BC1E/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-25 18:23:48.310 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:23:50.221 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:23:50.821 تعاوني الحفر[12758:274882] Ionic Analytics: successfully registered analytics key
+2015-06-25 18:23:50.822 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-25 18:23:50.829 تعاوني الحفر[12758:274882] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-25 18:23:50.843 تعاوني الحفر[12758:274882] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:23:53.481 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:23:58.845 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:23:58.988 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:24:01.417 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:24:05.732 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:24:06.339 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:24:07.143 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:24:13.145 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:24:16.277 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:24:18.424 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:24:18.457 تعاوني الحفر[12758:274882] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:24:24.582 تعاوني الحفر[12758:274882] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:24:54.587 تعاوني الحفر[12758:274882] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:25:24.596 تعاوني الحفر[12758:274882] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:25:54.609 تعاوني الحفر[12758:274882] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:26:24.617 تعاوني الحفر[12758:274882] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:26:54.625 تعاوني الحفر[12758:274882] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:27:14.885 تعاوني الحفر[13073:276884] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-25 18:27:14.886 تعاوني الحفر[13073:276884] Multi-tasking -> Device: YES, App: YES
+2015-06-25 18:27:14.889 تعاوني الحفر[13073:276884] Unlimited access to network resources
+2015-06-25 18:27:14.969 تعاوني الحفر[13073:276884] [CDVTimer][keyboard] 0.066042ms
+2015-06-25 18:27:14.984 تعاوني الحفر[13073:276884] [CDVTimer][splashscreen] 14.492989ms
+2015-06-25 18:27:14.984 تعاوني الحفر[13073:276884] [CDVTimer][TotalPluginStartup] 15.452027ms
+2015-06-25 18:27:15.023 تعاوني الحفر[13073:276884] active
+2015-06-25 18:27:15.096 تعاوني الحفر[13073:276884] Resetting plugins due to page load.
+2015-06-25 18:27:20.316 تعاوني الحفر[13073:276884] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/4E796EDB-9B9C-457C-B237-9E67D5785F74/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-25 18:27:22.689 تعاوني الحفر[13073:276884] Resetting plugins due to page load.
+2015-06-25 18:27:22.827 تعاوني الحفر[13073:276884] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/4E796EDB-9B9C-457C-B237-9E67D5785F74/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-25 18:27:23.077 تعاوني الحفر[13073:276884] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:27:24.609 تعاوني الحفر[13073:276884] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:27:25.207 تعاوني الحفر[13073:276884] Ionic Analytics: successfully registered analytics key
+2015-06-25 18:27:25.207 تعاوني الحفر[13073:276884] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-25 18:27:25.230 تعاوني الحفر[13073:276884] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:27:25.272 تعاوني الحفر[13073:276884] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-25 18:27:25.516 تعاوني الحفر[13073:276884] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:27:37.957 تعاوني الحفر[13073:276884] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-25 18:27:37.962 تعاوني الحفر[13073:276884] THREAD WARNING: ['InAppBrowser'] took '93.003906' ms. Plugin should use a background thread.
+2015-06-25 18:27:37.979 تعاوني الحفر[13073:276884] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:28:02.624 تعاوني الحفر[13073:276884] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:28:32.627 تعاوني الحفر[13073:276884] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:29:02.638 تعاوني الحفر[13073:276884] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:33:34.692 تعاوني الحفر[13425:279790] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-25 18:33:34.693 تعاوني الحفر[13425:279790] Multi-tasking -> Device: YES, App: YES
+2015-06-25 18:33:34.696 تعاوني الحفر[13425:279790] Unlimited access to network resources
+2015-06-25 18:33:34.850 تعاوني الحفر[13425:279790] [CDVTimer][keyboard] 0.100970ms
+2015-06-25 18:33:34.874 تعاوني الحفر[13425:279790] [CDVTimer][splashscreen] 23.499012ms
+2015-06-25 18:33:34.874 تعاوني الحفر[13425:279790] [CDVTimer][TotalPluginStartup] 32.414973ms
+2015-06-25 18:33:34.941 تعاوني الحفر[13425:279790] active
+2015-06-25 18:33:35.029 تعاوني الحفر[13425:279790] Resetting plugins due to page load.
+2015-06-25 18:34:38.132 تعاوني الحفر[13425:279790] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/2DEFB9AD-D31E-46D1-8290-D096C9B342F4/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/index.html
+2015-06-25 18:34:44.928 تعاوني الحفر[13425:279790] Resetting plugins due to page load.
+2015-06-25 18:34:45.083 تعاوني الحفر[13425:279790] Finished load of: file:///Users/samir/Library/Developer/CoreSimulator/Devices/D128DAA9-46FF-4588-9B17-53A7B7EA8556/data/Containers/Bundle/Application/2DEFB9AD-D31E-46D1-8290-D096C9B342F4/%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%20%D8%A7%D9%84%D8%AD%D9%81%D8%B1.app/www/home.html#/home
+2015-06-25 18:34:45.341 تعاوني الحفر[13425:279790] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:34:47.496 تعاوني الحفر[13425:279790] Ionic Analytics: successfully registered analytics key
+2015-06-25 18:34:47.496 تعاوني الحفر[13425:279790] Ionic Analytics: enqueuing event to send later: load [object Object]
+2015-06-25 18:34:47.504 تعاوني الحفر[13425:279790] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:34:47.545 تعاوني الحفر[13425:279790] ERROR: $ionicPush:REGISTER_ERROR  - remote notifications are not supported in the simulator
+2015-06-25 18:35:04.815 تعاوني الحفر[13425:279790] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:35:12.885 تعاوني الحفر[13425:279790] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:35:14.592 تعاوني الحفر[13425:279790] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-25 18:35:14.597 تعاوني الحفر[13425:279790] THREAD WARNING: ['InAppBrowser'] took '77.108154' ms. Plugin should use a background thread.
+2015-06-25 18:35:14.615 تعاوني الحفر[13425:279790] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:35:18.134 تعاوني الحفر[13425:279790] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:35:21.051 تعاوني الحفر[13425:279790] Failed to load webpage with error: The URL can’t be shown
+2015-06-25 18:35:21.053 تعاوني الحفر[13425:279790] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:35:24.758 تعاوني الحفر[13425:279790] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-25 18:35:24.760 تعاوني الحفر[13425:279790] THREAD WARNING: ['InAppBrowser'] took '64.879883' ms. Plugin should use a background thread.
+2015-06-25 18:35:24.776 تعاوني الحفر[13425:279790] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:35:45.107 تعاوني الحفر[13425:279790] Ionic Analytics: enqueuing event to send later: tap [object Object]
+2015-06-25 18:35:48.137 تعاوني الحفر[13425:279790] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:36:18.146 تعاوني الحفر[13425:279790] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:36:48.155 تعاوني الحفر[13425:279790] ERROR: Error sending analytics data: Failed to connect to analytics server.
+2015-06-25 18:37:18.164 تعاوني الحفر[13425:279790] ERROR: Error sending analytics data: Failed to connect to analytics server.

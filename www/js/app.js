@@ -59,11 +59,13 @@ angular.module('starter', [
 })
  .state("aboutus", {
   url: "/aboutus",
-  templateUrl: "aboutus.html"
+  templateUrl: "aboutus.html",
+  controller: "inAppBrowserCtrl"
 })
  .state("contact", {
   url: "/contact",
-  templateUrl: "contact.html"
+  templateUrl: "contact.html",
+  controller: "inAppBrowserCtrl"
 })
  .state("care", {
   url: "/care",
@@ -136,6 +138,18 @@ $urlRouterProvider.otherwise("/home");
 				$ionicPush.register();
 			});
 	});
+})
+
+.controller('inAppBrowserCtrl', function($scope){
+
+	$scope.openURL = function($url) {
+	
+		if (ionic.Platform.isIOS())
+			window.open($url, '_blank', 'location=no');
+		else
+			window.open($url, '_system', 'location=no');
+		
+		};
 })
 
 .controller('dawaCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {
