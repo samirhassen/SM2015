@@ -8,5 +8,5 @@
 -keep class com.plugin.gcm.PushHandlerActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:6
--keep class com.wasmiah.hafrapp.CordovaApp { <init>(...); }
+-keep class com.wasmiah.hafrjalyat.CordovaApp { <init>(...); }
 

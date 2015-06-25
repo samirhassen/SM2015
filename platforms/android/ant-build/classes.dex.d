@@ -18,6 +18,16 @@ C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platfor
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrapp\R$string.class \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrapp\R$xml.class \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrapp\R.class \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrjalyat\BuildConfig.class \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrjalyat\CordovaApp.class \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrjalyat\Manifest$permission.class \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrjalyat\Manifest.class \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrjalyat\R$attr.class \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrjalyat\R$drawable.class \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrjalyat\R$integer.class \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrjalyat\R$string.class \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrjalyat\R$xml.class \
+C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\com\wasmiah\hafrjalyat\R.class \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\org\apache\cordova\device\Device.class \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$1.class \
 C:\Users\Samir\Documents\Internett Stuff\Webbsites\Wasmiah Kunder\SM2015\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$2.class \
