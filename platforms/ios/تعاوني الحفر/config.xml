@@ -69,17 +69,10 @@
     <description>
     تعاوني الحفر
     </description>
-<<<<<<< Updated upstream
     <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
     Wasmiah IT
   </author>
-    <content src="index.html" />
-=======
-    <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
-      Wasmiah IT
-    </author>
     <content original-src="index.html" src="http://192.168.1.7:8100" />
->>>>>>> Stashed changes
     <access origin="*" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
