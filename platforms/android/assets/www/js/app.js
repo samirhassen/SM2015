@@ -149,7 +149,7 @@ $urlRouterProvider.otherwise("/home");
 		else
 			navigator.app.loadUrl($url, { openExternal: true });
 		
-		return true;
+		return false;
 		};
 })
 

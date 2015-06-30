@@ -20,7 +20,7 @@ b,strong{  font-weight: bold;}
 p{ font-family: "mohanad", sans-serif; font-size:13px; margin:0px 10px 10px 10px; text-align:right; padding:0px; color:#5C5C5C; line-height:22px; }
 a{ font-family: "mohanad", sans-serif; color:#666666; text-decoration:none; font-weight:inherit; -webkit-tap-highlight-color: rgba(0,0,0,0); }
 a:hover{color: #15B880;}
-a:visited{ color:#cccccc; text-decoration:none; font-weight:bold; }
+a:visited{ text-decoration:none; font-weight:bold; }
 .itemimage{ border:solid 0px #aaa;max-width:100px;width: expression(this.width > 100 ? 100: true);vertical-align:middle;}
 .iimage{ border:solid 0px #aaa; max-width:100%; vertical-align:middle; }
 h1{ font-family: "mohanad", sans-serif; font-size:32px; text-align:center; text-transform: uppercase; color:#15B880; line-height: 1em;}
