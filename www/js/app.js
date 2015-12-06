@@ -1,8 +1,8 @@
 angular.module('starter', [
-  'ionic',
+  'ionic','ionic.service.core',
   'ajoslin.promise-tracker',
   'ngCordova',
-  'ionic.service.core',
+  
   'ionic.service.push',
   'ionic.service.analytics'
 ])
@@ -23,7 +23,11 @@ angular.module('starter', [
 .run(function($ionicPlatform, $rootScope, $ionicAnalytics ) {
   $ionicPlatform.ready(function() {
 	  
-	  $ionicAnalytics.register();
+	$ionicAnalytics.register();
+	  
+	push.register(function(token) {
+		console.log("Device token:",token.token);
+	});
     
 	// Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)

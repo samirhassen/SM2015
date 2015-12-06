@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0D52F124167A42F9A6FA2F77 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF042F19F3E9403E9F459012 /* QuartzCore.framework */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -57,6 +56,13 @@
 		C0962C8952ED4956A97E2F47 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C71A16BD653945B09020F4C7 /* CDVLogger.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F2C63E31B837437A9AC939C6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 130379D2BDAD460D93A9703C /* libz.dylib */; };
+		98A5E8106B3E461099105E45 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF515AC89604B8E8281AF97 /* CDVNotification.m */; };
+		A971E99E92EA442ABAA11DA6 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8AB4E9C0124D4E219DFCF484 /* CDVNotification.bundle */; };
+		46828FF795754E259CB3A323 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4043EF50D3D4210BF0F8829 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		88205422D6EE4F638002A01B /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F02B70F23EA5459E9919F6B9 /* CDVFile.m */; };
+		BF59C05B07B74FFABF230C7C /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A1A359E0340A385C5230E /* CDVLocalFilesystem.m */; };
+		0F28B3FB9C5C422E8EB09670 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B2C71AFF6E43E196FDC963 /* CDVAssetLibraryFilesystem.m */; };
+		6B0420219220407CA0842E0F /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4267487D16B94C7FA69D4769 /* CDVSound.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +165,18 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "تعاوني الحفر/config.xml"; sourceTree = "<group>"; };
+		0AF515AC89604B8E8281AF97 /* CDVNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVNotification.m"; path = "org.apache.cordova.dialogs/CDVNotification.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E4358B9768AD4A26BD252BE4 /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVNotification.h"; path = "org.apache.cordova.dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8AB4E9C0124D4E219DFCF484 /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; };
+		C4043EF50D3D4210BF0F8829 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		F02B70F23EA5459E9919F6B9 /* CDVFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVFile.m"; path = "org.apache.cordova.file/CDVFile.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9C8A1A359E0340A385C5230E /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocalFilesystem.m"; path = "org.apache.cordova.file/CDVLocalFilesystem.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F9B2C71AFF6E43E196FDC963 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVAssetLibraryFilesystem.m"; path = "org.apache.cordova.file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DB74632EE86E4A4BBB2BE8B5 /* CDVFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVFile.h"; path = "org.apache.cordova.file/CDVFile.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2A005095D4AF4A72B1F6A601 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocalFilesystem.h"; path = "org.apache.cordova.file/CDVLocalFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F10D4128013A4F91A4BBFED8 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAssetLibraryFilesystem.h"; path = "org.apache.cordova.file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4267487D16B94C7FA69D4769 /* CDVSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSound.m"; path = "org.apache.cordova.media/CDVSound.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E39A705AF6A1456AB765F4F4 /* CDVSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSound.h"; path = "org.apache.cordova.media/CDVSound.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +194,7 @@
 				A5D302748ED74421A3B302CA /* CoreData.framework in Frameworks */,
 				F2C63E31B837437A9AC939C6 /* libz.dylib in Frameworks */,
 				8B3CA4500BC24DB1A599491F /* libsqlite3.0.dylib in Frameworks */,
+				46828FF795754E259CB3A323 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +257,7 @@
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
 				8D1107310486CEB800E47090 /* تعاوني الحفر-Info.plist */,
+				8AB4E9C0124D4E219DFCF484 /* CDVNotification.bundle */,
 			);
 			name = Resources;
 			path = "تعاوني الحفر/Resources";
@@ -255,6 +275,7 @@
 				1CB30777A004418185BEAB5F /* CoreData.framework */,
 				130379D2BDAD460D93A9703C /* libz.dylib */,
 				1FFA2C884E2842528ACBFBED /* libsqlite3.0.dylib */,
+				C4043EF50D3D4210BF0F8829 /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -302,6 +323,16 @@
 				3DD4B605E78F4E8483F5E91B /* GAIEcommercePromotion.h */,
 				06B81F1FA2FB4746A4DEC6AC /* CDVInAppBrowser.m */,
 				69F192C1252B469798BBB6EF /* CDVInAppBrowser.h */,
+				0AF515AC89604B8E8281AF97 /* CDVNotification.m */,
+				E4358B9768AD4A26BD252BE4 /* CDVNotification.h */,
+				F02B70F23EA5459E9919F6B9 /* CDVFile.m */,
+				9C8A1A359E0340A385C5230E /* CDVLocalFilesystem.m */,
+				F9B2C71AFF6E43E196FDC963 /* CDVAssetLibraryFilesystem.m */,
+				DB74632EE86E4A4BBB2BE8B5 /* CDVFile.h */,
+				2A005095D4AF4A72B1F6A601 /* CDVLocalFilesystem.h */,
+				F10D4128013A4F91A4BBFED8 /* CDVAssetLibraryFilesystem.h */,
+				4267487D16B94C7FA69D4769 /* CDVSound.m */,
+				E39A705AF6A1456AB765F4F4 /* CDVSound.h */,
 			);
 			name = Plugins;
 			path = "تعاوني الحفر/Plugins";
@@ -465,6 +496,7 @@
 				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
 				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+				A971E99E92EA442ABAA11DA6 /* CDVNotification.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +539,11 @@
 				34F5D5492B4C4D279AF07437 /* PushPlugin.m in Sources */,
 				2ABC12AA5F6F49E1A85DF141 /* UniversalAnalyticsPlugin.m in Sources */,
 				A54644A629B54C708308B8DB /* CDVInAppBrowser.m in Sources */,
+				98A5E8106B3E461099105E45 /* CDVNotification.m in Sources */,
+				88205422D6EE4F638002A01B /* CDVFile.m in Sources */,
+				BF59C05B07B74FFABF230C7C /* CDVLocalFilesystem.m in Sources */,
+				0F28B3FB9C5C422E8EB09670 /* CDVAssetLibraryFilesystem.m in Sources */,
+				6B0420219220407CA0842E0F /* CDVSound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
