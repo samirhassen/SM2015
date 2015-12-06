@@ -113,6 +113,10 @@
                         {
                             "xml": "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"IonicDeploy\"><param name=\"android-package\" value=\"com.ionic.deploy.IonicDeploy\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -145,6 +149,9 @@
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "ionic-plugin-deploy": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         }
     },

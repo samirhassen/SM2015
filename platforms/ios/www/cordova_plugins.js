@@ -233,6 +233,13 @@ module.exports = [
         "clobbers": [
             "window.Media"
         ]
+    },
+    {
+        "file": "plugins/ionic-plugin-deploy/www/ionicdeploy.js",
+        "id": "ionic-plugin-deploy.IonicDeploy",
+        "clobbers": [
+            "IonicDeploy"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -250,7 +257,8 @@ module.exports.metadata =
     "org.apache.cordova.inappbrowser": "0.6.0",
     "org.apache.cordova.dialogs": "0.3.0",
     "org.apache.cordova.file": "1.3.3",
-    "org.apache.cordova.media": "0.2.16"
+    "org.apache.cordova.media": "0.2.16",
+    "ionic-plugin-deploy": "0.4.1"
 }
 // BOTTOM OF METADATA
 });

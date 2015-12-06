@@ -28,6 +28,33 @@ angular.module('starter', [
 	push.register(function(token) {
 		console.log("Device token:",token.token);
 	});
+		
+	var deploy = new Ionic.Deploy();
+	deploy.watch().then(
+		function noop() {
+		},
+		function noop() {
+		},
+		function hasUpdate(hasUpdate) {
+			console.log("Has Update ", hasUpdate);
+			if (hasUpdate) {
+				console.log("Calling ionicDeploy.update()");
+				deploy.update().then(function (deployResult) {
+					// deployResult will be true when successfull and
+					// false otherwise
+				}, function (deployUpdateError) {
+					// fired if we're unable to check for updates or if any
+					// errors have occured.
+				console.log('Ionic Deploy: Update error! ', deployUpdateError);
+				}, function (deployProgress) {
+					// this is a progress callback, so it will be called a lot
+					// deployProgress will be an Integer representing the current
+					// completion percentage.
+				console.log('Ionic Deploy: Progress... ', deployProgress);
+				});
+			}
+		}
+	);	
     
 	// Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -118,30 +145,44 @@ $urlRouterProvider.otherwise("/home");
 
 /********* Push **********/
 
-/*	
-  // Handles incoming device tokens
   $rootScope.$on('$cordovaPush:tokenReceived', function(event, data) {
-//    console.log('Ionic Push: Got token ', data.token, data.platform);
+    alert('Success: ' + data.token);
+    console.log('Got token: ' , data.token, data.platform);
     $scope.token = data.token;
-  });	
-*/  
-    var user = $ionicUser.get();
-    if(!user.user_id) {
-      // Set your user_id here, or generate a random one.
-      user.user_id = $ionicUser.generateGUID();
-    };
+  });
 
-/*    // Add some metadata to your user object.
+  $scope.identifyUser = function() {
+    var user = $ionicUser.get();
+
+    if (!user.user_id) {
+      user.user_id = $ionicUser.generateGUID();
+    }
+
     angular.extend(user, {
-      name: 'User name'
+      name: 'My Name',
+      bio: 'I am awesome'
     });
-*/
-	// Register with the Ionic Push service.
-	$ionicPlatform.ready(function() {
-		$ionicUser.identify(user).then(function() {
-				$ionicPush.register();
-			});
-	});
+	
+	/**************** *******************/
+    $ionicUser.identify(user).then(function() {
+      $scope.identified = true;
+      console.log('name: ' + user.name + "--- Id: " + user.user_id);
+    });
+  };
+
+  $scope.pushRegister = function() {
+    $ionicPush.register({
+      canShowAlert: true,
+      canSetBadge: true,
+      canPlaySound: true,
+      canRunActionsOnWake: true,
+      onNotification: function(notification) {
+        // handle your stuff
+        return true;
+      }
+    });
+  };
+	
 })
 
 .controller('inAppBrowserCtrl', function($scope){

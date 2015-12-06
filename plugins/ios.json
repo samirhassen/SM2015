@@ -51,6 +51,10 @@
                         {
                             "xml": "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"IonicDeploy\"><param name=\"ios-package\" onload=\"true\" value=\"IonicDeploy\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -153,6 +157,9 @@
             "PACKAGE_NAME": "com.wasmiah.hafrapp"
         },
         "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.wasmiah.hafrapp"
+        },
+        "ionic-plugin-deploy": {
             "PACKAGE_NAME": "com.wasmiah.hafrapp"
         }
     },
