@@ -1,8 +1,8 @@
 angular.module('starter', [
-  'ionic',
+  'ionic','ionic.service.core',
   'ajoslin.promise-tracker',
   'ngCordova',
-  'ionic.service.core',
+  
   'ionic.service.push',
   'ionic.service.analytics'
 ])
@@ -23,7 +23,41 @@ angular.module('starter', [
 .run(function($ionicPlatform, $rootScope, $ionicAnalytics ) {
   $ionicPlatform.ready(function() {
 	  
-	  $ionicAnalytics.register();
+	$ionicAnalytics.register();
+	
+	var push = new Ionic.Push({
+      "debug": true
+    });
+    push.register(function(token) {
+      console.log("Device token:",token.token);
+    });
+		
+	var deploy = new Ionic.Deploy();
+	deploy.watch().then(
+		function noop() {
+		},
+		function noop() {
+		},
+		function hasUpdate(hasUpdate) {
+			console.log("Has Update ", hasUpdate);
+			if (hasUpdate) {
+				console.log("Calling ionicDeploy.update()");
+				deploy.update().then(function (deployResult) {
+					// deployResult will be true when successfull and
+					// false otherwise
+				}, function (deployUpdateError) {
+					// fired if we're unable to check for updates or if any
+					// errors have occured.
+				console.log('Ionic Deploy: Update error! ', deployUpdateError);
+				}, function (deployProgress) {
+					// this is a progress callback, so it will be called a lot
+					// deployProgress will be an Integer representing the current
+					// completion percentage.
+				console.log('Ionic Deploy: Progress... ', deployProgress);
+				});
+			}
+		}
+	);	
     
 	// Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -111,33 +145,7 @@ $urlRouterProvider.otherwise("/home");
 	$scope.initEvent = function() {
 		if(typeof analytics !== 'undefined') { analytics.trackEvent("Category", "Action", "Label", 25); }
 	}
-
-/********* Push **********/
-
-/*	
-  // Handles incoming device tokens
-  $rootScope.$on('$cordovaPush:tokenReceived', function(event, data) {
-//    console.log('Ionic Push: Got token ', data.token, data.platform);
-    $scope.token = data.token;
-  });	
-*/  
-    var user = $ionicUser.get();
-    if(!user.user_id) {
-      // Set your user_id here, or generate a random one.
-      user.user_id = $ionicUser.generateGUID();
-    };
-
-/*    // Add some metadata to your user object.
-    angular.extend(user, {
-      name: 'User name'
-    });
-*/
-	// Register with the Ionic Push service.
-	$ionicPlatform.ready(function() {
-		$ionicUser.identify(user).then(function() {
-				$ionicPush.register();
-			});
-	});
+	
 })
 
 .controller('inAppBrowserCtrl', function($scope){

@@ -1,14 +1,12 @@
 angular.module('starter', [
-  'ionic','ionic.service.core',
-  'ajoslin.promise-tracker',
+  'ionic',
+  'ionic.service.core',
   'ngCordova',
-  
-  'ionic.service.push',
-  'ionic.service.analytics'
+  'ajoslin.promise-tracker'
 ])
 
 .config(['$ionicAppProvider', function($ionicAppProvider) {
-  
+
   $ionicAppProvider.identify({
     // The App ID (from apps.ionic.io) for the server
     app_id: '1eac3796',
@@ -22,6 +20,8 @@ angular.module('starter', [
 
 .run(function($ionicPlatform, $rootScope, $ionicAnalytics ) {
   $ionicPlatform.ready(function() {
+	  
+	Ionic.io(); 
 	  
 	$ionicAnalytics.register();
 	
@@ -67,12 +67,7 @@ angular.module('starter', [
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
-	
-	if(typeof analytics !== undefined) {
-		analytics.startTrackerWithId("UA-64084948-1");
-	} else {
-		console.log("Google Analytics Unavailable");
-	}	
+		
   });
 })
 

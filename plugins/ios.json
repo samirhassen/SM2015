@@ -13,6 +13,10 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"PushPlugin\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
                             "count": 1
                         },
@@ -21,23 +25,19 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Toast\"><param name=\"ios-package\" value=\"Toast\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"PushPlugin\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"UniversalAnalytics\"><param name=\"ios-package\" value=\"UniversalAnalyticsPlugin\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"IonicDeploy\"><param name=\"ios-package\" onload=\"true\" value=\"IonicDeploy\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Toast\"><param name=\"ios-package\" value=\"Toast\" /></feature>",
                             "count": 1
                         },
                         {
@@ -49,11 +49,11 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>",
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"IonicDeploy\"><param name=\"ios-package\" onload=\"true\" value=\"IonicDeploy\" /></feature>",
+                            "xml": "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -61,18 +61,6 @@
             },
             "framework": {
                 "parents": {
-                    "CoreGraphics.framework": [
-                        {
-                            "xml": false,
-                            "count": 2
-                        }
-                    ],
-                    "QuartzCore.framework": [
-                        {
-                            "xml": false,
-                            "count": 1
-                        }
-                    ],
                     "SystemConfiguration.framework": [
                         {
                             "xml": false,
@@ -97,6 +85,24 @@
                             "count": 1
                         }
                     ],
+                    "CoreGraphics.framework": [
+                        {
+                            "xml": false,
+                            "count": 2
+                        }
+                    ],
+                    "QuartzCore.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "AudioToolbox.framework": [
+                        {
+                            "xml": true,
+                            "count": 1
+                        }
+                    ],
                     "AssetsLibrary.framework": [
                         {
                             "xml": false,
@@ -108,59 +114,53 @@
                             "xml": false,
                             "count": 1
                         }
-                    ],
-                    "AudioToolbox.framework": [
-                        {
-                            "xml": true,
-                            "count": 1
-                        }
                     ]
                 }
             }
         }
     },
     "installed_plugins": {
+        "com.google.playservices": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
         "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
-        },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
-        },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
-        },
-        "nl.x-services.plugins.toast": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "com.phonegap.plugins.PushPlugin": {
-            "PACKAGE_NAME": "com.ionicframework.hafrjalyat"
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "cordova-plugin-google-analytics": {
-            "PACKAGE_NAME": "com.ionicframework.hafrjalyat"
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
-        "com.google.playservices": {
-            "PACKAGE_NAME": "com.ionicframework.hafrjalyat"
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
-        "org.apache.cordova.inappbrowser": {
-            "PACKAGE_NAME": "com.wasmiah.hafrapp"
-        },
-        "org.apache.cordova.dialogs": {
-            "PACKAGE_NAME": "com.wasmiah.hafrapp"
-        },
-        "org.apache.cordova.file": {
-            "PACKAGE_NAME": "com.wasmiah.hafrapp"
-        },
-        "org.apache.cordova.media": {
-            "PACKAGE_NAME": "com.wasmiah.hafrapp"
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "ionic-plugin-deploy": {
-            "PACKAGE_NAME": "com.wasmiah.hafrapp"
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "nl.x-services.plugins.toast": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         }
     },
     "dependent_plugins": {}

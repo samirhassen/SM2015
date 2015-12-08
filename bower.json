@@ -2,11 +2,12 @@
   "name": "HelloIonic",
   "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.0.0",
-    "ionic-service-core": "~0.1.5",
+    "ionic": "driftyco/ionic-bower#1.1.1",
+    "ionic-service-core": "~0.1.10",
     "ionic-service-push": "~0.1.7",
     "ngCordova": "~0.1.17-alpha",
     "ionic-service-analytics": "~1.0.0",
-    "ionic-platform-web-client": "~0.2.1"
+    "ionic-platform-web-client": "~0.2.1",
+    "angular-websocket": "~1.0.14"
   }
 }
