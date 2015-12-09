@@ -13,10 +13,6 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"PushPlugin\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
                             "count": 1
                         },
@@ -54,6 +50,10 @@
                         },
                         {
                             "xml": "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -116,6 +116,16 @@
                         }
                     ]
                 }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "UIBackgroundModes": [
+                        {
+                            "xml": "<array><string>remote-notification</string></array>",
+                            "count": 1
+                        }
+                    ]
+                }
             }
         }
     },
@@ -124,9 +134,6 @@
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
-        },
-        "com.phonegap.plugins.PushPlugin": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "cordova-plugin-console": {
@@ -160,6 +167,9 @@
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "phonegap-plugin-push": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         }
     },

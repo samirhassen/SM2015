@@ -47,15 +47,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "com.phonegap.plugins.PushPlugin": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/phonegap-build/PushPlugin",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "com.google.playservices": {
         "source": {
             "type": "registry",
@@ -116,6 +107,14 @@
         "source": {
             "type": "registry",
             "id": "ionic-plugin-deploy"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "phonegap-plugin-push": {
+        "source": {
+            "type": "registry",
+            "id": "phonegap-plugin-push"
         },
         "is_top_level": true,
         "variables": {}

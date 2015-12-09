@@ -1,35 +1,40 @@
 angular.module('starter', [
-  'ionic','ionic.service.core',
-  'ajoslin.promise-tracker',
+  'ionic',
+  'ionic.service.core',
+  'ionic.service.analytics',
   'ngCordova',
-  
-  'ionic.service.push',
-  'ionic.service.analytics'
+  'ajoslin.promise-tracker'
 ])
 
-.config(['$ionicAppProvider', function($ionicAppProvider) {
-  
-  $ionicAppProvider.identify({
-    // The App ID (from apps.ionic.io) for the server
-    app_id: '1eac3796',
-    // The public API key all services will use for this app
-    api_key: 'f49984504ed0b945a250537c4a8bcadfa76aa068d34f32f6',
-    // The GCM project number
-    gcm_id: '667691090100'
-	//dev_push: true
-	});
-}])
-
-.run(function($ionicPlatform, $rootScope, $ionicAnalytics ) {
+.run(function($ionicPlatform, $rootScope, $ionicAnalytics) {
   $ionicPlatform.ready(function() {
 	  
+	Ionic.io();  
+
 	$ionicAnalytics.register();
-	
+		
 	var push = new Ionic.Push({
-      "debug": true
-    });
+	  "debug": true,
+	  "onNotification": function(notification) {
+		var payload = notification.payload;
+		console.log(notification, payload);
+	  },
+	  "onRegister": function(data) {
+		console.log(data.token);
+	  },
+	  "pluginConfig": {
+		"ios": {
+		  "badge": true,
+		  "sound": true
+		 }
+	  } 
+	});
+	var user = Ionic.User.current();
+
     push.register(function(token) {
-      console.log("Device token:",token.token);
+      	console.log("Registered token:",token.token);
+		user.addPushToken(token);
+  		user.save();
     });
 		
 	var deploy = new Ionic.Deploy();
@@ -67,12 +72,7 @@ angular.module('starter', [
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
-	
-	if(typeof analytics !== undefined) {
-		analytics.startTrackerWithId("UA-64084948-1");
-	} else {
-		console.log("Google Analytics Unavailable");
-	}	
+		
   });
 })
 
@@ -80,8 +80,7 @@ angular.module('starter', [
   $stateProvider
 .state('home', {
   url: '/home',
-  templateUrl: 'menu.html',
-  controller: "indexCtrl"
+  templateUrl: 'menu.html'
   })	
  .state("work", {
   url: "/work",
@@ -134,19 +133,6 @@ $urlRouterProvider.otherwise("/home");
 
 
 /************* CONTROLLERS **************/
-
-.controller('indexCtrl', function($ionicPlatform, $scope, $rootScope, $timeout, $ionicUser, $ionicPush) {
-
-
-/*************** Analytics *****************/	
-
-	if(typeof analytics !== 'undefined') { analytics.trackView("Hafr Jalyat"); }
-	
-	$scope.initEvent = function() {
-		if(typeof analytics !== 'undefined') { analytics.trackEvent("Category", "Action", "Label", 25); }
-	}
-	
-})
 
 .controller('inAppBrowserCtrl', function($scope){
 

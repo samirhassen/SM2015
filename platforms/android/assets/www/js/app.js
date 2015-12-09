@@ -1,29 +1,69 @@
 angular.module('starter', [
   'ionic',
-  'ajoslin.promise-tracker',
-  'ngCordova',
   'ionic.service.core',
+  'ionic.service.analytics',
   'ionic.service.push',
-  'ionic.service.analytics'
+  'ngCordova',
+  'ajoslin.promise-tracker'
 ])
 
-.config(['$ionicAppProvider', function($ionicAppProvider) {
-  
-  $ionicAppProvider.identify({
-    // The App ID (from apps.ionic.io) for the server
-    app_id: '1eac3796',
-    // The public API key all services will use for this app
-    api_key: 'f49984504ed0b945a250537c4a8bcadfa76aa068d34f32f6',
-    // The GCM project number
-    gcm_id: '667691090100'
-	//dev_push: true
-	});
-}])
-
-.run(function($ionicPlatform, $rootScope, $ionicAnalytics ) {
+.run(function($ionicPlatform, $rootScope, $ionicAnalytics) {
   $ionicPlatform.ready(function() {
 	  
-	  $ionicAnalytics.register();
+	Ionic.io();  
+
+	$ionicAnalytics.register();
+		
+	var push = new Ionic.Push({
+	  "debug": true,
+	  "onNotification": function(notification) {
+		var payload = notification.payload;
+		console.log(notification, payload);
+	  },
+	  "onRegister": function(data) {
+		console.log(data.token);
+	  },
+	  "pluginConfig": {
+		"ios": {
+		  "badge": true,
+		  "sound": true
+		 }
+	  } 
+	});
+	var user = Ionic.User.current();
+
+    push.register(function(token) {
+      	console.log("Registered token:",token.token);
+		user.addPushToken(token);
+  		user.save();
+    });
+		
+	var deploy = new Ionic.Deploy();
+	deploy.watch().then(
+		function noop() {
+		},
+		function noop() {
+		},
+		function hasUpdate(hasUpdate) {
+			console.log("Has Update ", hasUpdate);
+			if (hasUpdate) {
+				console.log("Calling ionicDeploy.update()");
+				deploy.update().then(function (deployResult) {
+					// deployResult will be true when successfull and
+					// false otherwise
+				}, function (deployUpdateError) {
+					// fired if we're unable to check for updates or if any
+					// errors have occured.
+				console.log('Ionic Deploy: Update error! ', deployUpdateError);
+				}, function (deployProgress) {
+					// this is a progress callback, so it will be called a lot
+					// deployProgress will be an Integer representing the current
+					// completion percentage.
+				console.log('Ionic Deploy: Progress... ', deployProgress);
+				});
+			}
+		}
+	);	
     
 	// Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -33,12 +73,7 @@ angular.module('starter', [
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
-	
-	if(typeof analytics !== undefined) {
-		analytics.startTrackerWithId("UA-64084948-1");
-	} else {
-		console.log("Google Analytics Unavailable");
-	}	
+		
   });
 })
 
@@ -46,8 +81,7 @@ angular.module('starter', [
   $stateProvider
 .state('home', {
   url: '/home',
-  templateUrl: 'menu.html',
-  controller: "indexCtrl"
+  templateUrl: 'menu.html'
   })	
  .state("work", {
   url: "/work",
@@ -100,45 +134,6 @@ $urlRouterProvider.otherwise("/home");
 
 
 /************* CONTROLLERS **************/
-
-.controller('indexCtrl', function($ionicPlatform, $scope, $rootScope, $timeout, $ionicUser, $ionicPush) {
-
-
-/*************** Analytics *****************/	
-
-	if(typeof analytics !== 'undefined') { analytics.trackView("Hafr Jalyat"); }
-	
-	$scope.initEvent = function() {
-		if(typeof analytics !== 'undefined') { analytics.trackEvent("Category", "Action", "Label", 25); }
-	}
-
-/********* Push **********/
-
-/*	
-  // Handles incoming device tokens
-  $rootScope.$on('$cordovaPush:tokenReceived', function(event, data) {
-//    console.log('Ionic Push: Got token ', data.token, data.platform);
-    $scope.token = data.token;
-  });	
-*/  
-    var user = $ionicUser.get();
-    if(!user.user_id) {
-      // Set your user_id here, or generate a random one.
-      user.user_id = $ionicUser.generateGUID();
-    };
-
-/*    // Add some metadata to your user object.
-    angular.extend(user, {
-      name: 'User name'
-    });
-*/
-	// Register with the Ionic Push service.
-	$ionicPlatform.ready(function() {
-		$ionicUser.identify(user).then(function() {
-				$ionicPush.register();
-			});
-	});
-})
 
 .controller('inAppBrowserCtrl', function($scope){
 
