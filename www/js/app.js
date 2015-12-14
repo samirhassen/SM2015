@@ -11,7 +11,7 @@ angular.module('starter', [
 	  
 	Ionic.io();  
 
-	$ionicAnalytics.register();
+//	$ionicAnalytics.register();
 		
 	var push = new Ionic.Push({
 	  "debug": true,
@@ -36,7 +36,8 @@ angular.module('starter', [
 		user.addPushToken(token);
   		user.save();
     });
-		
+
+/*	
 	var deploy = new Ionic.Deploy();
 	deploy.watch().then(
 		function noop() {
@@ -63,7 +64,7 @@ angular.module('starter', [
 			}
 		}
 	);	
-    
+ */   
 	// Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
 	if(window.cordova && window.cordova.plugins.Keyboard) {
