@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.wasmiah.hafrjalyat" version="1.7.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.wasmiah.hafrjalyat" version="1.7.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <feature name="Keyboard">
         <param name="android-package" value="com.ionic.keyboard.IonicKeyboard" />
@@ -25,6 +25,9 @@
         <param name="android-package" value="com.ionic.deploy.IonicDeploy" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="PushNotification">
+        <param name="android-package" onload="true" value="com.pushwoosh.plugin.pushnotifications.PushNotifications" />
+    </feature>
     <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
     <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
     <icon density="hdpi" src="resources/android/icon/drawable-hdpi-icon.png" />
@@ -40,7 +43,7 @@
     <description>
     تعاوني الحفر
     </description>
-    <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
+    <author email="support@wasmiah.com" href="/Users/samir/Documents/HafrJalyat/ionic.projecthttp://www.wasmiah.com/">
     Wasmiah IT
   </author>
     <content src="index.html" />
@@ -53,7 +56,4 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
     <icon density="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
-    <feature name="PushNotification">
-        <param name="android-package" value="com.adobe.phonegap.push.PushPlugin" />
-    </feature>
 </widget>

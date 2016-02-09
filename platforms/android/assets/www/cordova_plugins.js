@@ -203,10 +203,10 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/phonegap-plugin-push/www/push.js",
-        "id": "phonegap-plugin-push.PushNotification",
+        "file": "plugins/com.pushwoosh.plugins.pushwoosh/www/PushNotification.js",
+        "id": "com.pushwoosh.plugins.pushwoosh.PushNotification",
         "clobbers": [
-            "PushNotification"
+            "plugins.pushNotification"
         ]
     }
 ];
@@ -222,7 +222,7 @@ module.exports.metadata =
     "org.apache.cordova.file": "1.3.3",
     "org.apache.cordova.media": "0.2.16",
     "ionic-plugin-deploy": "0.4.1",
-    "phonegap-plugin-push": "1.4.5"
+    "com.pushwoosh.plugins.pushwoosh": "3.6.16"
 }
 // BOTTOM OF METADATA
 });

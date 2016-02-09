@@ -27,7 +27,11 @@
     "org.apache.cordova.file",
     "org.apache.cordova.media",
     "ionic-plugin-deploy",
-    "phonegap-plugin-push"
+    {
+      "locator": "https://github.com/phonegap-build/PushPlugin.git",
+      "id": "com.phonegap.plugins.PushPlugin"
+    },
+    "pushwoosh-cordova-plugin"
   ],
   "cordovaPlatforms": [
     "ios"

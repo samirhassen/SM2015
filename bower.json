@@ -2,9 +2,9 @@
   "name": "HelloIonic",
   "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.1.1",
+    "ionic": "driftyco/ionic-bower#1.2.4",
     "ionic-service-core": "~0.1.10",
-    "ionic-service-push": "~0.1.7",
+    "ionic-service-push": "~0.1.13",
     "ngCordova": "~0.1.17-alpha",
     "ionic-service-analytics": "~1.0.0",
     "ionic-platform-web-client": "~0.2.1",

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.wasmiah.hafrjalyat" version="1.7.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.wasmiah.hafrjalyat" version="1.7.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -16,6 +16,9 @@
     </feature>
     <feature name="Keyboard">
         <param name="ios-package" onload="true" value="IonicKeyboard" />
+    </feature>
+    <feature name="PushNotification">
+        <param name="ios-package" value="PushNotification" />
     </feature>
     <feature name="Console">
         <param name="ios-package" value="CDVLogger" />
@@ -49,9 +52,6 @@
     <feature name="Media">
         <param name="ios-package" value="CDVSound" />
     </feature>
-    <feature name="PushNotification">
-        <param name="ios-package" value="PushPlugin" />
-    </feature>
     <icon height="57" src="resources/ios/icon/icon.png" width="57" />
     <icon height="114" src="resources/ios/icon/icon@2x.png" width="114" />
     <icon height="40" src="resources/ios/icon/icon-40.png" width="40" />
@@ -76,7 +76,7 @@
     <description>
     تعاوني الحفر
     </description>
-    <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
+    <author email="support@wasmiah.com" href="/Users/samir/Documents/HafrJalyat/ionic.projecthttp://www.wasmiah.com/">
     Wasmiah IT
   </author>
     <content src="index.html" />

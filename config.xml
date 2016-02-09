@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.wasmiah.hafrjalyat" version="1.7.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.wasmiah.hafrjalyat" version="1.7.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>تعاوني الحفر</name>
   <description>
     تعاوني الحفر
     </description>
-  <author email="support@wasmiah.com" href="http://www.wasmiah.com/">
+  <author email="support@wasmiah.com" href="/Users/samir/Documents/HafrJalyat/ionic.projecthttp://www.wasmiah.com/">
     Wasmiah IT
   </author>
   <content src="index.html"/>

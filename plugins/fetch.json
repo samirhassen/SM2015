@@ -111,10 +111,10 @@
         "is_top_level": true,
         "variables": {}
     },
-    "phonegap-plugin-push": {
+    "com.pushwoosh.plugins.pushwoosh": {
         "source": {
             "type": "registry",
-            "id": "phonegap-plugin-push"
+            "id": "pushwoosh-cordova-plugin"
         },
         "is_top_level": true,
         "variables": {}

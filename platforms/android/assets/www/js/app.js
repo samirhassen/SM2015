@@ -2,17 +2,18 @@ angular.module('starter', [
   'ionic',
   'ionic.service.core',
   'ionic.service.analytics',
-  'ionic.service.push',
   'ngCordova',
-  'ajoslin.promise-tracker'
+  'ajoslin.promise-tracker',
+  'ionic.service.push'
 ])
+
 
 .run(function($ionicPlatform, $rootScope, $ionicAnalytics) {
   $ionicPlatform.ready(function() {
 	  
-	Ionic.io();  
+	/*Ionic.io();  
 
-	$ionicAnalytics.register();
+//	$ionicAnalytics.register();
 		
 	var push = new Ionic.Push({
 	  "debug": true,
@@ -36,8 +37,9 @@ angular.module('starter', [
       	console.log("Registered token:",token.token);
 		user.addPushToken(token);
   		user.save();
-    });
-		
+    });*/
+
+/*	
 	var deploy = new Ionic.Deploy();
 	deploy.watch().then(
 		function noop() {
@@ -64,7 +66,7 @@ angular.module('starter', [
 			}
 		}
 	);	
-    
+ */   
 	// Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
 	if(window.cordova && window.cordova.plugins.Keyboard) {
@@ -73,7 +75,7 @@ angular.module('starter', [
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
-		
+		initPushwoosh();
   });
 })
 
@@ -234,7 +236,7 @@ $urlRouterProvider.otherwise("/home");
 		  'db'	: 'contest'
       	};
 
-      var $promise = 
+      var $Promise = 
 	  	$http({
 			method: 'POST',
 			url: 'http://www.hafrjalyat.org/httpreq/ins.php',
@@ -263,6 +265,6 @@ $urlRouterProvider.otherwise("/home");
         });
 
       // Track the request and show its progress to the user
-      $scope.progress.addPromise($promise);
+      $scope.progress.addPromise($Promise);
 	};
 });

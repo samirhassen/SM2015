@@ -13,6 +13,10 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushNotification\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
                             "count": 1
                         },
@@ -51,16 +55,42 @@
                         {
                             "xml": "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
             },
             "framework": {
                 "parents": {
+                    "Security.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "Storekit.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "CoreLocation.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "libstdc++.dylib": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "libz.dylib": [
+                        {
+                            "xml": false,
+                            "count": 2
+                        }
+                    ],
                     "SystemConfiguration.framework": [
                         {
                             "xml": false,
@@ -68,12 +98,6 @@
                         }
                     ],
                     "CoreData.framework": [
-                        {
-                            "xml": false,
-                            "count": 1
-                        }
-                    ],
-                    "libz.dylib": [
                         {
                             "xml": false,
                             "count": 1
@@ -117,11 +141,11 @@
                     ]
                 }
             },
-            "*-Info.plist": {
+            "undefined": {
                 "parents": {
-                    "UIBackgroundModes": [
+                    "undefined": [
                         {
-                            "xml": "<array><string>remote-notification</string></array>",
+                            "xml": "<access origin=\"*.pushwoosh.com\" />",
                             "count": 1
                         }
                     ]
@@ -134,6 +158,9 @@
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "com.ionic.keyboard": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "com.pushwoosh.plugins.pushwoosh": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "cordova-plugin-console": {
@@ -167,9 +194,6 @@
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "org.apache.cordova.media": {
-            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
-        },
-        "phonegap-plugin-push": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         }
     },
