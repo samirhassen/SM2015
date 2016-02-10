@@ -154,9 +154,6 @@
         }
     },
     "installed_plugins": {
-        "com.google.playservices": {
-            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
-        },
         "com.ionic.keyboard": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
@@ -172,10 +169,10 @@
         "cordova-plugin-google-analytics": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
-        "cordova-plugin-splashscreen": {
+        "cordova-plugin-googleplayservices": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
-        "cordova-plugin-whitelist": {
+        "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "ionic-plugin-deploy": {
@@ -194,6 +191,9 @@
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         },
         "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
+        },
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.wasmiah.hafrjalyat"
         }
     },

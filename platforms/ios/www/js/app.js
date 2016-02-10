@@ -236,10 +236,10 @@ $urlRouterProvider.otherwise("/home");
 		  'db'	: 'contest'
       	};
 
-      var $Promise = 
+      var $promise = 
 	  	$http({
 			method: 'POST',
-			url: 'http://www.hafrjalyat.org/httpreq/ins.php',
+			url: 'http://hafrjalyat.org/httpreq/ins.php',
 			data: config,
 			headers: {'Content-Type': 'application/x-www-form-urlencoded'}
 		})
@@ -265,6 +265,6 @@ $urlRouterProvider.otherwise("/home");
         });
 
       // Track the request and show its progress to the user
-      $scope.progress.addPromise($Promise);
+      $scope.progress.addPromise($promise);
 	};
 });

@@ -208,12 +208,16 @@ module.exports = [
         "clobbers": [
             "plugins.pushNotification"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-whitelist/whitelist.js",
+        "id": "cordova-plugin-whitelist.whitelist",
+        "runs": true
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "com.google.playservices": "19.0.0",
     "com.ionic.keyboard": "1.0.4",
     "cordova-plugin-console": "1.0.0",
     "cordova-plugin-device": "1.0.0",
@@ -222,7 +226,8 @@ module.exports.metadata =
     "org.apache.cordova.file": "1.3.3",
     "org.apache.cordova.media": "0.2.16",
     "ionic-plugin-deploy": "0.4.1",
-    "com.pushwoosh.plugins.pushwoosh": "3.6.16"
+    "com.pushwoosh.plugins.pushwoosh": "3.6.16",
+    "cordova-plugin-whitelist": "1.2.1"
 }
 // BOTTOM OF METADATA
 });

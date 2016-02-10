@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    
     <title></title>
 
     <link href="lib/ionic/css/ionic.min.css" rel="stylesheet">
@@ -15,13 +17,14 @@
 	<script src="lib/ngCordova/dist/ng-cordova.min.js"></script>    
 	<!-- Cordova is bootstrapped by ionic-platform-web-client, uncomment this if you remove ionic-platform-web-client... -->
 <!-- <script src="cordova.js"></script> -->
-
-    <!-- Put pic in cache -->
+<!--
+    <!-- Put pic in cache
     <script type="text/javascript">
 		var my_image = new Image();
 		my_image.src = 'http://www.hafrjalyat.org/httpreq/contest.png';
 	</script>  
-    
+-->    
+
   </head>
   <body class="platform-ios platform-cordova platform-webview">
 

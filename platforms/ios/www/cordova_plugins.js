@@ -245,20 +245,20 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "com.google.playservices": "19.0.0",
     "com.ionic.keyboard": "1.0.4",
     "com.pushwoosh.plugins.pushwoosh": "3.6.16",
     "cordova-plugin-console": "1.0.0",
     "cordova-plugin-device": "1.0.0",
     "cordova-plugin-google-analytics": "0.7.2",
+    "cordova-plugin-googleplayservices": "19.0.1",
     "cordova-plugin-splashscreen": "2.0.0",
-    "cordova-plugin-whitelist": "1.0.0",
     "ionic-plugin-deploy": "0.4.1",
     "nl.x-services.plugins.toast": "2.0.4",
     "org.apache.cordova.dialogs": "0.3.0",
     "org.apache.cordova.file": "1.3.3",
     "org.apache.cordova.inappbrowser": "0.6.0",
-    "org.apache.cordova.media": "0.2.16"
+    "org.apache.cordova.media": "0.2.16",
+    "cordova-plugin-whitelist": "1.2.1"
 }
 // BOTTOM OF METADATA
 });
