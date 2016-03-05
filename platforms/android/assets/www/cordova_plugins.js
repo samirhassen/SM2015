@@ -213,13 +213,20 @@ module.exports = [
         "file": "plugins/cordova-plugin-whitelist/whitelist.js",
         "id": "cordova-plugin-whitelist.whitelist",
         "runs": true
+    },
+    {
+        "file": "plugins/com.paypal.cordova.mobilesdk/www/cdv-plugin-paypal-mobile-sdk.js",
+        "id": "com.paypal.cordova.mobilesdk.PayPalMobile",
+        "clobbers": [
+            "PayPalMobile"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "com.ionic.keyboard": "1.0.4",
-    "cordova-plugin-console": "1.0.0",
+    "cordova-plugin-console": "1.0.2",
     "cordova-plugin-device": "1.0.0",
     "cordova-plugin-google-analytics": "0.7.2",
     "org.apache.cordova.dialogs": "0.3.0",
@@ -227,7 +234,8 @@ module.exports.metadata =
     "org.apache.cordova.media": "0.2.16",
     "ionic-plugin-deploy": "0.4.1",
     "com.pushwoosh.plugins.pushwoosh": "3.6.16",
-    "cordova-plugin-whitelist": "1.2.1"
+    "cordova-plugin-whitelist": "1.2.1",
+    "com.paypal.cordova.mobilesdk": "3.1.12"
 }
 // BOTTOM OF METADATA
 });

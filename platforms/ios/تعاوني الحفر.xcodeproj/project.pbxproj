@@ -5,27 +5,24 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
-		00DEA22C00654962A2093533 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A93CD7ACB54608B547B18D /* CDVFile.m */; };
-		096275883495429B87BF5608 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3272A5DC74E844169E8EDD7C /* UNIUrlConnection.m */; };
-		0D7C6537735A4FDBBB3C4D48 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9553625E1D1947F8B7970254 /* unzip.c */; };
-		0F70C3240F624C90BA0F853F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7261A900AC064F97A56DD593 /* libz.dylib */; };
-		14D8A2ED3E264C37831E0072 /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 055D8B012EA64D58A771A560 /* UNIJsonNode.m */; };
-		15CEC661EC7A466BB510A762 /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BAA18F146E43C58727EA38 /* UNISimpleRequest.m */; };
-		16EB88091E2E41F9A75AE80E /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 790B16AE8B92449CAC33D3BF /* CDVNotification.bundle */; };
+		04CC97B7B5174F00A8ACAC2A /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 566B6F2799164D7E80A1F9CB /* compress.c */; };
+		06D67D729CE3472B9C892910 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = E234040370EE48E5B08D0F69 /* trees.c */; };
+		093CE98A6D6D45BF8F716870 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 31991AE315A1420A800DA380 /* crc32.c */; };
+		0B743F7586B74115B4241350 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842983A4B690440CB02BA044 /* UIKit.framework */; };
+		11CF54BFCD21416C989C95E0 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 548096227FDC477DBAA5C215 /* CDVLogger.m */; };
+		169DC51744B64B809419D4BF /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D74E6D5AAE4369989BA442 /* UNIHTTPStringResponse.m */; };
+		16DFDF0E3C0047A69FB8F566 /* IonicDeploy.m in Sources */ = {isa = PBXBuildFile; fileRef = E18A67C03BD847BB9FA5EF55 /* IonicDeploy.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		23004753E9E74C5E94392AD7 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE6C7AC20B847DEA62075E6 /* libstdc++.dylib */; };
-		241C53226AC045498FE91F16 /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEC97D000B34AEF89F18FCE /* UIWebViewExtension.m */; };
-		268F07775806464BAF3C7CBB /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = BFADDDD83BF6458085851276 /* CDVSound.m */; };
-		26CB1BD6529B4F49B679A03C /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 56F977C78A534443BED78C16 /* zip.c */; };
+		26C3787672ED4C8CA3D6ABF9 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BB85B43B580242E0B08F653C /* Base64.m */; };
+		2875434E99C34427B87ABBBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D866106DD314B34B9FB3DBD /* AVFoundation.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		2C0CA323D305450FB7ADB5C7 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1728486D994412A997DEA6 /* CDVNotification.m */; };
-		2FBB0BDEDE0A43BC9D01BB68 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D0E829A7434D3DB9BB3A56 /* UNIRest.m */; };
+		2E9DFBB30AB64C7AB50A94F6 /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB37F51BF93485DA83F53A8 /* UNIHTTPRequest.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		3059D389CEAE42CF8F2A5315 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2190D2CB20B145B891C3AB4F /* Security.framework */; };
 		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
 		3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
 		3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
@@ -41,29 +38,37 @@
 		30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */; };
 		30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1856519D5FC0A00212699 /* icon-60@3x.png */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
-		3465042793444B778D19F7F8 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = AF944E7C0E1E4BD0A5BAEB0A /* SSZipArchive.m */; };
-		359042AF81274CAB8DB99FA5 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DF8FFB2AF32471FBCD04FC8 /* infback.c */; };
-		384A267D2A9D4BEDBBDCE193 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = BE5CB0B2DAC343ECB68B57C4 /* gzwrite.c */; };
-		3CBB2FBD7F5248EF978FCB5C /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = B637556A8EE8499DB764DF89 /* deflate.c */; };
-		3D78FC9278AD4EFBB7456A03 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8282C6CC7BA645DEA3315350 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		48057A5E61E64F3D92198D95 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FE0BD4E7B6420DB34B7A67 /* CDVAssetLibraryFilesystem.m */; };
-		48BBDC12574246649B94DB29 /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6425FB6B54DB59069121B /* UNIHTTPRequest.m */; };
-		4CCEF368DF9D414C80F0BEBD /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EB22F892B6E493FA8B8537B /* inffast.c */; };
-		50A9C81397FC459DAAB57DD0 /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 780E2552F6904F7EB96E884E /* UNIHTTPJsonResponse.m */; };
-		5653A403077340569B4FBB72 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = E7CC3AC547BA4CC3ABC78A23 /* zutil.c */; };
-		56611DA262244E568CD40211 /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8496EFB94743F6906A0ADA /* UNIHTTPBinaryResponse.m */; };
-		5737909532A8442C9DF94A1D /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAD23503D46E582D197CC /* gzread.c */; };
-		573D08350B384AD6BE52CCA9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F632B705053749079E3925F6 /* SystemConfiguration.framework */; };
+		32A18E9A292745A298C32A81 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A324CB80E146AEAF54271D /* SystemConfiguration.framework */; };
+		348E4205B51A43F68678462F /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = C95A4F13BAA140CABF9F2D3F /* UNIRest.m */; };
+		38B077D7F8644BFCB485FC16 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E49DCE69BF4723AB9DE22A /* CoreLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3AA3C653EFC847AFBF02DF52 /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B54F0BF1484FFDACC188E5 /* CDVFile.m */; };
+		3C74706777E946169E5CE171 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768A41518FE1454D90DB14BB /* OpenGLES.framework */; };
+		3C90E3368DC14EBC89C96693 /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A51E7D18D0AE4575B1A6B520 /* UNIHTTPResponse.m */; };
+		3FD52EC10237497790180A24 /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 094334272A3D4A798C4266F6 /* CDVSound.m */; };
+		44DE06DD6C8A4C55BE0A2730 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD97B0037849BAA4C51E8F /* IonicKeyboard.m */; };
+		453F4E0C649C4149B62BCC10 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 60183880F67C42739D017878 /* libz.dylib */; };
+		48613BC257824CD98D9F005A /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = B263126AE97346E2B0FAB490 /* gzclose.c */; };
+		4C701AE2DC264C10BCC7C0B1 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB3499B92D644E4A6C2C6C9 /* ioapi.c */; };
+		4E3BFE211C2C49FEA2B1335A /* PushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F31B90A7D2410998948F04 /* PushNotification.m */; };
+		4EF1B12531784279BFCDB9A8 /* IonicConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A48297734B6C412883E18335 /* IonicConstant.m */; };
+		524E04767A184F439254F83B /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1ACA6A407E4E2596602B72 /* Toast.m */; };
+		53264A177C064CD9A2243BC8 /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCEB96E67B344B2A66D0955 /* UNISimpleRequest.m */; };
+		56F5A1D49624420194DB5314 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8897CB5A95E4B9AA95DB133 /* libGoogleAnalyticsServices.a */; };
+		578384FE9F2743BD96FB98CF /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5813F34330BC45ED8B1E9B73 /* DownloadManager.m */; };
+		57E99D0A5FDE4616A0F18DA9 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 403A3B5686C24992B623BE1A /* inffast.c */; };
+		5AE80C391FBC4B6D87C5A184 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC88613F23BB406A968004D7 /* AudioToolbox.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
-		628A98B971BA450188356CFE /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A678C35E2C4132A14056A5 /* libGoogleAnalyticsServices.a */; };
-		64A2FEA5050043D79B5FC4A5 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 857A849FF6C54FA8A9C5CEFD /* ioapi.c */; };
-		68EBD0C2630A414F9887F979 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = EBC354E3E0DE4BDEBE50FFEC /* uncompr.c */; };
-		697E4CA00E02442EAF90BCC2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1F228CA0874376B9AAA88E /* Security.framework */; };
-		6DA1D5F683D7419A9478045D /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DEAADE47C2428C85375B12 /* UNIHTTPClientHelper.m */; };
-		72CEAA23CD4847B29EE89CC3 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77E31568EA451AB14B7754 /* Base64.m */; };
-		735DBC8591F440F4A0990DA5 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FA3160E20A4F63816CB7CF /* CDVInAppBrowser.m */; };
-		74C4AF51D96B457EB9791B65 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FCD5E5701E4582B7099148 /* Toast+UIView.m */; };
-		7E173243DE3845BD8F4BE7A2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC03CF4A503A45209613F25C /* CoreData.framework */; };
+		5C7F4D698EDA46508F53E414 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35972C459D77474382AA794B /* CDVNotification.bundle */; };
+		6899326A3E094BA8B0721B85 /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 954F6413331E4B069AE765E5 /* UNIHTTPClientHelper.m */; };
+		697709D1C52E4E46A7DCE0E5 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7EEC30F85E44D798784F92 /* libc++.dylib */; };
+		69C33682FDEF459BA2B0E542 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A594D55B554995A3B4218B /* CFNetwork.framework */; };
+		6AE66BF7EE094EA4BB5CAEBB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A1C3D2D5C44B41B912706B /* QuartzCore.framework */; };
+		6C6AAF8F091E40E6A99124D0 /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 73546CA302A445E4823B8CDD /* Download.m */; };
+		731D91A5752E4BE281252C83 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 852A552E793B41B8A501D8F1 /* Toast+UIView.m */; };
+		7467517C53B44FC38DE94182 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D1EDC6B9D44FE0BDDFD3E2 /* libPayPalMobile.a */; };
+		75C86ED14A38448880B25C3B /* PayPalMobileCordovaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7283A843365F42369D1CBFAB /* PayPalMobileCordovaPlugin.m */; };
+		783D427A575747A0AC026F60 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = B2CC54E9B9FB4867B60807EB /* gzwrite.c */; };
+		7BCCFE16800B41D99DBE76B3 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CAB68E7EE44D6BE5C73C9 /* UNIHTTPRequestWithBody.m */; };
 		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
 		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
 		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
@@ -74,37 +79,43 @@
 		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
-		7EF9BDB6EF8E475ABCCB7C41 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DAC80CC3DE42B2B04D3214 /* CDVDevice.m */; };
-		8076605437934F0AB2B2CD02 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B01F9719E94E3690F4A2AA /* CDVSplashScreen.m */; };
-		83DD44C97C944AB2883D7102 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DEF26C0194FDBAD6EAA10 /* Toast.m */; };
-		87593964EF6E45848E0CBEC0 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B2A4F0E91C4B6B9D61C373 /* libsqlite3.0.dylib */; };
-		889FF2414B6545EE897CC35C /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF319341B54FFF8923C237 /* UNIBaseRequest.m */; };
-		91B7B9C0F2214D3AB3184A7B /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = D82953CC1C554DFCB7A881F6 /* Download.m */; };
-		9455A9BB5E17410D8C3DD76F /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 18513193BC4B4E6AAA1844C6 /* crc32.c */; };
-		946F0135211543F390A50C71 /* UniversalAnalyticsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1FF4173CBA47959464F1F7 /* UniversalAnalyticsPlugin.m */; };
-		9A680B7A3C024FB29E976317 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F0EC32BB0F451A95EF83EB /* CDVLocalFilesystem.m */; };
-		9D3FF7F309BC4326A5BDED66 /* Storekit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3758B3074E436FBB07B773 /* Storekit.framework */; };
-		9F37EE0C47814ED8B2E82A33 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A66D63456E4555B8F8135F /* UNIHTTPRequestWithBody.m */; };
-		A97D289A925444B18E72A6E7 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = F079805974DC4E35ADEDFC6F /* inflate.c */; };
-		BA8949150341463B888BAB9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702C22F83557413989E84AEC /* QuartzCore.framework */; };
-		BD6CCC5788E3473CB0C2344E /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = BC5ED10601D74236A5E0478A /* compress.c */; };
-		BF3CD029B78C458F8990127D /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BA8FE8C35A4FE3BB9B03CF /* UNIHTTPResponse.m */; };
-		C20910212C2B4F19A5F572D0 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 85328BB6177C45BEB4886DFC /* gzclose.c */; };
-		CA058C72DBA74B5C820CC698 /* Pushwoosh in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD6E08D5EAC4A0A9C664B96 /* Pushwoosh */; };
-		CDF92ED1B04947A78F52418A /* IonicConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = DD463230D6314378B42820A6 /* IonicConstant.m */; };
-		CF59398FC8B042109CD7411F /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E68F596F6274463A528532F /* gzlib.c */; };
-		CF71943232614F5DA8829AA1 /* PushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E06D11F528463F8832C48F /* PushNotification.m */; };
-		CF78DD46562F4550BB3C7393 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0232C27F924030A36F9E92 /* IonicKeyboard.m */; };
-		D2980A46D2C54F3C9A16FC5B /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CB17CB694064596A510F703 /* inftrees.c */; };
+		7EE10BA7C3AF4684B227EA2F /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE863AC26EE41D7BB7BC024 /* libPayPalMobile.a */; };
+		821C91295C4A4026B8DBFA6C /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F4844D4146B41AAB1FFBE1E /* adler32.c */; };
+		82F32815CBA54E8E950076F0 /* UniversalAnalyticsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 448E3B83EB8847D49B43DBCB /* UniversalAnalyticsPlugin.m */; };
+		83D4DA9876D34A3DBCB3C08E /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = D2AC93FEB9914F31BD600AFF /* zip.c */; };
+		92082962A69A4DE6ABE85DB5 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = FC097100959F49BD87F82AF2 /* CDVSplashScreen.m */; };
+		9430D5262B45419F80533BEC /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 3288D2CE1FD84686AB2441DF /* CDVNotification.m */; };
+		976EE12A35BF4E3AA3AF367E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC20B0D6BCA64984B8FF354F /* MessageUI.framework */; };
+		98C1C6C5B472483E9886F441 /* Pushwoosh in Frameworks */ = {isa = PBXBuildFile; fileRef = EE68F0A34D7B4A8BAD689B9B /* Pushwoosh */; };
+		9F6D8792AFEE4AEE88B2996A /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = BA7866BEFE10439C94DEF596 /* uncompr.c */; };
+		A18331031D57417CB705F9D7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC4A5C15C064DE4817655C0 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A72B62B814634E79BFC1CAAB /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 60727774A190408BAD2751D6 /* inflate.c */; };
+		ACF39C9E7B5540F9AF7DC768 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B4D8DCC51F49499B29C656 /* CoreVideo.framework */; };
+		AE66F003201F48DD9092CC35 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4203FF81EA4B248DFC58AC /* Accelerate.framework */; };
+		B5C0BA92686F4D15AAD365B7 /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A96FA11CD42E479F8F4F96C3 /* UNIBodyRequest.m */; };
+		B643B81AECBE4C8DA5A2D263 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = FB1038E46C794FAF8A9D28C7 /* unzip.c */; };
+		B6EE2A0F7D3448D8B0E2B88A /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AB17177FCC7404F877FD888 /* gzlib.c */; };
+		BD38FC57CF964BC5BC8DCF33 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CB0128D3924CDBB654BF61 /* libsqlite3.0.dylib */; };
+		BDEA8D308C26401DB2A27AF3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBE3E6D338E4E499A588604 /* CoreData.framework */; };
+		BE9993924C864A2FB124A5BE /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = EA75162297D44BF4AC6BFAAD /* deflate.c */; };
+		C1BA852E315A484FAA4C057C /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6BB3E9248421CB1F1AD4D /* UNIHTTPBinaryResponse.m */; };
+		C2CACD79421C409EA14AE0E2 /* Storekit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975D6EDCB44045549F53DD96 /* Storekit.framework */; };
+		C954DF1C8DC54D6ABEFAA60D /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 9FB71DC86EAC4AC08DA5DBF8 /* inftrees.c */; };
+		CAE90802A5ED4E15BFA090E2 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF099B7FCA84F21850BD88F /* CDVDevice.m */; };
+		CD94D5484AD8408EACE29DFC /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 97F2DD916C7C43DA9EB52D20 /* infback.c */; };
+		D0B13F4769574EB79D23B6F6 /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D18E8D99141D8AFBC1621 /* UNIJsonNode.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		E33CDFD460804F5894F5AA36 /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C52D79CD1E4EA8BB7D0094 /* UNIBodyRequest.m */; };
-		E395D4AABE2B47D3B5E8B5C8 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 389DE0F513D1470FB4B48D26 /* trees.c */; };
-		E448C54B936C40B1B53245D9 /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E98A58D0B36464FAA110333 /* UNIHTTPStringResponse.m */; };
-		E835C48BB7164CFFAA53DC67 /* IonicDeploy.m in Sources */ = {isa = PBXBuildFile; fileRef = E325C2039E6B4ECC817670C6 /* IonicDeploy.m */; };
-		E83DD65EFDFB404198306D3D /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A0DB8C7EB488C846119A1 /* DownloadManager.m */; };
-		EBA93927CB2F4185A5BF3BDA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F17D07C40A84C028A55488B /* CoreLocation.framework */; };
-		EC90916F652C4315BA6D5DC3 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C49D4D079D40A5A799399B /* CDVLogger.m */; };
-		FC6A05C3A393428CA2B76058 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = E49CC4A6579F4975A88B0C25 /* adler32.c */; };
+		DC94FC03DC814F8E93D76112 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A1811291F4B71A98755C1 /* SSZipArchive.m */; };
+		E1E1A17B99B34E8E8E457E38 /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3746F99BF19E4B7185DA23CB /* UNIBaseRequest.m */; };
+		E2CB390B38AF4130A007A689 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E775CC161642DD8B369567 /* CDVAssetLibraryFilesystem.m */; };
+		E43AD3DD80434388A00C28FA /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 113999572C754D4199FC9F95 /* zutil.c */; };
+		EABAE15B96E543279BD3E2DC /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4332702D4FC449DABFABFA0B /* libstdc++.dylib */; };
+		EC68064B4A2B48699E2484B4 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA26B0F49D346D593C17D19 /* CDVLocalFilesystem.m */; };
+		F1F82B1C847C423D82291E30 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E11AE25D43542E08668D73B /* UNIUrlConnection.m */; };
+		F2DD7A9C94B14117B78C191D /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 86037B5F4FAF4436AF042E83 /* CDVInAppBrowser.m */; };
+		F42D1B3ECD524ED0B9B270F1 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = C0F2A727F9124C37BB99E6C3 /* gzread.c */; };
+		F7FE7AEC870D4DE28EBCECA4 /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CAE988D334FC6B25EEFDB /* UNIHTTPJsonResponse.m */; };
+		FADBE5C0500847DBA9A3A501 /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C40222C98FE347C4AE04686C /* UIWebViewExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,34 +136,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0400816E594043948AA41E5D /* IonicDeploy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IonicDeploy.h; path = "ionic-plugin-deploy/IonicDeploy.h"; sourceTree = "<group>"; };
-		055D8B012EA64D58A771A560 /* UNIJsonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIJsonNode.m; path = "ionic-plugin-deploy/UNIJsonNode.m"; sourceTree = "<group>"; };
-		05B2A4F0E91C4B6B9D61C373 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		064CC3E911A445528474CA57 /* CDVNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVNotification.h; path = org.apache.cordova.dialogs/CDVNotification.h; sourceTree = "<group>"; };
-		0873D4E9DD5844A8827DA3D6 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = "ionic-plugin-deploy/ioapi.h"; sourceTree = "<group>"; };
-		0CF9FCB60F964BCBBD64D93B /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPClientHelper.h; path = "ionic-plugin-deploy/UNIHTTPClientHelper.h"; sourceTree = "<group>"; };
-		0EB22F892B6E493FA8B8537B /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = inffast.c; path = "ionic-plugin-deploy/inffast.c"; sourceTree = "<group>"; };
-		1093E6778FB74957969D6CE6 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = "cordova-plugin-google-analytics/GAITrackedViewController.h"; sourceTree = "<group>"; };
-		11B01F9719E94E3690F4A2AA /* CDVSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVSplashScreen.m; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; };
-		14FD13BAF1654C1197A25C49 /* CDVLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLogger.h; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; };
-		15D6425FB6B54DB59069121B /* UNIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequest.m; path = "ionic-plugin-deploy/UNIHTTPRequest.m"; sourceTree = "<group>"; };
-		179612474931469E848165CF /* UNIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequest.h; path = "ionic-plugin-deploy/UNIHTTPRequest.h"; sourceTree = "<group>"; };
-		18513193BC4B4E6AAA1844C6 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = crc32.c; path = "ionic-plugin-deploy/crc32.c"; sourceTree = "<group>"; };
-		1C4F415CB6AC4F33B1A89112 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = "cordova-plugin-google-analytics/GAIFields.h"; sourceTree = "<group>"; };
-		1D013411CF7741A99E89C6A2 /* UNISimpleRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNISimpleRequest.h; path = "ionic-plugin-deploy/UNISimpleRequest.h"; sourceTree = "<group>"; };
+		024009DD6E024FF482F6C58C /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = "cordova-plugin-google-analytics/GAIEcommerceProductAction.h"; sourceTree = "<group>"; };
+		07AAD0A601CE4F899734ABFE /* PushNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PushNotificationManager.h; path = com.pushwoosh.plugins.pushwoosh/ios/PushNotificationManager.h; sourceTree = "<group>"; };
+		094334272A3D4A798C4266F6 /* CDVSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVSound.m; path = org.apache.cordova.media/CDVSound.m; sourceTree = "<group>"; };
+		0BC4A5C15C064DE4817655C0 /* CoreMedia.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0BF099B7FCA84F21850BD88F /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
+		0ED91F0260DE48958315D9BE /* PayPalFuturePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalFuturePaymentViewController.h; path = com.paypal.cordova.mobilesdk/PayPalFuturePaymentViewController.h; sourceTree = "<group>"; };
+		10CCAA96C1054BFA945BECE8 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVAssetLibraryFilesystem.h; path = org.apache.cordova.file/CDVAssetLibraryFilesystem.h; sourceTree = "<group>"; };
+		113999572C754D4199FC9F95 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = zutil.c; path = "ionic-plugin-deploy/zutil.c"; sourceTree = "<group>"; };
+		18A2EEF703FA46A6B31F6C39 /* CDVSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVSound.h; path = org.apache.cordova.media/CDVSound.h; sourceTree = "<group>"; };
+		197918176FA04BAC9D83209F /* PayPalOAuthScopes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalOAuthScopes.h; path = com.paypal.cordova.mobilesdk/PayPalOAuthScopes.h; sourceTree = "<group>"; };
+		1C8A1811291F4B71A98755C1 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = "ionic-plugin-deploy/SSZipArchive.m"; sourceTree = "<group>"; };
+		1C93CE5C2DA34F7280A4E363 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = "cordova-plugin-google-analytics/GAIEcommercePromotion.h"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* تعاوني الحفر.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "تعاوني الحفر.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E68F596F6274463A528532F /* gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = gzlib.c; path = "ionic-plugin-deploy/gzlib.c"; sourceTree = "<group>"; };
-		1FB95427E92B487D8D3642D4 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = "cordova-plugin-google-analytics/GAIEcommerceProductAction.h"; sourceTree = "<group>"; };
-		20BAA18F146E43C58727EA38 /* UNISimpleRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNISimpleRequest.m; path = "ionic-plugin-deploy/UNISimpleRequest.m"; sourceTree = "<group>"; };
-		21A93CD7ACB54608B547B18D /* CDVFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = org.apache.cordova.file/CDVFile.m; sourceTree = "<group>"; };
-		21D10CBF33754C24AAB9D239 /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPJsonResponse.h; path = "ionic-plugin-deploy/UNIHTTPJsonResponse.h"; sourceTree = "<group>"; };
-		2683C6A86AE6441DAF738EFE /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inflate.h; path = "ionic-plugin-deploy/inflate.h"; sourceTree = "<group>"; };
+		1D866106DD314B34B9FB3DBD /* AVFoundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1F7ED7B56861495AA69AF058 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = "ionic-plugin-deploy/crypt.h"; sourceTree = "<group>"; };
+		2019BA2CFBD94FB1B866D3D3 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManager.h; path = "ionic-plugin-deploy/DownloadManager.h"; sourceTree = "<group>"; };
+		2146DE5279754ECFB5EB5728 /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inffast.h; path = "ionic-plugin-deploy/inffast.h"; sourceTree = "<group>"; };
+		2190D2CB20B145B891C3AB4F /* Security.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		242A3BF5D5F54687913DCD88 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inftrees.h; path = "ionic-plugin-deploy/inftrees.h"; sourceTree = "<group>"; };
+		260C96A0162B467783C7564F /* UNIUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIUrlConnection.h; path = "ionic-plugin-deploy/UNIUrlConnection.h"; sourceTree = "<group>"; };
+		263570D895CE4BC589C32697 /* UNIBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIBaseRequest.h; path = "ionic-plugin-deploy/UNIBaseRequest.h"; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		296DEF26C0194FDBAD6EAA10 /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Toast.m; path = "nl.x-services.plugins.toast/Toast.m"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F17D07C40A84C028A55488B /* CoreLocation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2A962A1E406F4E2CB3FD7BD3 /* UIWebViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIWebViewExtension.h; path = com.ionic.keyboard/UIWebViewExtension.h; sourceTree = "<group>"; };
+		2AB17177FCC7404F877FD888 /* gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = gzlib.c; path = "ionic-plugin-deploy/gzlib.c"; sourceTree = "<group>"; };
+		2C77EFEA5BB8403891F9A64E /* ARCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCHelper.h; path = "ionic-plugin-deploy/ARCHelper.h"; sourceTree = "<group>"; };
+		2CE6BB3E9248421CB1F1AD4D /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPBinaryResponse.m; path = "ionic-plugin-deploy/UNIHTTPBinaryResponse.m"; sourceTree = "<group>"; };
+		2F190AD6D19043708C56142C /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPJsonResponse.h; path = "ionic-plugin-deploy/UNIHTTPJsonResponse.h"; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -173,46 +186,61 @@
 		30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-736h.png"; sourceTree = "<group>"; };
 		30C1856519D5FC0A00212699 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
-		31F0EC32BB0F451A95EF83EB /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = org.apache.cordova.file/CDVLocalFilesystem.m; sourceTree = "<group>"; };
-		3272A5DC74E844169E8EDD7C /* UNIUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIUrlConnection.m; path = "ionic-plugin-deploy/UNIUrlConnection.m"; sourceTree = "<group>"; };
+		3121D8AD43794775AB31EA5D /* UNIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequest.h; path = "ionic-plugin-deploy/UNIHTTPRequest.h"; sourceTree = "<group>"; };
+		31991AE315A1420A800DA380 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = crc32.c; path = "ionic-plugin-deploy/crc32.c"; sourceTree = "<group>"; };
+		3288D2CE1FD84686AB2441DF /* CDVNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVNotification.m; path = org.apache.cordova.dialogs/CDVNotification.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* تعاوني الحفر-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "تعاوني الحفر-Prefix.pch"; sourceTree = "<group>"; };
-		33C49D4D079D40A5A799399B /* CDVLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLogger.m; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; };
-		37E832471C6A7A4200CBBC89 /* تعاوني الحفر.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "تعاوني الحفر.entitlements"; path = "تعاوني الحفر/تعاوني الحفر.entitlements"; sourceTree = "<group>"; };
-		389DE0F513D1470FB4B48D26 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = trees.c; path = "ionic-plugin-deploy/trees.c"; sourceTree = "<group>"; };
-		41EF319341B54FFF8923C237 /* UNIBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIBaseRequest.m; path = "ionic-plugin-deploy/UNIBaseRequest.m"; sourceTree = "<group>"; };
-		4316F7221A8C422F9D2834A7 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = "cordova-plugin-google-analytics/GAIEcommercePromotion.h"; sourceTree = "<group>"; };
-		43A678C35E2C4132A14056A5 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = "تعاوني الحفر/Plugins/cordova-plugin-google-analytics/libGoogleAnalyticsServices.a"; sourceTree = "<group>"; };
-		460DEAB258784B5BB74F2094 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inftrees.h; path = "ionic-plugin-deploy/inftrees.h"; sourceTree = "<group>"; };
-		4A136855F4484B08921474DE /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = "cordova-plugin-google-analytics/GAILogger.h"; sourceTree = "<group>"; };
-		4B65C2FD6CB945228FC4B070 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zconf.h; path = "ionic-plugin-deploy/zconf.h"; sourceTree = "<group>"; };
-		4B9099DE2691484489EDE348 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = "ionic-plugin-deploy/SSZipArchive.h"; sourceTree = "<group>"; };
-		4BB85E2766AD4047804761A5 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Toast+UIView.h"; path = "nl.x-services.plugins.toast/Toast+UIView.h"; sourceTree = "<group>"; };
-		4DF8FFB2AF32471FBCD04FC8 /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = infback.c; path = "ionic-plugin-deploy/infback.c"; sourceTree = "<group>"; };
-		5414D24870714AB2970BC31D /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVAssetLibraryFilesystem.h; path = org.apache.cordova.file/CDVAssetLibraryFilesystem.h; sourceTree = "<group>"; };
-		56E922BE85E9479985372E0D /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = "cordova-plugin-google-analytics/GAIEcommerceFields.h"; sourceTree = "<group>"; };
-		56F977C78A534443BED78C16 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = zip.c; path = "ionic-plugin-deploy/zip.c"; sourceTree = "<group>"; };
-		5703A418D6E54CB38584928A /* CDVSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; };
-		5961BACB6B0E44DBA7325A4E /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zlib.h; path = "ionic-plugin-deploy/zlib.h"; sourceTree = "<group>"; };
-		5B0232C27F924030A36F9E92 /* IonicKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IonicKeyboard.m; path = com.ionic.keyboard/IonicKeyboard.m; sourceTree = "<group>"; };
+		34F31B90A7D2410998948F04 /* PushNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PushNotification.m; path = com.pushwoosh.plugins.pushwoosh/ios/PushNotification.m; sourceTree = "<group>"; };
+		35972C459D77474382AA794B /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CDVNotification.bundle; sourceTree = "<group>"; };
+		36D7867B688B43D6AAF23F59 /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crc32.h; path = "ionic-plugin-deploy/crc32.h"; sourceTree = "<group>"; };
+		370E653C1C8A341B0099A07C /* تعاوني الحفر.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "تعاوني الحفر.entitlements"; path = "تعاوني الحفر/تعاوني الحفر.entitlements"; sourceTree = "<group>"; };
+		3746F99BF19E4B7185DA23CB /* UNIBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIBaseRequest.m; path = "ionic-plugin-deploy/UNIBaseRequest.m"; sourceTree = "<group>"; };
+		3C1983EEC6684035A94B2E83 /* PayPalMobileCordovaPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalMobileCordovaPlugin.h; path = com.paypal.cordova.mobilesdk/PayPalMobileCordovaPlugin.h; sourceTree = "<group>"; };
+		3C7EEC30F85E44D798784F92 /* libc++.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		3CB3499B92D644E4A6C2C6C9 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = ioapi.c; path = "ionic-plugin-deploy/ioapi.c"; sourceTree = "<group>"; };
+		3D1ACA6A407E4E2596602B72 /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Toast.m; path = "nl.x-services.plugins.toast/Toast.m"; sourceTree = "<group>"; };
+		3E2900CCEBF448E19814AFDB /* UNIBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIBodyRequest.h; path = "ionic-plugin-deploy/UNIBodyRequest.h"; sourceTree = "<group>"; };
+		403A3B5686C24992B623BE1A /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = inffast.c; path = "ionic-plugin-deploy/inffast.c"; sourceTree = "<group>"; };
+		4332702D4FC449DABFABFA0B /* libstdc++.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		43C934A5DB9D47B09175C16D /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zlib.h; path = "ionic-plugin-deploy/zlib.h"; sourceTree = "<group>"; };
+		448E3B83EB8847D49B43DBCB /* UniversalAnalyticsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UniversalAnalyticsPlugin.m; path = "cordova-plugin-google-analytics/UniversalAnalyticsPlugin.m"; sourceTree = "<group>"; };
+		4E8BB47F878F448C89B95DD0 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = "ionic-plugin-deploy/Base64.h"; sourceTree = "<group>"; };
+		4FE863AC26EE41D7BB7BC024 /* libPayPalMobile.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libPayPalMobile.a; path = "تعاوني الحفر/Plugins/com.paypal.cordova.mobilesdk/libPayPalMobile.a"; sourceTree = "<group>"; };
+		512F56C973EF4AC6BD8FECA0 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trees.h; path = "ionic-plugin-deploy/trees.h"; sourceTree = "<group>"; };
+		5373A62E662F497F84F6E2F5 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = "cordova-plugin-google-analytics/GAITracker.h"; sourceTree = "<group>"; };
+		548096227FDC477DBAA5C215 /* CDVLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLogger.m; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; };
+		54A1C3D2D5C44B41B912706B /* QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		54A35864E6554F38861420D8 /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPClientHelper.h; path = "ionic-plugin-deploy/UNIHTTPClientHelper.h"; sourceTree = "<group>"; };
+		55592DDD85E44A949E67BD48 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zip.h; path = "ionic-plugin-deploy/zip.h"; sourceTree = "<group>"; };
+		566B6F2799164D7E80A1F9CB /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = compress.c; path = "ionic-plugin-deploy/compress.c"; sourceTree = "<group>"; };
+		56FB181362E3477FA06819A4 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = org.apache.cordova.file/CDVLocalFilesystem.h; sourceTree = "<group>"; };
+		57E6F30171264320B2B45DDB /* UNIJsonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIJsonNode.h; path = "ionic-plugin-deploy/UNIJsonNode.h"; sourceTree = "<group>"; };
+		5813F34330BC45ED8B1E9B73 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadManager.m; path = "ionic-plugin-deploy/DownloadManager.m"; sourceTree = "<group>"; };
+		58C10BCB9EFE42BC8F119940 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = "ionic-plugin-deploy/unzip.h"; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		5D5446BF32924999B3C7247C /* UIWebViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIWebViewExtension.h; path = com.ionic.keyboard/UIWebViewExtension.h; sourceTree = "<group>"; };
-		5E614F7B863D4C7FACF03B84 /* CDVFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = org.apache.cordova.file/CDVFile.h; sourceTree = "<group>"; };
-		6B412532CFEA419FB822DFA3 /* UNIRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIRest.h; path = "ionic-plugin-deploy/UNIRest.h"; sourceTree = "<group>"; };
-		6C68F38D02244C47A4A4B243 /* IonicConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IonicConstant.h; path = "ionic-plugin-deploy/IonicConstant.h"; sourceTree = "<group>"; };
-		6C77E31568EA451AB14B7754 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = "ionic-plugin-deploy/Base64.m"; sourceTree = "<group>"; };
-		702C22F83557413989E84AEC /* QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		71948846DB454337B8E52F92 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = "cordova-plugin-google-analytics/GAITracker.h"; sourceTree = "<group>"; };
-		7261A900AC064F97A56DD593 /* libz.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		756D05DB4CDE460FADB5BA22 /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inffixed.h; path = "ionic-plugin-deploy/inffixed.h"; sourceTree = "<group>"; };
-		75CAC2B107B64E4DA0309E70 /* PushNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PushNotificationManager.h; path = com.pushwoosh.plugins.pushwoosh/ios/PushNotificationManager.h; sourceTree = "<group>"; };
-		779B57A616A745C293E59B85 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = deflate.h; path = "ionic-plugin-deploy/deflate.h"; sourceTree = "<group>"; };
-		780E2552F6904F7EB96E884E /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPJsonResponse.m; path = "ionic-plugin-deploy/UNIHTTPJsonResponse.m"; sourceTree = "<group>"; };
-		78D0E829A7434D3DB9BB3A56 /* UNIRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIRest.m; path = "ionic-plugin-deploy/UNIRest.m"; sourceTree = "<group>"; };
-		790B16AE8B92449CAC33D3BF /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CDVNotification.bundle; sourceTree = "<group>"; };
-		791AAB758BC1407F9908ED90 /* CDVDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
-		7950E887C21F4EECACE7BE4C /* UNIBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIBodyRequest.h; path = "ionic-plugin-deploy/UNIBodyRequest.h"; sourceTree = "<group>"; };
-		7C1010D6DD6443E5A1241158 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = org.apache.cordova.file/CDVLocalFilesystem.h; sourceTree = "<group>"; };
-		7E410A2727EA43228CE5BE39 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = "cordova-plugin-google-analytics/GAI.h"; sourceTree = "<group>"; };
+		5CDAB8F1CDC44BA9A9B9D3A9 /* CDVFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVFile.h; path = org.apache.cordova.file/CDVFile.h; sourceTree = "<group>"; };
+		5D4CAB68E7EE44D6BE5C73C9 /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequestWithBody.m; path = "ionic-plugin-deploy/UNIHTTPRequestWithBody.m"; sourceTree = "<group>"; };
+		5D88C0BF58FF425CA8757212 /* CDVLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLogger.h; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; };
+		5EE6A4826B66496DA7792623 /* PayPalPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalPaymentViewController.h; path = com.paypal.cordova.mobilesdk/PayPalPaymentViewController.h; sourceTree = "<group>"; };
+		5F4844D4146B41AAB1FFBE1E /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = adler32.c; path = "ionic-plugin-deploy/adler32.c"; sourceTree = "<group>"; };
+		60183880F67C42739D017878 /* libz.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		605B23E54F074E73B2989FE5 /* PushNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PushNotification.h; path = com.pushwoosh.plugins.pushwoosh/ios/PushNotification.h; sourceTree = "<group>"; };
+		60727774A190408BAD2751D6 /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = inflate.c; path = "ionic-plugin-deploy/inflate.c"; sourceTree = "<group>"; };
+		60E9BC62990743F9B5288ECB /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPBinaryResponse.h; path = "ionic-plugin-deploy/UNIHTTPBinaryResponse.h"; sourceTree = "<group>"; };
+		625D6E1E975A4EB7803D2853 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = "cordova-plugin-google-analytics/GAITrackedViewController.h"; sourceTree = "<group>"; };
+		66558D7DC8B24F44B0BFA64A /* UniversalAnalyticsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UniversalAnalyticsPlugin.h; path = "cordova-plugin-google-analytics/UniversalAnalyticsPlugin.h"; sourceTree = "<group>"; };
+		67F0A98314AB472286AEFD69 /* CDVSplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; };
+		6D36F91E28AA4091A4AD83F7 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Toast+UIView.h"; path = "nl.x-services.plugins.toast/Toast+UIView.h"; sourceTree = "<group>"; };
+		720496C0D43243E8AB100FFB /* PayPalConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalConfiguration.h; path = com.paypal.cordova.mobilesdk/PayPalConfiguration.h; sourceTree = "<group>"; };
+		7283A843365F42369D1CBFAB /* PayPalMobileCordovaPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PayPalMobileCordovaPlugin.m; path = com.paypal.cordova.mobilesdk/PayPalMobileCordovaPlugin.m; sourceTree = "<group>"; };
+		73546CA302A445E4823B8CDD /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Download.m; path = "ionic-plugin-deploy/Download.m"; sourceTree = "<group>"; };
+		74C3506E66184B328E5374E2 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVInAppBrowser.h; path = org.apache.cordova.inappbrowser/CDVInAppBrowser.h; sourceTree = "<group>"; };
+		75179A8F32D74649A9754159 /* Unirest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = "Unirest-Prefix.pch"; path = "ionic-plugin-deploy/Unirest-Prefix.pch"; sourceTree = "<group>"; };
+		7643D7BB35154F65803FA722 /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inflate.h; path = "ionic-plugin-deploy/inflate.h"; sourceTree = "<group>"; };
+		768A41518FE1454D90DB14BB /* OpenGLES.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		77A594D55B554995A3B4218B /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7A1CAE988D334FC6B25EEFDB /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPJsonResponse.m; path = "ionic-plugin-deploy/UNIHTTPJsonResponse.m"; sourceTree = "<group>"; };
+		7BD24ED78DA14E4F856083AD /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zconf.h; path = "ionic-plugin-deploy/zconf.h"; sourceTree = "<group>"; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
@@ -223,79 +251,82 @@
 		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
-		817CF94A70FA4E4082386403 /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Download.h; path = "ionic-plugin-deploy/Download.h"; sourceTree = "<group>"; };
-		8282C6CC7BA645DEA3315350 /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		84FE7393C1574EF28E777647 /* UNIJsonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIJsonNode.h; path = "ionic-plugin-deploy/UNIJsonNode.h"; sourceTree = "<group>"; };
-		85328BB6177C45BEB4886DFC /* gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = gzclose.c; path = "ionic-plugin-deploy/gzclose.c"; sourceTree = "<group>"; };
-		857A849FF6C54FA8A9C5CEFD /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = ioapi.c; path = "ionic-plugin-deploy/ioapi.c"; sourceTree = "<group>"; };
-		89A66D63456E4555B8F8135F /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequestWithBody.m; path = "ionic-plugin-deploy/UNIHTTPRequestWithBody.m"; sourceTree = "<group>"; };
-		89BA8FE8C35A4FE3BB9B03CF /* UNIHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPResponse.m; path = "ionic-plugin-deploy/UNIHTTPResponse.m"; sourceTree = "<group>"; };
-		89C52D79CD1E4EA8BB7D0094 /* UNIBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIBodyRequest.m; path = "ionic-plugin-deploy/UNIBodyRequest.m"; sourceTree = "<group>"; };
+		81379FA97BC6469C854C7C91 /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalPayment.h; path = com.paypal.cordova.mobilesdk/PayPalPayment.h; sourceTree = "<group>"; };
+		842983A4B690440CB02BA044 /* UIKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		852A552E793B41B8A501D8F1 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Toast+UIView.m"; path = "nl.x-services.plugins.toast/Toast+UIView.m"; sourceTree = "<group>"; };
+		85B54F0BF1484FFDACC188E5 /* CDVFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVFile.m; path = org.apache.cordova.file/CDVFile.m; sourceTree = "<group>"; };
+		86037B5F4FAF4436AF042E83 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVInAppBrowser.m; path = org.apache.cordova.inappbrowser/CDVInAppBrowser.m; sourceTree = "<group>"; };
+		875859E7BCD948F4B1476739 /* IonicKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IonicKeyboard.h; path = com.ionic.keyboard/IonicKeyboard.h; sourceTree = "<group>"; };
+		88D1EDC6B9D44FE0BDDFD3E2 /* libPayPalMobile.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; path = libPayPalMobile.a; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* تعاوني الحفر-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "تعاوني الحفر-Info.plist"; path = "../تعاوني الحفر-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		8D139D0A9FD044E393D987DA /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zip.h; path = "ionic-plugin-deploy/zip.h"; sourceTree = "<group>"; };
-		8E98A58D0B36464FAA110333 /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPStringResponse.m; path = "ionic-plugin-deploy/UNIHTTPStringResponse.m"; sourceTree = "<group>"; };
-		90F693D4189243DDB994FFAB /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManager.h; path = "ionic-plugin-deploy/DownloadManager.h"; sourceTree = "<group>"; };
-		94DAC80CC3DE42B2B04D3214 /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
-		9553625E1D1947F8B7970254 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = unzip.c; path = "ionic-plugin-deploy/unzip.c"; sourceTree = "<group>"; };
-		96900475E87B49FE88541D2F /* UNIBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIBaseRequest.h; path = "ionic-plugin-deploy/UNIBaseRequest.h"; sourceTree = "<group>"; };
-		9A2D3091E34E41A49385CE10 /* UNIUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIUrlConnection.h; path = "ionic-plugin-deploy/UNIUrlConnection.h"; sourceTree = "<group>"; };
-		9AE5867D4CF845358EE39AAF /* ARCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCHelper.h; path = "ionic-plugin-deploy/ARCHelper.h"; sourceTree = "<group>"; };
-		9CB17CB694064596A510F703 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = inftrees.c; path = "ionic-plugin-deploy/inftrees.c"; sourceTree = "<group>"; };
-		9E9528B129C24A85B4813B00 /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "nl.x-services.plugins.toast/Toast.h"; sourceTree = "<group>"; };
-		9F339164EE52424894845215 /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inffast.h; path = "ionic-plugin-deploy/inffast.h"; sourceTree = "<group>"; };
-		A358387119DF434782337A78 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trees.h; path = "ionic-plugin-deploy/trees.h"; sourceTree = "<group>"; };
-		A439D28FAD5141E0A92255C0 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = "ionic-plugin-deploy/zutil.h"; sourceTree = "<group>"; };
-		A628F84F525344549D60F3CC /* Unirest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = "Unirest-Prefix.pch"; path = "ionic-plugin-deploy/Unirest-Prefix.pch"; sourceTree = "<group>"; };
-		AA9A0DB8C7EB488C846119A1 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadManager.m; path = "ionic-plugin-deploy/DownloadManager.m"; sourceTree = "<group>"; };
-		ACEFF1ECDA0E43D7910F2801 /* UniversalAnalyticsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UniversalAnalyticsPlugin.h; path = "cordova-plugin-google-analytics/UniversalAnalyticsPlugin.h"; sourceTree = "<group>"; };
-		AF944E7C0E1E4BD0A5BAEB0A /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = "ionic-plugin-deploy/SSZipArchive.m"; sourceTree = "<group>"; };
-		AFD6E08D5EAC4A0A9C664B96 /* Pushwoosh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Pushwoosh; path = "تعاوني الحفر/Plugins/com.pushwoosh.plugins.pushwoosh/Pushwoosh"; sourceTree = "<group>"; };
-		B637556A8EE8499DB764DF89 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = deflate.c; path = "ionic-plugin-deploy/deflate.c"; sourceTree = "<group>"; };
-		B77C1C8D91124E8294F2BCE0 /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPStringResponse.h; path = "ionic-plugin-deploy/UNIHTTPStringResponse.h"; sourceTree = "<group>"; };
-		B856C71102F0423DB21EDE4C /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequestWithBody.h; path = "ionic-plugin-deploy/UNIHTTPRequestWithBody.h"; sourceTree = "<group>"; };
-		BB7E9EE652344F449F2EAFD8 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = "ionic-plugin-deploy/Base64.h"; sourceTree = "<group>"; };
-		BBE6C7AC20B847DEA62075E6 /* libstdc++.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
-		BC5ED10601D74236A5E0478A /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = compress.c; path = "ionic-plugin-deploy/compress.c"; sourceTree = "<group>"; };
-		BC8691ACF7864DE5B874652F /* CDVSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVSound.h; path = org.apache.cordova.media/CDVSound.h; sourceTree = "<group>"; };
-		BE5CB0B2DAC343ECB68B57C4 /* gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = gzwrite.c; path = "ionic-plugin-deploy/gzwrite.c"; sourceTree = "<group>"; };
-		BF3758B3074E436FBB07B773 /* Storekit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Storekit.framework; path = System/Library/Frameworks/Storekit.framework; sourceTree = SDKROOT; };
-		BFADDDD83BF6458085851276 /* CDVSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVSound.m; path = org.apache.cordova.media/CDVSound.m; sourceTree = "<group>"; };
-		CB954E6305FC407D8EA8A994 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = "ionic-plugin-deploy/crypt.h"; sourceTree = "<group>"; };
-		CC1F228CA0874376B9AAA88E /* Security.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		D0E06D11F528463F8832C48F /* PushNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PushNotification.m; path = com.pushwoosh.plugins.pushwoosh/ios/PushNotification.m; sourceTree = "<group>"; };
-		D24995D54003497EB5130385 /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = crc32.h; path = "ionic-plugin-deploy/crc32.h"; sourceTree = "<group>"; };
+		8FB37F51BF93485DA83F53A8 /* UNIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequest.m; path = "ionic-plugin-deploy/UNIHTTPRequest.m"; sourceTree = "<group>"; };
+		90383CA2322C481DBCB5BD8E /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "nl.x-services.plugins.toast/Toast.h"; sourceTree = "<group>"; };
+		9091E7126A714BDAA65D579D /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gzguts.h; path = "ionic-plugin-deploy/gzguts.h"; sourceTree = "<group>"; };
+		91D97D8BF1BA45348BC7914C /* UNIHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPResponse.h; path = "ionic-plugin-deploy/UNIHTTPResponse.h"; sourceTree = "<group>"; };
+		940D18E8D99141D8AFBC1621 /* UNIJsonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIJsonNode.m; path = "ionic-plugin-deploy/UNIJsonNode.m"; sourceTree = "<group>"; };
+		954F6413331E4B069AE765E5 /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPClientHelper.m; path = "ionic-plugin-deploy/UNIHTTPClientHelper.m"; sourceTree = "<group>"; };
+		96D638F9F50844DD9F842BB7 /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPStringResponse.h; path = "ionic-plugin-deploy/UNIHTTPStringResponse.h"; sourceTree = "<group>"; };
+		975D6EDCB44045549F53DD96 /* Storekit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Storekit.framework; path = System/Library/Frameworks/Storekit.framework; sourceTree = SDKROOT; };
+		97F2DD916C7C43DA9EB52D20 /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = infback.c; path = "ionic-plugin-deploy/infback.c"; sourceTree = "<group>"; };
+		9CBE3E6D338E4E499A588604 /* CoreData.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9E11AE25D43542E08668D73B /* UNIUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIUrlConnection.m; path = "ionic-plugin-deploy/UNIUrlConnection.m"; sourceTree = "<group>"; };
+		9EFD97B0037849BAA4C51E8F /* IonicKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IonicKeyboard.m; path = com.ionic.keyboard/IonicKeyboard.m; sourceTree = "<group>"; };
+		9FB71DC86EAC4AC08DA5DBF8 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = inftrees.c; path = "ionic-plugin-deploy/inftrees.c"; sourceTree = "<group>"; };
+		9FCEB96E67B344B2A66D0955 /* UNISimpleRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNISimpleRequest.m; path = "ionic-plugin-deploy/UNISimpleRequest.m"; sourceTree = "<group>"; };
+		A48297734B6C412883E18335 /* IonicConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IonicConstant.m; path = "ionic-plugin-deploy/IonicConstant.m"; sourceTree = "<group>"; };
+		A51E7D18D0AE4575B1A6B520 /* UNIHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPResponse.m; path = "ionic-plugin-deploy/UNIHTTPResponse.m"; sourceTree = "<group>"; };
+		A5D74E6D5AAE4369989BA442 /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPStringResponse.m; path = "ionic-plugin-deploy/UNIHTTPStringResponse.m"; sourceTree = "<group>"; };
+		A96FA11CD42E479F8F4F96C3 /* UNIBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIBodyRequest.m; path = "ionic-plugin-deploy/UNIBodyRequest.m"; sourceTree = "<group>"; };
+		AA4203FF81EA4B248DFC58AC /* Accelerate.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		AE920D871F064ED9829E3163 /* CDVNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVNotification.h; path = org.apache.cordova.dialogs/CDVNotification.h; sourceTree = "<group>"; };
+		AF28226110814C09919917B7 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = "cordova-plugin-google-analytics/GAI.h"; sourceTree = "<group>"; };
+		B058D3B5C5E7410A98CFA09E /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = "cordova-plugin-google-analytics/GAIDictionaryBuilder.h"; sourceTree = "<group>"; };
+		B263126AE97346E2B0FAB490 /* gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = gzclose.c; path = "ionic-plugin-deploy/gzclose.c"; sourceTree = "<group>"; };
+		B2938761FEB44A3D8D5D1273 /* PayPalMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalMobile.h; path = com.paypal.cordova.mobilesdk/PayPalMobile.h; sourceTree = "<group>"; };
+		B2CC54E9B9FB4867B60807EB /* gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = gzwrite.c; path = "ionic-plugin-deploy/gzwrite.c"; sourceTree = "<group>"; };
+		B2E49DCE69BF4723AB9DE22A /* CoreLocation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BA20A6BCD6BD4110A55B72B5 /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inffixed.h; path = "ionic-plugin-deploy/inffixed.h"; sourceTree = "<group>"; };
+		BA7866BEFE10439C94DEF596 /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = uncompr.c; path = "ionic-plugin-deploy/uncompr.c"; sourceTree = "<group>"; };
+		BB85B43B580242E0B08F653C /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = "ionic-plugin-deploy/Base64.m"; sourceTree = "<group>"; };
+		BBB292C402B94F4CB9FD7EF5 /* CDVDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
+		BF3AEC073523446E95375457 /* UNISimpleRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNISimpleRequest.h; path = "ionic-plugin-deploy/UNISimpleRequest.h"; sourceTree = "<group>"; };
+		C0F2A727F9124C37BB99E6C3 /* gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = gzread.c; path = "ionic-plugin-deploy/gzread.c"; sourceTree = "<group>"; };
+		C2CD6C40A8A84092A95C2A91 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = "ionic-plugin-deploy/SSZipArchive.h"; sourceTree = "<group>"; };
+		C40222C98FE347C4AE04686C /* UIWebViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIWebViewExtension.m; path = com.ionic.keyboard/UIWebViewExtension.m; sourceTree = "<group>"; };
+		C5B4D8DCC51F49499B29C656 /* CoreVideo.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C5E775CC161642DD8B369567 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = org.apache.cordova.file/CDVAssetLibraryFilesystem.m; sourceTree = "<group>"; };
+		C95A4F13BAA140CABF9F2D3F /* UNIRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIRest.m; path = "ionic-plugin-deploy/UNIRest.m"; sourceTree = "<group>"; };
+		CA96BB648374440DB051223B /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = deflate.h; path = "ionic-plugin-deploy/deflate.h"; sourceTree = "<group>"; };
+		CC20B0D6BCA64984B8FF354F /* MessageUI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CD2107896BF4457E80F2E5B8 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = "cordova-plugin-google-analytics/GAIEcommerceFields.h"; sourceTree = "<group>"; };
+		D2AC93FEB9914F31BD600AFF /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = zip.c; path = "ionic-plugin-deploy/zip.c"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		D6FCD5E5701E4582B7099148 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Toast+UIView.m"; path = "nl.x-services.plugins.toast/Toast+UIView.m"; sourceTree = "<group>"; };
-		D82953CC1C554DFCB7A881F6 /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Download.m; path = "ionic-plugin-deploy/Download.m"; sourceTree = "<group>"; };
-		DD463230D6314378B42820A6 /* IonicConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IonicConstant.m; path = "ionic-plugin-deploy/IonicConstant.m"; sourceTree = "<group>"; };
-		DD6EF314D7FD4EEC9DAA7B89 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = "cordova-plugin-google-analytics/GAIDictionaryBuilder.h"; sourceTree = "<group>"; };
-		E13D32B18C0242EC8C61B38D /* CDVInAppBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVInAppBrowser.h; path = org.apache.cordova.inappbrowser/CDVInAppBrowser.h; sourceTree = "<group>"; };
-		E1E540B9E17B4D6BAF41A010 /* IonicKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IonicKeyboard.h; path = com.ionic.keyboard/IonicKeyboard.h; sourceTree = "<group>"; };
-		E325C2039E6B4ECC817670C6 /* IonicDeploy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IonicDeploy.m; path = "ionic-plugin-deploy/IonicDeploy.m"; sourceTree = "<group>"; };
-		E3D5405171124F609E04BE57 /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPBinaryResponse.h; path = "ionic-plugin-deploy/UNIHTTPBinaryResponse.h"; sourceTree = "<group>"; };
-		E49CC4A6579F4975A88B0C25 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = adler32.c; path = "ionic-plugin-deploy/adler32.c"; sourceTree = "<group>"; };
-		E7CC3AC547BA4CC3ABC78A23 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = zutil.c; path = "ionic-plugin-deploy/zutil.c"; sourceTree = "<group>"; };
-		E8C03B43913D431A9AB9153B /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gzguts.h; path = "ionic-plugin-deploy/gzguts.h"; sourceTree = "<group>"; };
-		EA0FAD23503D46E582D197CC /* gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = gzread.c; path = "ionic-plugin-deploy/gzread.c"; sourceTree = "<group>"; };
+		D4A35BC47C5245669D7ED70F /* IonicConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IonicConstant.h; path = "ionic-plugin-deploy/IonicConstant.h"; sourceTree = "<group>"; };
+		DC1C75C81BDE42B09C57E8AD /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = "ionic-plugin-deploy/ioapi.h"; sourceTree = "<group>"; };
+		DD43689DE81A44ECBB03F8DD /* UNIRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIRest.h; path = "ionic-plugin-deploy/UNIRest.h"; sourceTree = "<group>"; };
+		DE6BDF80C42C49F78B209602 /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Download.h; path = "ionic-plugin-deploy/Download.h"; sourceTree = "<group>"; };
+		E13F2D1CA6EF42C99D8783DA /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequestWithBody.h; path = "ionic-plugin-deploy/UNIHTTPRequestWithBody.h"; sourceTree = "<group>"; };
+		E18A67C03BD847BB9FA5EF55 /* IonicDeploy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IonicDeploy.m; path = "ionic-plugin-deploy/IonicDeploy.m"; sourceTree = "<group>"; };
+		E234040370EE48E5B08D0F69 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = trees.c; path = "ionic-plugin-deploy/trees.c"; sourceTree = "<group>"; };
+		E9FF9D8D080243B7B41D8976 /* PayPalProfileSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPalProfileSharingViewController.h; path = com.paypal.cordova.mobilesdk/PayPalProfileSharingViewController.h; sourceTree = "<group>"; };
+		EA6A5215366244289DB668A5 /* IonicDeploy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IonicDeploy.h; path = "ionic-plugin-deploy/IonicDeploy.h"; sourceTree = "<group>"; };
+		EA75162297D44BF4AC6BFAAD /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = deflate.c; path = "ionic-plugin-deploy/deflate.c"; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		EBC354E3E0DE4BDEBE50FFEC /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = uncompr.c; path = "ionic-plugin-deploy/uncompr.c"; sourceTree = "<group>"; };
-		EC03CF4A503A45209613F25C /* CoreData.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		EC8496EFB94743F6906A0ADA /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPBinaryResponse.m; path = "ionic-plugin-deploy/UNIHTTPBinaryResponse.m"; sourceTree = "<group>"; };
-		EFEC97D000B34AEF89F18FCE /* UIWebViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIWebViewExtension.m; path = com.ionic.keyboard/UIWebViewExtension.m; sourceTree = "<group>"; };
-		F079805974DC4E35ADEDFC6F /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = inflate.c; path = "ionic-plugin-deploy/inflate.c"; sourceTree = "<group>"; };
-		F0CFD391261940E5B73B45E0 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = "cordova-plugin-google-analytics/GAIEcommerceProduct.h"; sourceTree = "<group>"; };
-		F2FE0BD4E7B6420DB34B7A67 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVAssetLibraryFilesystem.m; path = org.apache.cordova.file/CDVAssetLibraryFilesystem.m; sourceTree = "<group>"; };
-		F4629CB64D7A436281443E8C /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = "ionic-plugin-deploy/unzip.h"; sourceTree = "<group>"; };
-		F632B705053749079E3925F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F68373ED53E14F6FBEE3D8C3 /* UNIHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIHTTPResponse.h; path = "ionic-plugin-deploy/UNIHTTPResponse.h"; sourceTree = "<group>"; };
-		F6DEAADE47C2428C85375B12 /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPClientHelper.m; path = "ionic-plugin-deploy/UNIHTTPClientHelper.m"; sourceTree = "<group>"; };
+		EC88613F23BB406A968004D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EE68F0A34D7B4A8BAD689B9B /* Pushwoosh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Pushwoosh; path = "تعاوني الحفر/Plugins/com.pushwoosh.plugins.pushwoosh/Pushwoosh"; sourceTree = "<group>"; };
+		F0CB0128D3924CDBB654BF61 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		F4A324CB80E146AEAF54271D /* SystemConfiguration.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F5EBE975CB874B659DF95560 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = "cordova-plugin-google-analytics/GAIEcommerceProduct.h"; sourceTree = "<group>"; };
+		F714089E3842470382FB5177 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = "cordova-plugin-google-analytics/GAIFields.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "تعاوني الحفر/config.xml"; sourceTree = "<group>"; };
-		F8FA3160E20A4F63816CB7CF /* CDVInAppBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVInAppBrowser.m; path = org.apache.cordova.inappbrowser/CDVInAppBrowser.m; sourceTree = "<group>"; };
-		FA1728486D994412A997DEA6 /* CDVNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVNotification.m; path = org.apache.cordova.dialogs/CDVNotification.m; sourceTree = "<group>"; };
-		FB1FF4173CBA47959464F1F7 /* UniversalAnalyticsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UniversalAnalyticsPlugin.m; path = "cordova-plugin-google-analytics/UniversalAnalyticsPlugin.m"; sourceTree = "<group>"; };
-		FF0A5A5069604842BD5503A9 /* PushNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PushNotification.h; path = com.pushwoosh.plugins.pushwoosh/ios/PushNotification.h; sourceTree = "<group>"; };
+		F8897CB5A95E4B9AA95DB133 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = "تعاوني الحفر/Plugins/cordova-plugin-google-analytics/libGoogleAnalyticsServices.a"; sourceTree = "<group>"; };
+		FAAFBCCEA35043B082AF8CD0 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = "cordova-plugin-google-analytics/GAILogger.h"; sourceTree = "<group>"; };
+		FB1038E46C794FAF8A9D28C7 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = unzip.c; path = "ionic-plugin-deploy/unzip.c"; sourceTree = "<group>"; };
+		FBA26B0F49D346D593C17D19 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLocalFilesystem.m; path = org.apache.cordova.file/CDVLocalFilesystem.m; sourceTree = "<group>"; };
+		FC097100959F49BD87F82AF2 /* CDVSplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVSplashScreen.m; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; };
+		FE25E20BFFD64AEAB91219D9 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = "ionic-plugin-deploy/zutil.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,18 +338,29 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				CA058C72DBA74B5C820CC698 /* Pushwoosh in Frameworks */,
-				697E4CA00E02442EAF90BCC2 /* Security.framework in Frameworks */,
-				9D3FF7F309BC4326A5BDED66 /* Storekit.framework in Frameworks */,
-				EBA93927CB2F4185A5BF3BDA /* CoreLocation.framework in Frameworks */,
-				23004753E9E74C5E94392AD7 /* libstdc++.dylib in Frameworks */,
-				0F70C3240F624C90BA0F853F /* libz.dylib in Frameworks */,
-				628A98B971BA450188356CFE /* libGoogleAnalyticsServices.a in Frameworks */,
-				573D08350B384AD6BE52CCA9 /* SystemConfiguration.framework in Frameworks */,
-				7E173243DE3845BD8F4BE7A2 /* CoreData.framework in Frameworks */,
-				87593964EF6E45848E0CBEC0 /* libsqlite3.0.dylib in Frameworks */,
-				BA8949150341463B888BAB9E /* QuartzCore.framework in Frameworks */,
-				3D78FC9278AD4EFBB7456A03 /* AudioToolbox.framework in Frameworks */,
+				7EE10BA7C3AF4684B227EA2F /* libPayPalMobile.a in Frameworks */,
+				AE66F003201F48DD9092CC35 /* Accelerate.framework in Frameworks */,
+				5AE80C391FBC4B6D87C5A184 /* AudioToolbox.framework in Frameworks */,
+				2875434E99C34427B87ABBBE /* AVFoundation.framework in Frameworks */,
+				69C33682FDEF459BA2B0E542 /* CFNetwork.framework in Frameworks */,
+				38B077D7F8644BFCB485FC16 /* CoreLocation.framework in Frameworks */,
+				A18331031D57417CB705F9D7 /* CoreMedia.framework in Frameworks */,
+				ACF39C9E7B5540F9AF7DC768 /* CoreVideo.framework in Frameworks */,
+				976EE12A35BF4E3AA3AF367E /* MessageUI.framework in Frameworks */,
+				3C74706777E946169E5CE171 /* OpenGLES.framework in Frameworks */,
+				3059D389CEAE42CF8F2A5315 /* Security.framework in Frameworks */,
+				32A18E9A292745A298C32A81 /* SystemConfiguration.framework in Frameworks */,
+				6AE66BF7EE094EA4BB5CAEBB /* QuartzCore.framework in Frameworks */,
+				0B743F7586B74115B4241350 /* UIKit.framework in Frameworks */,
+				697709D1C52E4E46A7DCE0E5 /* libc++.dylib in Frameworks */,
+				7467517C53B44FC38DE94182 /* libPayPalMobile.a in Frameworks */,
+				98C1C6C5B472483E9886F441 /* Pushwoosh in Frameworks */,
+				C2CACD79421C409EA14AE0E2 /* Storekit.framework in Frameworks */,
+				EABAE15B96E543279BD3E2DC /* libstdc++.dylib in Frameworks */,
+				453F4E0C649C4149B62BCC10 /* libz.dylib in Frameworks */,
+				56F5A1D49624420194DB5314 /* libGoogleAnalyticsServices.a in Frameworks */,
+				BDEA8D308C26401DB2A27AF3 /* CoreData.framework in Frameworks */,
+				BD38FC57CF964BC5BC8DCF33 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +391,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				37E832471C6A7A4200CBBC89 /* تعاوني الحفر.entitlements */,
+				370E653C1C8A341B0099A07C /* تعاوني الحفر.entitlements */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF21871DA7A0020F90C /* merges */,
@@ -381,7 +423,7 @@
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
 				8D1107310486CEB800E47090 /* تعاوني الحفر-Info.plist */,
-				790B16AE8B92449CAC33D3BF /* CDVNotification.bundle */,
+				35972C459D77474382AA794B /* CDVNotification.bundle */,
 			);
 			name = Resources;
 			path = "تعاوني الحفر/Resources";
@@ -393,18 +435,29 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				AFD6E08D5EAC4A0A9C664B96 /* Pushwoosh */,
-				CC1F228CA0874376B9AAA88E /* Security.framework */,
-				BF3758B3074E436FBB07B773 /* Storekit.framework */,
-				2F17D07C40A84C028A55488B /* CoreLocation.framework */,
-				BBE6C7AC20B847DEA62075E6 /* libstdc++.dylib */,
-				7261A900AC064F97A56DD593 /* libz.dylib */,
-				43A678C35E2C4132A14056A5 /* libGoogleAnalyticsServices.a */,
-				F632B705053749079E3925F6 /* SystemConfiguration.framework */,
-				EC03CF4A503A45209613F25C /* CoreData.framework */,
-				05B2A4F0E91C4B6B9D61C373 /* libsqlite3.0.dylib */,
-				702C22F83557413989E84AEC /* QuartzCore.framework */,
-				8282C6CC7BA645DEA3315350 /* AudioToolbox.framework */,
+				4FE863AC26EE41D7BB7BC024 /* libPayPalMobile.a */,
+				AA4203FF81EA4B248DFC58AC /* Accelerate.framework */,
+				EC88613F23BB406A968004D7 /* AudioToolbox.framework */,
+				1D866106DD314B34B9FB3DBD /* AVFoundation.framework */,
+				77A594D55B554995A3B4218B /* CFNetwork.framework */,
+				B2E49DCE69BF4723AB9DE22A /* CoreLocation.framework */,
+				0BC4A5C15C064DE4817655C0 /* CoreMedia.framework */,
+				C5B4D8DCC51F49499B29C656 /* CoreVideo.framework */,
+				CC20B0D6BCA64984B8FF354F /* MessageUI.framework */,
+				768A41518FE1454D90DB14BB /* OpenGLES.framework */,
+				2190D2CB20B145B891C3AB4F /* Security.framework */,
+				F4A324CB80E146AEAF54271D /* SystemConfiguration.framework */,
+				54A1C3D2D5C44B41B912706B /* QuartzCore.framework */,
+				842983A4B690440CB02BA044 /* UIKit.framework */,
+				3C7EEC30F85E44D798784F92 /* libc++.dylib */,
+				88D1EDC6B9D44FE0BDDFD3E2 /* libPayPalMobile.a */,
+				EE68F0A34D7B4A8BAD689B9B /* Pushwoosh */,
+				975D6EDCB44045549F53DD96 /* Storekit.framework */,
+				4332702D4FC449DABFABFA0B /* libstdc++.dylib */,
+				60183880F67C42739D017878 /* libz.dylib */,
+				F8897CB5A95E4B9AA95DB133 /* libGoogleAnalyticsServices.a */,
+				9CBE3E6D338E4E499A588604 /* CoreData.framework */,
+				F0CB0128D3924CDBB654BF61 /* libsqlite3.0.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -420,120 +473,129 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				5B0232C27F924030A36F9E92 /* IonicKeyboard.m */,
-				EFEC97D000B34AEF89F18FCE /* UIWebViewExtension.m */,
-				E1E540B9E17B4D6BAF41A010 /* IonicKeyboard.h */,
-				5D5446BF32924999B3C7247C /* UIWebViewExtension.h */,
-				D0E06D11F528463F8832C48F /* PushNotification.m */,
-				FF0A5A5069604842BD5503A9 /* PushNotification.h */,
-				75CAC2B107B64E4DA0309E70 /* PushNotificationManager.h */,
-				33C49D4D079D40A5A799399B /* CDVLogger.m */,
-				14FD13BAF1654C1197A25C49 /* CDVLogger.h */,
-				94DAC80CC3DE42B2B04D3214 /* CDVDevice.m */,
-				791AAB758BC1407F9908ED90 /* CDVDevice.h */,
-				FB1FF4173CBA47959464F1F7 /* UniversalAnalyticsPlugin.m */,
-				ACEFF1ECDA0E43D7910F2801 /* UniversalAnalyticsPlugin.h */,
-				DD6EF314D7FD4EEC9DAA7B89 /* GAIDictionaryBuilder.h */,
-				1C4F415CB6AC4F33B1A89112 /* GAIFields.h */,
-				4A136855F4484B08921474DE /* GAILogger.h */,
-				1093E6778FB74957969D6CE6 /* GAITrackedViewController.h */,
-				7E410A2727EA43228CE5BE39 /* GAI.h */,
-				71948846DB454337B8E52F92 /* GAITracker.h */,
-				56E922BE85E9479985372E0D /* GAIEcommerceFields.h */,
-				F0CFD391261940E5B73B45E0 /* GAIEcommerceProduct.h */,
-				1FB95427E92B487D8D3642D4 /* GAIEcommerceProductAction.h */,
-				4316F7221A8C422F9D2834A7 /* GAIEcommercePromotion.h */,
-				11B01F9719E94E3690F4A2AA /* CDVSplashScreen.m */,
-				5703A418D6E54CB38584928A /* CDVSplashScreen.h */,
-				DD463230D6314378B42820A6 /* IonicConstant.m */,
-				E325C2039E6B4ECC817670C6 /* IonicDeploy.m */,
-				D82953CC1C554DFCB7A881F6 /* Download.m */,
-				AA9A0DB8C7EB488C846119A1 /* DownloadManager.m */,
-				AF944E7C0E1E4BD0A5BAEB0A /* SSZipArchive.m */,
-				857A849FF6C54FA8A9C5CEFD /* ioapi.c */,
-				9553625E1D1947F8B7970254 /* unzip.c */,
-				56F977C78A534443BED78C16 /* zip.c */,
-				E49CC4A6579F4975A88B0C25 /* adler32.c */,
-				BC5ED10601D74236A5E0478A /* compress.c */,
-				18513193BC4B4E6AAA1844C6 /* crc32.c */,
-				B637556A8EE8499DB764DF89 /* deflate.c */,
-				85328BB6177C45BEB4886DFC /* gzclose.c */,
-				1E68F596F6274463A528532F /* gzlib.c */,
-				EA0FAD23503D46E582D197CC /* gzread.c */,
-				BE5CB0B2DAC343ECB68B57C4 /* gzwrite.c */,
-				4DF8FFB2AF32471FBCD04FC8 /* infback.c */,
-				0EB22F892B6E493FA8B8537B /* inffast.c */,
-				F079805974DC4E35ADEDFC6F /* inflate.c */,
-				9CB17CB694064596A510F703 /* inftrees.c */,
-				389DE0F513D1470FB4B48D26 /* trees.c */,
-				EBC354E3E0DE4BDEBE50FFEC /* uncompr.c */,
-				E7CC3AC547BA4CC3ABC78A23 /* zutil.c */,
-				6C77E31568EA451AB14B7754 /* Base64.m */,
-				F6DEAADE47C2428C85375B12 /* UNIHTTPClientHelper.m */,
-				15D6425FB6B54DB59069121B /* UNIHTTPRequest.m */,
-				89A66D63456E4555B8F8135F /* UNIHTTPRequestWithBody.m */,
-				78D0E829A7434D3DB9BB3A56 /* UNIRest.m */,
-				3272A5DC74E844169E8EDD7C /* UNIUrlConnection.m */,
-				41EF319341B54FFF8923C237 /* UNIBaseRequest.m */,
-				89C52D79CD1E4EA8BB7D0094 /* UNIBodyRequest.m */,
-				20BAA18F146E43C58727EA38 /* UNISimpleRequest.m */,
-				EC8496EFB94743F6906A0ADA /* UNIHTTPBinaryResponse.m */,
-				780E2552F6904F7EB96E884E /* UNIHTTPJsonResponse.m */,
-				89BA8FE8C35A4FE3BB9B03CF /* UNIHTTPResponse.m */,
-				8E98A58D0B36464FAA110333 /* UNIHTTPStringResponse.m */,
-				055D8B012EA64D58A771A560 /* UNIJsonNode.m */,
-				6C68F38D02244C47A4A4B243 /* IonicConstant.h */,
-				0400816E594043948AA41E5D /* IonicDeploy.h */,
-				817CF94A70FA4E4082386403 /* Download.h */,
-				90F693D4189243DDB994FFAB /* DownloadManager.h */,
-				4B9099DE2691484489EDE348 /* SSZipArchive.h */,
-				9AE5867D4CF845358EE39AAF /* ARCHelper.h */,
-				CB954E6305FC407D8EA8A994 /* crypt.h */,
-				0873D4E9DD5844A8827DA3D6 /* ioapi.h */,
-				F4629CB64D7A436281443E8C /* unzip.h */,
-				8D139D0A9FD044E393D987DA /* zip.h */,
-				D24995D54003497EB5130385 /* crc32.h */,
-				779B57A616A745C293E59B85 /* deflate.h */,
-				E8C03B43913D431A9AB9153B /* gzguts.h */,
-				9F339164EE52424894845215 /* inffast.h */,
-				756D05DB4CDE460FADB5BA22 /* inffixed.h */,
-				2683C6A86AE6441DAF738EFE /* inflate.h */,
-				460DEAB258784B5BB74F2094 /* inftrees.h */,
-				A358387119DF434782337A78 /* trees.h */,
-				4B65C2FD6CB945228FC4B070 /* zconf.h */,
-				5961BACB6B0E44DBA7325A4E /* zlib.h */,
-				A439D28FAD5141E0A92255C0 /* zutil.h */,
-				BB7E9EE652344F449F2EAFD8 /* Base64.h */,
-				0CF9FCB60F964BCBBD64D93B /* UNIHTTPClientHelper.h */,
-				179612474931469E848165CF /* UNIHTTPRequest.h */,
-				B856C71102F0423DB21EDE4C /* UNIHTTPRequestWithBody.h */,
-				A628F84F525344549D60F3CC /* Unirest-Prefix.pch */,
-				6B412532CFEA419FB822DFA3 /* UNIRest.h */,
-				9A2D3091E34E41A49385CE10 /* UNIUrlConnection.h */,
-				96900475E87B49FE88541D2F /* UNIBaseRequest.h */,
-				7950E887C21F4EECACE7BE4C /* UNIBodyRequest.h */,
-				1D013411CF7741A99E89C6A2 /* UNISimpleRequest.h */,
-				E3D5405171124F609E04BE57 /* UNIHTTPBinaryResponse.h */,
-				21D10CBF33754C24AAB9D239 /* UNIHTTPJsonResponse.h */,
-				F68373ED53E14F6FBEE3D8C3 /* UNIHTTPResponse.h */,
-				B77C1C8D91124E8294F2BCE0 /* UNIHTTPStringResponse.h */,
-				84FE7393C1574EF28E777647 /* UNIJsonNode.h */,
-				D6FCD5E5701E4582B7099148 /* Toast+UIView.m */,
-				296DEF26C0194FDBAD6EAA10 /* Toast.m */,
-				4BB85E2766AD4047804761A5 /* Toast+UIView.h */,
-				9E9528B129C24A85B4813B00 /* Toast.h */,
-				FA1728486D994412A997DEA6 /* CDVNotification.m */,
-				064CC3E911A445528474CA57 /* CDVNotification.h */,
-				21A93CD7ACB54608B547B18D /* CDVFile.m */,
-				31F0EC32BB0F451A95EF83EB /* CDVLocalFilesystem.m */,
-				F2FE0BD4E7B6420DB34B7A67 /* CDVAssetLibraryFilesystem.m */,
-				5E614F7B863D4C7FACF03B84 /* CDVFile.h */,
-				7C1010D6DD6443E5A1241158 /* CDVLocalFilesystem.h */,
-				5414D24870714AB2970BC31D /* CDVAssetLibraryFilesystem.h */,
-				F8FA3160E20A4F63816CB7CF /* CDVInAppBrowser.m */,
-				E13D32B18C0242EC8C61B38D /* CDVInAppBrowser.h */,
-				BFADDDD83BF6458085851276 /* CDVSound.m */,
-				BC8691ACF7864DE5B874652F /* CDVSound.h */,
+				9EFD97B0037849BAA4C51E8F /* IonicKeyboard.m */,
+				C40222C98FE347C4AE04686C /* UIWebViewExtension.m */,
+				875859E7BCD948F4B1476739 /* IonicKeyboard.h */,
+				2A962A1E406F4E2CB3FD7BD3 /* UIWebViewExtension.h */,
+				7283A843365F42369D1CBFAB /* PayPalMobileCordovaPlugin.m */,
+				3C1983EEC6684035A94B2E83 /* PayPalMobileCordovaPlugin.h */,
+				720496C0D43243E8AB100FFB /* PayPalConfiguration.h */,
+				0ED91F0260DE48958315D9BE /* PayPalFuturePaymentViewController.h */,
+				B2938761FEB44A3D8D5D1273 /* PayPalMobile.h */,
+				197918176FA04BAC9D83209F /* PayPalOAuthScopes.h */,
+				81379FA97BC6469C854C7C91 /* PayPalPayment.h */,
+				5EE6A4826B66496DA7792623 /* PayPalPaymentViewController.h */,
+				E9FF9D8D080243B7B41D8976 /* PayPalProfileSharingViewController.h */,
+				34F31B90A7D2410998948F04 /* PushNotification.m */,
+				605B23E54F074E73B2989FE5 /* PushNotification.h */,
+				07AAD0A601CE4F899734ABFE /* PushNotificationManager.h */,
+				548096227FDC477DBAA5C215 /* CDVLogger.m */,
+				5D88C0BF58FF425CA8757212 /* CDVLogger.h */,
+				0BF099B7FCA84F21850BD88F /* CDVDevice.m */,
+				BBB292C402B94F4CB9FD7EF5 /* CDVDevice.h */,
+				448E3B83EB8847D49B43DBCB /* UniversalAnalyticsPlugin.m */,
+				66558D7DC8B24F44B0BFA64A /* UniversalAnalyticsPlugin.h */,
+				B058D3B5C5E7410A98CFA09E /* GAIDictionaryBuilder.h */,
+				F714089E3842470382FB5177 /* GAIFields.h */,
+				FAAFBCCEA35043B082AF8CD0 /* GAILogger.h */,
+				625D6E1E975A4EB7803D2853 /* GAITrackedViewController.h */,
+				AF28226110814C09919917B7 /* GAI.h */,
+				5373A62E662F497F84F6E2F5 /* GAITracker.h */,
+				CD2107896BF4457E80F2E5B8 /* GAIEcommerceFields.h */,
+				F5EBE975CB874B659DF95560 /* GAIEcommerceProduct.h */,
+				024009DD6E024FF482F6C58C /* GAIEcommerceProductAction.h */,
+				1C93CE5C2DA34F7280A4E363 /* GAIEcommercePromotion.h */,
+				FC097100959F49BD87F82AF2 /* CDVSplashScreen.m */,
+				67F0A98314AB472286AEFD69 /* CDVSplashScreen.h */,
+				A48297734B6C412883E18335 /* IonicConstant.m */,
+				E18A67C03BD847BB9FA5EF55 /* IonicDeploy.m */,
+				73546CA302A445E4823B8CDD /* Download.m */,
+				5813F34330BC45ED8B1E9B73 /* DownloadManager.m */,
+				1C8A1811291F4B71A98755C1 /* SSZipArchive.m */,
+				3CB3499B92D644E4A6C2C6C9 /* ioapi.c */,
+				FB1038E46C794FAF8A9D28C7 /* unzip.c */,
+				D2AC93FEB9914F31BD600AFF /* zip.c */,
+				5F4844D4146B41AAB1FFBE1E /* adler32.c */,
+				566B6F2799164D7E80A1F9CB /* compress.c */,
+				31991AE315A1420A800DA380 /* crc32.c */,
+				EA75162297D44BF4AC6BFAAD /* deflate.c */,
+				B263126AE97346E2B0FAB490 /* gzclose.c */,
+				2AB17177FCC7404F877FD888 /* gzlib.c */,
+				C0F2A727F9124C37BB99E6C3 /* gzread.c */,
+				B2CC54E9B9FB4867B60807EB /* gzwrite.c */,
+				97F2DD916C7C43DA9EB52D20 /* infback.c */,
+				403A3B5686C24992B623BE1A /* inffast.c */,
+				60727774A190408BAD2751D6 /* inflate.c */,
+				9FB71DC86EAC4AC08DA5DBF8 /* inftrees.c */,
+				E234040370EE48E5B08D0F69 /* trees.c */,
+				BA7866BEFE10439C94DEF596 /* uncompr.c */,
+				113999572C754D4199FC9F95 /* zutil.c */,
+				BB85B43B580242E0B08F653C /* Base64.m */,
+				954F6413331E4B069AE765E5 /* UNIHTTPClientHelper.m */,
+				8FB37F51BF93485DA83F53A8 /* UNIHTTPRequest.m */,
+				5D4CAB68E7EE44D6BE5C73C9 /* UNIHTTPRequestWithBody.m */,
+				C95A4F13BAA140CABF9F2D3F /* UNIRest.m */,
+				9E11AE25D43542E08668D73B /* UNIUrlConnection.m */,
+				3746F99BF19E4B7185DA23CB /* UNIBaseRequest.m */,
+				A96FA11CD42E479F8F4F96C3 /* UNIBodyRequest.m */,
+				9FCEB96E67B344B2A66D0955 /* UNISimpleRequest.m */,
+				2CE6BB3E9248421CB1F1AD4D /* UNIHTTPBinaryResponse.m */,
+				7A1CAE988D334FC6B25EEFDB /* UNIHTTPJsonResponse.m */,
+				A51E7D18D0AE4575B1A6B520 /* UNIHTTPResponse.m */,
+				A5D74E6D5AAE4369989BA442 /* UNIHTTPStringResponse.m */,
+				940D18E8D99141D8AFBC1621 /* UNIJsonNode.m */,
+				D4A35BC47C5245669D7ED70F /* IonicConstant.h */,
+				EA6A5215366244289DB668A5 /* IonicDeploy.h */,
+				DE6BDF80C42C49F78B209602 /* Download.h */,
+				2019BA2CFBD94FB1B866D3D3 /* DownloadManager.h */,
+				C2CD6C40A8A84092A95C2A91 /* SSZipArchive.h */,
+				2C77EFEA5BB8403891F9A64E /* ARCHelper.h */,
+				1F7ED7B56861495AA69AF058 /* crypt.h */,
+				DC1C75C81BDE42B09C57E8AD /* ioapi.h */,
+				58C10BCB9EFE42BC8F119940 /* unzip.h */,
+				55592DDD85E44A949E67BD48 /* zip.h */,
+				36D7867B688B43D6AAF23F59 /* crc32.h */,
+				CA96BB648374440DB051223B /* deflate.h */,
+				9091E7126A714BDAA65D579D /* gzguts.h */,
+				2146DE5279754ECFB5EB5728 /* inffast.h */,
+				BA20A6BCD6BD4110A55B72B5 /* inffixed.h */,
+				7643D7BB35154F65803FA722 /* inflate.h */,
+				242A3BF5D5F54687913DCD88 /* inftrees.h */,
+				512F56C973EF4AC6BD8FECA0 /* trees.h */,
+				7BD24ED78DA14E4F856083AD /* zconf.h */,
+				43C934A5DB9D47B09175C16D /* zlib.h */,
+				FE25E20BFFD64AEAB91219D9 /* zutil.h */,
+				4E8BB47F878F448C89B95DD0 /* Base64.h */,
+				54A35864E6554F38861420D8 /* UNIHTTPClientHelper.h */,
+				3121D8AD43794775AB31EA5D /* UNIHTTPRequest.h */,
+				E13F2D1CA6EF42C99D8783DA /* UNIHTTPRequestWithBody.h */,
+				75179A8F32D74649A9754159 /* Unirest-Prefix.pch */,
+				DD43689DE81A44ECBB03F8DD /* UNIRest.h */,
+				260C96A0162B467783C7564F /* UNIUrlConnection.h */,
+				263570D895CE4BC589C32697 /* UNIBaseRequest.h */,
+				3E2900CCEBF448E19814AFDB /* UNIBodyRequest.h */,
+				BF3AEC073523446E95375457 /* UNISimpleRequest.h */,
+				60E9BC62990743F9B5288ECB /* UNIHTTPBinaryResponse.h */,
+				2F190AD6D19043708C56142C /* UNIHTTPJsonResponse.h */,
+				91D97D8BF1BA45348BC7914C /* UNIHTTPResponse.h */,
+				96D638F9F50844DD9F842BB7 /* UNIHTTPStringResponse.h */,
+				57E6F30171264320B2B45DDB /* UNIJsonNode.h */,
+				852A552E793B41B8A501D8F1 /* Toast+UIView.m */,
+				3D1ACA6A407E4E2596602B72 /* Toast.m */,
+				6D36F91E28AA4091A4AD83F7 /* Toast+UIView.h */,
+				90383CA2322C481DBCB5BD8E /* Toast.h */,
+				3288D2CE1FD84686AB2441DF /* CDVNotification.m */,
+				AE920D871F064ED9829E3163 /* CDVNotification.h */,
+				85B54F0BF1484FFDACC188E5 /* CDVFile.m */,
+				FBA26B0F49D346D593C17D19 /* CDVLocalFilesystem.m */,
+				C5E775CC161642DD8B369567 /* CDVAssetLibraryFilesystem.m */,
+				5CDAB8F1CDC44BA9A9B9D3A9 /* CDVFile.h */,
+				56FB181362E3477FA06819A4 /* CDVLocalFilesystem.h */,
+				10CCAA96C1054BFA945BECE8 /* CDVAssetLibraryFilesystem.h */,
+				86037B5F4FAF4436AF042E83 /* CDVInAppBrowser.m */,
+				74C3506E66184B328E5374E2 /* CDVInAppBrowser.h */,
+				094334272A3D4A798C4266F6 /* CDVSound.m */,
+				18A2EEF703FA46A6B31F6C39 /* CDVSound.h */,
 			);
 			name = Plugins;
 			path = "تعاوني الحفر/Plugins";
@@ -700,7 +762,7 @@
 				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
 				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
-				16EB88091E2E41F9A75AE80E /* CDVNotification.bundle in Resources */,
+				5C7F4D698EDA46508F53E414 /* CDVNotification.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,58 +794,59 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				CF78DD46562F4550BB3C7393 /* IonicKeyboard.m in Sources */,
-				241C53226AC045498FE91F16 /* UIWebViewExtension.m in Sources */,
-				CF71943232614F5DA8829AA1 /* PushNotification.m in Sources */,
-				EC90916F652C4315BA6D5DC3 /* CDVLogger.m in Sources */,
-				7EF9BDB6EF8E475ABCCB7C41 /* CDVDevice.m in Sources */,
-				946F0135211543F390A50C71 /* UniversalAnalyticsPlugin.m in Sources */,
-				8076605437934F0AB2B2CD02 /* CDVSplashScreen.m in Sources */,
-				CDF92ED1B04947A78F52418A /* IonicConstant.m in Sources */,
-				E835C48BB7164CFFAA53DC67 /* IonicDeploy.m in Sources */,
-				91B7B9C0F2214D3AB3184A7B /* Download.m in Sources */,
-				E83DD65EFDFB404198306D3D /* DownloadManager.m in Sources */,
-				3465042793444B778D19F7F8 /* SSZipArchive.m in Sources */,
-				64A2FEA5050043D79B5FC4A5 /* ioapi.c in Sources */,
-				0D7C6537735A4FDBBB3C4D48 /* unzip.c in Sources */,
-				26CB1BD6529B4F49B679A03C /* zip.c in Sources */,
-				FC6A05C3A393428CA2B76058 /* adler32.c in Sources */,
-				BD6CCC5788E3473CB0C2344E /* compress.c in Sources */,
-				9455A9BB5E17410D8C3DD76F /* crc32.c in Sources */,
-				3CBB2FBD7F5248EF978FCB5C /* deflate.c in Sources */,
-				C20910212C2B4F19A5F572D0 /* gzclose.c in Sources */,
-				CF59398FC8B042109CD7411F /* gzlib.c in Sources */,
-				5737909532A8442C9DF94A1D /* gzread.c in Sources */,
-				384A267D2A9D4BEDBBDCE193 /* gzwrite.c in Sources */,
-				359042AF81274CAB8DB99FA5 /* infback.c in Sources */,
-				4CCEF368DF9D414C80F0BEBD /* inffast.c in Sources */,
-				A97D289A925444B18E72A6E7 /* inflate.c in Sources */,
-				D2980A46D2C54F3C9A16FC5B /* inftrees.c in Sources */,
-				E395D4AABE2B47D3B5E8B5C8 /* trees.c in Sources */,
-				68EBD0C2630A414F9887F979 /* uncompr.c in Sources */,
-				5653A403077340569B4FBB72 /* zutil.c in Sources */,
-				72CEAA23CD4847B29EE89CC3 /* Base64.m in Sources */,
-				6DA1D5F683D7419A9478045D /* UNIHTTPClientHelper.m in Sources */,
-				48BBDC12574246649B94DB29 /* UNIHTTPRequest.m in Sources */,
-				9F37EE0C47814ED8B2E82A33 /* UNIHTTPRequestWithBody.m in Sources */,
-				2FBB0BDEDE0A43BC9D01BB68 /* UNIRest.m in Sources */,
-				096275883495429B87BF5608 /* UNIUrlConnection.m in Sources */,
-				889FF2414B6545EE897CC35C /* UNIBaseRequest.m in Sources */,
-				E33CDFD460804F5894F5AA36 /* UNIBodyRequest.m in Sources */,
-				15CEC661EC7A466BB510A762 /* UNISimpleRequest.m in Sources */,
-				56611DA262244E568CD40211 /* UNIHTTPBinaryResponse.m in Sources */,
-				50A9C81397FC459DAAB57DD0 /* UNIHTTPJsonResponse.m in Sources */,
-				BF3CD029B78C458F8990127D /* UNIHTTPResponse.m in Sources */,
-				E448C54B936C40B1B53245D9 /* UNIHTTPStringResponse.m in Sources */,
-				14D8A2ED3E264C37831E0072 /* UNIJsonNode.m in Sources */,
-				74C4AF51D96B457EB9791B65 /* Toast+UIView.m in Sources */,
-				83DD44C97C944AB2883D7102 /* Toast.m in Sources */,
-				2C0CA323D305450FB7ADB5C7 /* CDVNotification.m in Sources */,
-				00DEA22C00654962A2093533 /* CDVFile.m in Sources */,
-				9A680B7A3C024FB29E976317 /* CDVLocalFilesystem.m in Sources */,
-				48057A5E61E64F3D92198D95 /* CDVAssetLibraryFilesystem.m in Sources */,
-				735DBC8591F440F4A0990DA5 /* CDVInAppBrowser.m in Sources */,
-				268F07775806464BAF3C7CBB /* CDVSound.m in Sources */,
+				44DE06DD6C8A4C55BE0A2730 /* IonicKeyboard.m in Sources */,
+				FADBE5C0500847DBA9A3A501 /* UIWebViewExtension.m in Sources */,
+				75C86ED14A38448880B25C3B /* PayPalMobileCordovaPlugin.m in Sources */,
+				4E3BFE211C2C49FEA2B1335A /* PushNotification.m in Sources */,
+				11CF54BFCD21416C989C95E0 /* CDVLogger.m in Sources */,
+				CAE90802A5ED4E15BFA090E2 /* CDVDevice.m in Sources */,
+				82F32815CBA54E8E950076F0 /* UniversalAnalyticsPlugin.m in Sources */,
+				92082962A69A4DE6ABE85DB5 /* CDVSplashScreen.m in Sources */,
+				4EF1B12531784279BFCDB9A8 /* IonicConstant.m in Sources */,
+				16DFDF0E3C0047A69FB8F566 /* IonicDeploy.m in Sources */,
+				6C6AAF8F091E40E6A99124D0 /* Download.m in Sources */,
+				578384FE9F2743BD96FB98CF /* DownloadManager.m in Sources */,
+				DC94FC03DC814F8E93D76112 /* SSZipArchive.m in Sources */,
+				4C701AE2DC264C10BCC7C0B1 /* ioapi.c in Sources */,
+				B643B81AECBE4C8DA5A2D263 /* unzip.c in Sources */,
+				83D4DA9876D34A3DBCB3C08E /* zip.c in Sources */,
+				821C91295C4A4026B8DBFA6C /* adler32.c in Sources */,
+				04CC97B7B5174F00A8ACAC2A /* compress.c in Sources */,
+				093CE98A6D6D45BF8F716870 /* crc32.c in Sources */,
+				BE9993924C864A2FB124A5BE /* deflate.c in Sources */,
+				48613BC257824CD98D9F005A /* gzclose.c in Sources */,
+				B6EE2A0F7D3448D8B0E2B88A /* gzlib.c in Sources */,
+				F42D1B3ECD524ED0B9B270F1 /* gzread.c in Sources */,
+				783D427A575747A0AC026F60 /* gzwrite.c in Sources */,
+				CD94D5484AD8408EACE29DFC /* infback.c in Sources */,
+				57E99D0A5FDE4616A0F18DA9 /* inffast.c in Sources */,
+				A72B62B814634E79BFC1CAAB /* inflate.c in Sources */,
+				C954DF1C8DC54D6ABEFAA60D /* inftrees.c in Sources */,
+				06D67D729CE3472B9C892910 /* trees.c in Sources */,
+				9F6D8792AFEE4AEE88B2996A /* uncompr.c in Sources */,
+				E43AD3DD80434388A00C28FA /* zutil.c in Sources */,
+				26C3787672ED4C8CA3D6ABF9 /* Base64.m in Sources */,
+				6899326A3E094BA8B0721B85 /* UNIHTTPClientHelper.m in Sources */,
+				2E9DFBB30AB64C7AB50A94F6 /* UNIHTTPRequest.m in Sources */,
+				7BCCFE16800B41D99DBE76B3 /* UNIHTTPRequestWithBody.m in Sources */,
+				348E4205B51A43F68678462F /* UNIRest.m in Sources */,
+				F1F82B1C847C423D82291E30 /* UNIUrlConnection.m in Sources */,
+				E1E1A17B99B34E8E8E457E38 /* UNIBaseRequest.m in Sources */,
+				B5C0BA92686F4D15AAD365B7 /* UNIBodyRequest.m in Sources */,
+				53264A177C064CD9A2243BC8 /* UNISimpleRequest.m in Sources */,
+				C1BA852E315A484FAA4C057C /* UNIHTTPBinaryResponse.m in Sources */,
+				F7FE7AEC870D4DE28EBCECA4 /* UNIHTTPJsonResponse.m in Sources */,
+				3C90E3368DC14EBC89C96693 /* UNIHTTPResponse.m in Sources */,
+				169DC51744B64B809419D4BF /* UNIHTTPStringResponse.m in Sources */,
+				D0B13F4769574EB79D23B6F6 /* UNIJsonNode.m in Sources */,
+				731D91A5752E4BE281252C83 /* Toast+UIView.m in Sources */,
+				524E04767A184F439254F83B /* Toast.m in Sources */,
+				9430D5262B45419F80533BEC /* CDVNotification.m in Sources */,
+				3AA3C653EFC847AFBF02DF52 /* CDVFile.m in Sources */,
+				EC68064B4A2B48699E2484B4 /* CDVLocalFilesystem.m in Sources */,
+				E2CB390B38AF4130A007A689 /* CDVAssetLibraryFilesystem.m in Sources */,
+				F2DD7A9C94B14117B78C191D /* CDVInAppBrowser.m in Sources */,
+				3FD52EC10237497790180A24 /* CDVSound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,7 +868,6 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "تعاوني الحفر/تعاوني الحفر.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -814,17 +876,11 @@
 				GCC_PREFIX_HEADER = "تعاوني الحفر/تعاوني الحفر-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = (
-					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
-					"\"$(OBJROOT)/UninstalledProducts/include\"",
-					"\"$(BUILT_PRODUCTS_DIR)\"",
-					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"\n",
-				);
 				INFOPLIST_FILE = "تعاوني الحفر/تعاوني الحفر-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = binary;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/تعاوني الحفر/Plugins/com.paypal.cordova.mobilesdk\"",
 					"\"$(SRCROOT)/تعاوني الحفر/Plugins/com.pushwoosh.plugins.pushwoosh\"",
 					"\"$(SRCROOT)/تعاوني الحفر/Plugins/cordova-plugin-google-analytics\"",
 				);
@@ -841,7 +897,6 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "تعاوني الحفر";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -852,25 +907,18 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "تعاوني الحفر/تعاوني الحفر.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "تعاوني الحفر/تعاوني الحفر-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = (
-					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
-					"\"$(OBJROOT)/UninstalledProducts/include\"",
-					"\"$(BUILT_PRODUCTS_DIR)\"",
-					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"\n",
-				);
 				INFOPLIST_FILE = "تعاوني الحفر/تعاوني الحفر-Info.plist";
-				INFOPLIST_OUTPUT_FORMAT = binary;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/تعاوني الحفر/Plugins/com.paypal.cordova.mobilesdk\"",
 					"\"$(SRCROOT)/تعاوني الحفر/Plugins/com.pushwoosh.plugins.pushwoosh\"",
 					"\"$(SRCROOT)/تعاوني الحفر/Plugins/cordova-plugin-google-analytics\"",
 				);
@@ -887,7 +935,6 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "تعاوني الحفر";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

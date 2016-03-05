@@ -3,8 +3,7 @@ angular.module('starter', [
   'ionic.service.core',
   'ionic.service.analytics',
   'ngCordova',
-  'ajoslin.promise-tracker',
-  'ionic.service.push'
+  'ajoslin.promise-tracker'
 ])
 
 
@@ -109,7 +108,8 @@ angular.module('starter', [
 })
  .state("contest", {
   url: "/contest",
-  templateUrl: "contest.html"
+  templateUrl: "contest.html",
+  controller: "payPalCtrl"
 })
  .state("donate", {
   url: "/donate",
@@ -148,6 +148,88 @@ $urlRouterProvider.otherwise("/home");
 		
 		return false;
 		};
+})
+
+.controller('payPalCtrl', function($scope, $window){
+
+	var app = {
+	 	 // Application Constructor
+	  	initialize: function() {
+		this.bindEvents();
+	  },
+	  // Bind Event Listeners
+	  //
+	  // Bind any events that are required on startup. Common events are:
+	  // 'load', 'deviceready', 'offline', and 'online'.
+	  bindEvents: function() {
+		document.addEventListener('deviceready', this.onDeviceReady, false);
+	  },
+	  // deviceready Event Handler
+	  //
+	  // The scope of 'this' is the event. In order to call the 'receivedEvent'
+	  // function, we must explicity call 'app.receivedEvent(...);'
+	  onDeviceReady: function() {
+		app.receivedEvent('deviceready');
+	  },
+	  receivedEvent: function(id) {
+		console.log('Received Event: ' + id);
+	
+		// start to initialize PayPalMobile library
+		//app.initPaymentUI();
+	  },
+	  initPaymentUI: function() {
+		var clientIDs = {
+		  "PayPalEnvironmentProduction": "YAVo-oGqt6j0hkRWWLM6xcLRSGbq561aoWs65cjhdWoX9iEG1WZykvWb5_KOCn6bNSo57BJBo5cwUzDTR",
+		  "PayPalEnvironmentSandbox": "AX_d7HlKLcc6LZS0nxeEeEwUoeTJpaL0eRaze6WLnkkWKngiwShKSh0BI1mgrd00OEdV5NWJFVCSqxBI"
+		};
+		PayPalMobile.init(clientIDs, app.onPayPalMobileInit);
+	
+	  },
+	  onSuccesfulPayment: function(payment) {
+		console.log("payment success: " + JSON.stringify(payment, null, 4));
+	  },
+	  onAuthorizationCallback: function(authorization) {
+		console.log("authorization: " + JSON.stringify(authorization, null, 4));
+	  },
+	  createPayment: function() {
+		// for simplicity use predefined amount
+		var paymentDetails = new PayPalPaymentDetails("50.00", "0.00", "0.00");
+		var payment = new PayPalPayment("50.00", "USD", "HAFRJALYAT", "Donate",
+		  paymentDetails);
+		return payment;
+	  },
+	  configuration: function() {
+		// for more options see `paypal-mobile-js-helper.js`
+		var config = new PayPalConfiguration({
+		  merchantName: "Hafrjalyat",
+		  merchantPrivacyPolicyURL: "https://Hafrjalyat.org/policy",
+		  merchantUserAgreementURL: "https://Hafrjalyat.org/agreement"
+		});
+		return config;
+	  },
+	  onPrepareRender: function() {
+        // single payment
+        PayPalMobile.renderSinglePaymentUI(app.createPayment(), app.onSuccesfulPayment, app.onUserCanceled);
+	  },
+	  onPayPalMobileInit: function() {		
+		// must be called
+		// PayPalEnvironmentNoNetwork
+        // Pay9ö+¨h np ÄoöcxPalEnvironmentSandbox
+        // PayPalEnvironmentProduction
+    PayPalMobile.prepareToRender("PayPalEnvironmentSandbox", app.configuration(),
+		  app.onPrepareRender);
+	  },
+	  onUserCanceled: function(result) {
+		console.log(result);
+	  }
+	};
+	
+	app.initialize();
+	$scope.donate = function() {
+        // start to initialize PayPalMobile library
+        app.initPaymentUI();
+	};	
+	
 })
 
 .controller('dawaCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {
