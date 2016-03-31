@@ -6,7 +6,6 @@ angular.module('starter', [
   'ajoslin.promise-tracker'
 ])
 
-
 .run(function($ionicPlatform, $rootScope, $ionicAnalytics) {
   $ionicPlatform.ready(function() {
 	  
@@ -86,11 +85,13 @@ angular.module('starter', [
   })	
  .state("work", {
   url: "/work",
-  templateUrl: "work.html"
+  templateUrl: "work.html",
+  controller: "workCtrl"
 })
  .state("translate", {
   url: "/translate",
-  templateUrl: "translate.html"
+  templateUrl: "translate.html",
+  controller: "transCtrl"
 })
  .state("aboutus", {
   url: "/aboutus",
@@ -295,6 +296,70 @@ $urlRouterProvider.otherwise("/home");
 	};
 })
 
+.controller('workCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {
+		
+    // Inititate the promise tracker to track form submissions.
+    $scope.progress = promiseTracker();
+
+    // Form submit handler.
+    $scope.submit = function(form) {
+      // Trigger validation flag.
+      $scope.submitted = true;
+
+      // If form is invalid, return and let AngularJS show validation errors.
+      if (form.$invalid) {
+        return;
+      }
+		
+      	// Default values for the request.
+     	var config = {
+          'name' : $scope.name,
+          'tel' : $scope.tel,
+          'nat' : $scope.natList,		  
+          'age' : $scope.ageList,		  		  
+          'whatstel' : $scope.whatstel,
+          'degree' : $scope.degreeList,
+          'contest' : $scope.contestList,
+          'skills' : $scope.skills,  		  
+		  'db' : 'work'
+      	};
+
+      // Ajax
+      var $promise = 
+	  	$http({
+			method: 'POST',
+			url: 'http://www.hafrjalyat.org/httpreq/ins.php',
+			data: config,
+			headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+		})
+		alert($scope.natList)
+        .success(function(data, status, headers, config) {	
+			window.plugins.toast.showLongCenter('Submitted Succesfully');
+        
+		    $scope.name = null;
+            $scope.tel = null;
+            $scope.whatstel = null;
+            //$scope.messages = 'Your form has been sent!';
+            $scope.submitted = false;
+        })
+        .error(function(data, status, headers, config) {
+			window.plugins.toast.showLongCenter('There was a network error. Try again later.')
+          	$scope.progress = data;
+          	//$scope.messages = 'There was a network error. Try again later.';
+          	$log.error(data);
+        })
+        .finally(function() {
+          // Hide status messages after three seconds
+          $timeout(function() {
+            $scope.messages = null;
+          }, 3000);
+        });
+
+      // Track the request and show its progress to the user
+      $scope.progress.addPromise($promise);
+	};
+})
+
 .controller('contestCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {
 
     // Inititate the promise tracker to track form submissions.
@@ -341,6 +406,71 @@ $urlRouterProvider.otherwise("/home");
           	$log.error(data);
         })
         .finally(function() {
+          $timeout(function() {
+            $scope.messages = null;
+          }, 3000);
+        });
+
+      // Track the request and show its progress to the user
+      $scope.progress.addPromise($promise);
+	};
+})
+
+.controller('transCtrl', function ($scope, $http, $log, promiseTracker, $timeout) {		
+			
+    // Inititate the promise tracker to track form submissions.
+    $scope.progress = promiseTracker();
+
+    // Form submit handler.
+    $scope.submit = function(form) {
+      // Trigger validation flag.
+      $scope.submitted = true;
+
+      // If form is invalid, return and let AngularJS show validation errors.
+      if (form.$invalid) {
+        return;
+      }
+		
+      	// Default values for the request.
+     	var config = {
+          'name' : $scope.name,
+          'tel' : $scope.tel,
+		  'nat' : $scope.natList,
+		  'lang' : $scope.langList,		  
+		  'nameServ' : $scope.nameServent,
+		  'type' : $scope.typeList,
+		  'time' : $scope.time,
+		  'account' : $scope.accountnr,
+		  'db'	: 'trans'	  		  
+      	};
+
+      // Ajax
+      var $promise = 
+	  	$http({
+			method: 'POST',
+			url: 'http://www.hafrjalyat.org/httpreq/ins.php',
+			data: config,
+			headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+		})
+        .success(function(data, status, headers, config) {	
+			window.plugins.toast.showLongCenter('Submitted Succesfully');
+        
+		    $scope.name = null;
+            $scope.tel = null;
+			$scope.nameServent= null;
+			$scope.time = null;
+			$scope.accountnr = null;
+            //$scope.messages = 'Your form has been sent!';
+            $scope.submitted = false;
+        })
+        .error(function(data, status, headers, config) {
+			window.plugins.toast.showLongCenter('There was a network error. Try again later.')
+          	$scope.progress = data;
+          	//$scope.messages = 'There was a network error. Try again later.';
+          	$log.error(data);
+        })
+        .finally(function() {
+          // Hide status messages after three seconds
           $timeout(function() {
             $scope.messages = null;
           }, 3000);

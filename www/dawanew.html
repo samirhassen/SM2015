@@ -1,17 +1,13 @@
-<ion-view view-title="متابعة المسلم الجديد">            
+<ion-view view-title=" متابعة المسلمين الجدد">            
 	<ion-content class="ionic-body" has-header="true" padding="true">    
               
   <div class="col-md-6 col-md-offset-3" style="padding-top:20px"> 
-    <!-- PAGE TITLE -->
-<!--    <div class="page-header">
-
-	  <ul id="app-status-ul">Waiting for input</ul>
-    </div>
--->    
+    
     <div data-ng-controller="dawaCtrl">
     	<div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages">
 	    	<div data-ng-show="progress.active()" style="color: red; font-size: 20px; margin: 0 auto;">جاري ارسال</div>
 		</div>
+        
     	<form name="helpForm" ng-model="helpForm" novalidate role="form">
 			<div class="form-group">
                 <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
@@ -23,15 +19,16 @@
                 <div style="clear:both"></div>
                 <span class="label label-danger" data-ng-show="submitted && helpForm.natList.$error.required">Required!</span>                
                 <select id="natList" name="natList" data-ng-model="natList" class="form-control">
-                    <option value="الفلبينية">الفلبينية</option>
-                    <option value="الأثيوبية">الأثيوبية</option>
-                    <option value="الإندونيسية">الإندونيسية</option>
                     <option value="الهندية">الهندية</option>
-                    <option value="الكيرلا">الكيرلا</option>
-                    <option value="التاميلية">التاميلية</option>
-                    <option value="الإنجليزية">الإنجليزية</option>
-                    <option value="البنغالية">البنغالية</option>
+                    <option value="الفلبينية">الفلبينية</option>
                     <option value="النيبالية">النيبالية</option>
+                    <option value="الاثيوبية">الاثيوبية</option>
+                    <option value="البنغالية">البنغالية</option>
+                    <option value="السيرلانكية">السيرلانكية</option>
+                    <option value="الكينية">الكينية</option>
+                    <option value="النيجيرية">النيجيرية</option>
+                    <option value="الاندونيسية">الاندونيسية</option>
+                    <option value="أخرى">أخرى</option>
                 </select>
             </div>
             
@@ -39,15 +36,22 @@
                 <label for="langList">اللغة</label>
                 <div style="clear:both"></div>
                 <select id="langList" name="langList" data-ng-model="langList" class="form-control">
-                    <option value="الفلبينية">الفلبينية</option>
-                    <option value="الأثيوبية">الأثيوبية</option>
-                    <option value="الإندونيسية">الإندونيسية</option>
                     <option value="الهندية">الهندية</option>
-                    <option value="الكيرلا">الكيرلا</option>
+                    <option value="الاوردية">الاوردية</option>
                     <option value="التاميلية">التاميلية</option>
-                    <option value="الإنجليزية">الإنجليزية</option>
-                    <option value="البنغالية">البنغالية</option>
+                    <option value="التلغو">التلغو</option>
+                    <option value="الكيرلا ">الكيرلا/مليباري </option>
+                    <option value="الفلبينية">الفلبينية</option>
                     <option value="النيبالية">النيبالية</option>
+                    <option value="الامهرية">الامهرية</option>
+                    <option value="الارومية">الارومية</option>
+                    <option value="البنغالية">البنغالية</option>
+                    <option value="السنهالية">السنهالية</option>
+                    <option value="الانجليزية">الانجليزية</option>
+                    <option value="الهوسا">الهوسا</option>
+                    <option value="الفرنسية">الفرنسية</option>
+                    <option value="الاندونيسية">الاندونيسية</option>
+                    <option value="أخرى">أخرى</option>
                 </select>
             </div>
                         
@@ -57,7 +61,6 @@
                 <input dir="rtl" type="tel" placeholder="رقم الجوال" name="telDai" data-ng-model="telDai" class="form-control" required />
             </div>
             
-
 			<div class="form-group">
                 <input dir="rtl" placeholder="اسم الكفيل" type="text" name="nameKafil" data-ng-model="nameKafil" class="form-control" required />
     		</div> 
@@ -73,6 +76,7 @@
 			<span class="glyphicon glyphicon-flash"></span>
 			الإرسال</button>
     	</form>
+        
   </div>
 </div>      
       

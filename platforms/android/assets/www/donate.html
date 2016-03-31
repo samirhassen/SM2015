@@ -1,7 +1,7 @@
 <ion-view view-title="دعم المكتب">            
 	<ion-content class="ionic-body" has-header="true" padding="true">    
 
-        <div class="serv-position clearfix">
+        <div class="serv-position clearfix" data-ng-controller="payPalCtrl">
             <div class="serv">
                 <div class="serv-img"><img src="img/aid.png"></div>             
                 <h3> وسائل التبرع </h3>
@@ -23,14 +23,14 @@
                 </p>
                 <div class="app">
                     <div id="deviceready" class="blink">
+                    <!--
                         <p class="event listening">Connecting to Device</p>
                         <p class="event received">Device is Ready</p>
-                        <button id="buyNowBtn"> Buy Now !</button>
-                        <button id="buyInFutureBtn"> Pay in Future !</button>
-                        <button id="profileSharingBtn"> Profile Sharing !</button>
+                           
+                        <button class="button" ng-click="donate()"> Donate !</button>
+                    -->
                     </div>
                 </div>
-              
             </div>            
         </div>
   </ion-content>
