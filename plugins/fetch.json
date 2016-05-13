@@ -23,79 +23,55 @@
         "is_top_level": true,
         "variables": {}
     },
-    "com.ionic.keyboard": {
+    "ionic-plugin-keyboard": {
         "source": {
             "type": "registry",
-            "id": "com.ionic.keyboard"
+            "id": "ionic-plugin-keyboard"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "nl.x-services.plugins.toast": {
+    "cordova-plugin-x-toast": {
         "source": {
             "type": "registry",
-            "id": "nl.x-services.plugins.toast"
+            "id": "cordova-plugin-x-toast"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "org.apache.cordova.inappbrowser": {
+    "cordova-plugin-dialogs": {
         "source": {
             "type": "registry",
-            "id": "org.apache.cordova.inappbrowser"
+            "id": "cordova-plugin-dialogs"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "org.apache.cordova.file": {
+    "cordova-plugin-file": {
         "source": {
             "type": "registry",
-            "id": "org.apache.cordova.file"
+            "id": "cordova-plugin-file"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "org.apache.cordova.console": {
+    "cordova-plugin-compat": {
         "source": {
             "type": "registry",
-            "id": "org.apache.cordova.console"
+            "id": "cordova-plugin-compat"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-media": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-media"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "org.apache.cordova.device": {
-        "source": {
-            "type": "registry",
-            "id": "org.apache.cordova.device"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "org.apache.cordova.dialogs": {
-        "source": {
-            "type": "registry",
-            "id": "org.apache.cordova.dialogs"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "org.apache.cordova.media": {
-        "source": {
-            "type": "registry",
-            "id": "org.apache.cordova.media"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "ionic-plugin-deploy": {
-        "source": {
-            "type": "registry",
-            "id": "ionic-plugin-deploy"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "com.pushwoosh.plugins.pushwoosh": {
+    "pushwoosh-cordova-plugin": {
         "source": {
             "type": "registry",
             "id": "pushwoosh-cordova-plugin"
@@ -107,14 +83,6 @@
         "source": {
             "type": "registry",
             "id": "cordova-plugin-whitelist"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "com.paypal.cordova.mobilesdk": {
-        "source": {
-            "type": "registry",
-            "id": "com.paypal.cordova.mobilesdk"
         },
         "is_top_level": true,
         "variables": {}

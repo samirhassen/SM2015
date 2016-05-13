@@ -24,8 +24,9 @@
 -->    
     <div data-ng-controller="workCtrl">
     	<div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages"></div>
-	    <div data-ng-show="progress.active()" style="color: red; font-size: 50px;">يرسل...</div>
-		
+	    <!--
+        <div data-ng-show="progress.active()" style="color: red; font-size: 50px;">يرسل...</div>
+		-->
     	<form name="helpForm" ng-model="helpForm" novalidate role="form">
 			<div class="form-group">
                 <span class="label label-danger" data-ng-show="submitted && helpForm.name.$error.required">Required!</span>
@@ -68,7 +69,7 @@
                 <div style="clear:both;"></div>                
                 <select id="ageList" name="ageList" data-ng-model="ageList" class="form-control">
                 <option value="15-">15-</option>
-                <option value="15-25">15-25</option>
+                <option value="16-25">16-25</option>
                 <option value="26-35">26-35</option>
                 <option value="36-50">36-50</option>
                 <option value="50+">50+</option>
@@ -110,7 +111,7 @@
 
             <div class="form-group">
 <!--                <span class="label label-danger" data-ng-show="submitted && helpForm.tel.$error">Invalid phone numer</span> -->
-                <textarea rows="3" dir="rtl" placeholder="ماهراتك" name="skills" data-ng-model="skills" class="form-control"></textarea>
+                <textarea rows="3" dir="rtl" placeholder="مهاراتك" name="skills" data-ng-model="skills" class="form-control"></textarea>
             </div>                         
 
 		    <button data-ng-disabled="progress.active()" data-ng-click="submit(helpForm)" class="btn btn-success btn-lg btn-block btn-default">

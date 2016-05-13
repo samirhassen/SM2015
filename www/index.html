@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-	<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
-    
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+
     <title></title>
 
     <link href="lib/ionic/css/ionic.min.css" rel="stylesheet">
@@ -15,50 +15,30 @@
 	<script src="lib/ionic/js/ionic.bundle.js"></script>
 	<script src="lib/ionic-platform-web-client/dist/ionic.io.bundle.min.js"></script>
 	<script src="lib/ngCordova/dist/ng-cordova.min.js"></script>    
-	<!-- Cordova is bootstrapped by ionic-platform-web-client, uncomment this if you remove ionic-platform-web-client... -->
-<!-- <script src="cordova.js"></script> -->
+    <script src="lib/ionic-service-core/ionic-core.js"></script>
+
+	<script type="text/javascript" src="js/paypal-mobile-js-helper.js"></script>
+
+	<script src="js/pushwooshiOS.js"></script>
+	<script src="js/pushwooshAndroid.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/promise-tracker.js"></script>               
 
     <!-- Put pic in cache -->
     <script type="text/javascript">
 		var my_image = new Image();
 		my_image.src = 'http://www.hafrjalyat.org/httpreq/contest.png';
-	</script>  
+	</script>
     
   </head>
-  <body>
+  <body ng-app="starter" ion-track-auto>
 
-     <ion-content>
-        
-        <div class="row">
-            <a href="home.html" style="width:100%">                
-				<img src="img/pic7.png" alt="pic3">
-            </a>        
-        </div>
-        
-        <br>       
-        <div class="serv-position clearfix">
-            <div class="serv">
-                <h3> &#x62A;&#x637;&#x628;&#x64A;&#x642; &#x62A;&#x639;&#x627;&#x648;&#x646;&#x64A; &#x627;&#x644;&#x62D;&#x641;&#x631;  </h3>
-                <p dir="rtl"> 
-				&#x627;&#x646; &#x627;&#x644;&#x62F;&#x639;&#x648;&#x629; &#x625;&#x644;&#x649;  &#x627;&#x644;&#x644;&#x647; &#x62A;&#x639;&#x627;&#x644;&#x649; &#x645;&#x646; &#x623;&#x634;&#x631;&#x641; &#x627;&#x644;&#x627;&#x639;&#x645;&#x627;&#x644; &#x648; &#x623;&#x641;&#x636;&#x644;&#x647;&#x627; &#x639;&#x646;&#x62F; &#x627;&#x644;&#x644;&#x647; &#x641;&#x647;&#x64A; &#x648;&#x638;&#x64A;&#x641;&#x629; &#x627;&#x644;&#x627;&#x646;&#x628;&#x64A;&#x627;&#x621; &#x648; &#x627;&#x644;&#x631;&#x633;&#x644; &#x648;&#x645;&#x646; &#x633;&#x627;&#x631; &#x639;&#x644;&#x649; &#x646;&#x647;&#x62C;&#x647;&#x645; &#x648;&#x627;&#x642;&#x62A;&#x641;&#x649; &#x627;&#x62B;&#x631;&#x647;&#x645; &#x625;&#x644;&#x649; &#x64A;&#x648;&#x645; &#x627;&#x644;&#x62F;&#x64A;&#x646; 
-				&#x644;&#x630;&#x627; &#x641;&#x642;&#x62F; &#x627;&#x62E;&#x630; &#x627;&#x644;&#x645;&#x643;&#x62A;&#x628; &#x627;&#x644;&#x62A;&#x639;&#x627;&#x648;&#x646;&#x64A; &#x644;&#x644;&#x62F;&#x639;&#x648;&#x629; &#x648;&#x627;&#x644;&#x627;&#x631;&#x634;&#x627;&#x62F; &#x648;&#x62A;&#x648;&#x639;&#x64A;&#x629; &#x627;&#x644;&#x62C;&#x627;&#x644;&#x64A;&#x627;&#x62A; &#x628;&#x62D;&#x641;&#x631; &#x627;&#x644;&#x628;&#x627;&#x637;&#x646; &#x639;&#x644;&#x649; &#x639;&#x627;&#x62A;&#x642;&#x629; &#x62D;&#x645;&#x644; &#x647;&#x630;&#x647; &#x627;&#x644;&#x645;&#x633;&#x624;&#x648;&#x644;&#x64A;&#x629; 
-				&#x641;&#x64A; &#x62A;&#x628;&#x644;&#x64A;&#x63A; &#x62F;&#x64A;&#x646; &#x627;&#x644;&#x644;&#x647; &#x648;&#x627;&#x62A;&#x62E;&#x627;&#x630; &#x627;&#x644;&#x648;&#x633;&#x627;&#x626;&#x644; &#x627;&#x644;&#x645;&#x648;&#x635;&#x644;&#x647; &#x648; &#x627;&#x644;&#x645;&#x639;&#x64A;&#x646;&#x647; &#x639;&#x644;&#x649; &#x630;&#x644;&#x643; 
-				&#x648;&#x645;&#x646; &#x647;&#x630;&#x647; &#x627;&#x644;&#x648;&#x633;&#x627;&#x626;&#x644; &#x627;&#x633;&#x62A;&#x62E;&#x62F;&#x627;&#x645; &#x627;&#x644;&#x62A;&#x642;&#x646;&#x64A;&#x629; &#x648; &#x62A;&#x633;&#x62E;&#x64A;&#x631;&#x647;&#x627; &#x641;&#x64A; &#x62E;&#x62F;&#x645;&#x629; &#x627;&#x644;&#x62F;&#x64A;&#x646; &#x648; &#x647;&#x630;&#x627; &#x627;&#x644;&#x62A;&#x637;&#x628;&#x64A;&#x642; &#x627;&#x644;&#x630;&#x64A;&#x646; &#x628;&#x64A;&#x646; &#x64A;&#x62F;&#x64A;&#x643;&#x645; &#x627;&#x644;&#x64A;&#x648;&#x645; &#x647;&#x648; &#x627;&#x641;&#x636;&#x644; &#x648;&#x633;&#x627;&#x626;&#x644; &#x627;&#x644;&#x62A;&#x648;&#x627;&#x635;&#x644; &#x641;&#x64A; &#x639;&#x627;&#x644;&#x645; &#x627;&#x644;&#x62A;&#x642;&#x646;&#x64A;&#x629; &#x627;&#x644;&#x62D;&#x62F;&#x64A;&#x62B;&#x629; 
-			<br><b>
-			&#x623;&#x62D;&#x628;&#x62A;&#x64A; &#x641;&#x64A; &#x627;&#x644;&#x644;&#x647;
-				</b>
-			&#x623;&#x646;&#x634;&#x649; &#x647;&#x630;&#x627; &#x627;&#x644;&#x62A;&#x637;&#x628;&#x64A;&#x642; &#x644;&#x64A;&#x62A;&#x64A;&#x62D; &#x627;&#x644;&#x641;&#x631;&#x635;&#x629; &#x644;&#x643;&#x645; &#x644;&#x644;&#x645;&#x633;&#x627;&#x647;&#x645;&#x629; &#x641;&#x64A; &#x627;&#x644;&#x62F;&#x639;&#x648;&#x629; &#x648; &#x646;&#x64A;&#x644; &#x634;&#x631;&#x641; &#x648;&#x641;&#x636;&#x644; &#x627;&#x644;&#x639;&#x645;&#x644; &#x641;&#x64A;&#x647;&#x627; 
-				&#x641;&#x623;&#x647;&#x644;&#x627; &#x628;&#x643;&#x645; &#x641;&#x64A; &#x62A;&#x637;&#x628;&#x64A;&#x642; &#x62A;&#x639;&#x627;&#x648;&#x646;&#x64A; &#x627;&#x644;&#x62D;&#x641;&#x631; 
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
 
-				</p>
-            
-            <a href="home.html" class="frameBtn btn btn-success btn-lg btn-default">
-                <p style="font-size: 30px;text-align: center; color:#fff;">&#x628;&#x648;&#x627;&#x628;&#x629; &#x627;&#x644;&#x62F;&#x639;&#x648;&#x629;</p>
-            </a>                
-            </div>
-            <br>        
-        </div>
+    <ion-nav-view></ion-nav-view>
 
-      </ion-content>
   </body>
 </html>

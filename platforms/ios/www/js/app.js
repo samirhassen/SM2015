@@ -12,30 +12,6 @@ angular.module('starter', [
 	/*Ionic.io();  
 
 //	$ionicAnalytics.register();
-		
-	var push = new Ionic.Push({
-	  "debug": true,
-	  "onNotification": function(notification) {
-		var payload = notification.payload;
-		console.log(notification, payload);
-	  },
-	  "onRegister": function(data) {
-		console.log(data.token);
-	  },
-	  "pluginConfig": {
-		"ios": {
-		  "badge": true,
-		  "sound": true
-		 }
-	  } 
-	});
-	var user = Ionic.User.current();
-
-    push.register(function(token) {
-      	console.log("Registered token:",token.token);
-		user.addPushToken(token);
-  		user.save();
-    });*/
 
 /*	
 	var deploy = new Ionic.Deploy();
@@ -73,7 +49,12 @@ angular.module('starter', [
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
-		initPushwoosh();
+	
+	if (ionic.Platform.isAndroid())
+		initPushwooshAndroid();
+	else
+		initPushwooshiOS();
+		
   });
 })
 
@@ -332,9 +313,8 @@ $urlRouterProvider.otherwise("/home");
 			data: config,
 			headers: {'Content-Type': 'application/x-www-form-urlencoded'}
 		})
-		alert($scope.natList)
         .success(function(data, status, headers, config) {	
-			window.plugins.toast.showLongCenter('Submitted Succesfully');
+			window.plugins.toast.showLongCenter('تم الإرسال');
         
 		    $scope.name = null;
             $scope.tel = null;
@@ -438,7 +418,7 @@ $urlRouterProvider.otherwise("/home");
 		  'nat' : $scope.natList,
 		  'lang' : $scope.langList,		  
 		  'nameServ' : $scope.nameServent,
-		  'type' : $scope.typeList,
+		  'type' : $scope.transList,
 		  'time' : $scope.time,
 		  'account' : $scope.accountnr,
 		  'db'	: 'trans'	  		  
@@ -453,7 +433,7 @@ $urlRouterProvider.otherwise("/home");
 			headers: {'Content-Type': 'application/x-www-form-urlencoded'}
 		})
         .success(function(data, status, headers, config) {	
-			window.plugins.toast.showLongCenter('Submitted Succesfully');
+			window.plugins.toast.showLongCenter('تم الإرسال');
         
 		    $scope.name = null;
             $scope.tel = null;

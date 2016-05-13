@@ -1,7 +1,7 @@
 {
   "name": "hafrjalyat",
   "version": "1.0.0",
-  "description": "hafrjalyat: An Ionic project",
+  "description": "hafrjalyat: Wasmiah Productions",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^1.3.3",
@@ -18,18 +18,11 @@
     "cordova-plugin-device",
     "cordova-plugin-console",
     "cordova-plugin-splashscreen",
-    "com.ionic.keyboard",
-    "nl.x-services.plugins.toast",
-    "org.apache.cordova.console",
-    "org.apache.cordova.device",
-    "org.apache.cordova.dialogs",
-    "org.apache.cordova.file",
-    "org.apache.cordova.media",
-    "ionic-plugin-deploy",
-    {
-      "locator": "https://github.com/phonegap-build/PushPlugin.git",
-      "id": "com.phonegap.plugins.PushPlugin"
-    },
+    "ionic-plugin-keyboard",
+    "cordova-plugin-x-toast",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-file",
+    "cordova-plugin-media",
     "pushwoosh-cordova-plugin",
     "cordova-plugin-whitelist"
   ],
